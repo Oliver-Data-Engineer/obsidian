@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/IA/O que é  Deep Lear.md",
+                "file": "AI Practitioner/IA/Comparação Geral e Casos de Uso.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "O que é  Deep Lear"
+              "title": "Comparação Geral e Casos de Uso"
             }
           }
         ]
@@ -193,12 +193,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e499232eaff9acc",
+  "active": "d5873fce41b5b071",
   "lastOpenFiles": [
-    "AI Practitioner/IA/O que é  Machine Learn.md",
-    "AI Practitioner/IA/O que é Inteligência Artificial.md",
-    "AI Practitioner/IA/O que é  Deep Lear.md",
+    "Untitled 1",
+    "AI Practitioner/IA/ML",
+    "AI Practitioner/IA/Untitled.base",
+    "AI Practitioner/IA/Comparação Geral e Casos de Uso.md",
+    "Untitled",
+    "AI Practitioner/IA/Untitled.canvas",
     "AI Practitioner/IA/O que é  Generative IA.md",
+    "AI Practitioner/IA/O que é Inteligência Artificial.md",
+    "AI Practitioner/IA/O que é  Machine Learn.md",
+    "AI Practitioner/IA/O que é  Deep Learn.md",
     "README.md",
     "Sem título 1.base",
     "Sem título.base",
@@ -214,7 +220,6 @@
     "2026-09-29.md",
     "Untitled.canvas",
     "AWS/GLUE",
-    "Untitled 1",
     "AWS",
     "Welcome.md"
   ]

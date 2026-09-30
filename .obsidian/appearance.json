@@ -1,5 +1,8 @@
 {
   "theme": "obsidian",
   "accentColor": "",
-  "cssTheme": "Obsidianite"
+  "cssTheme": "Obsidianite",
+  "showRibbon": true,
+  "showViewHeader": true,
+  "nativeMenus": false
 }

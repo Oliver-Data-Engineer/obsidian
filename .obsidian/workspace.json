@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "O que é Inteligência Artificial"
             }
-          },
-          {
-            "id": "cdec1e9b22c19566",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.13.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +46,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -165,27 +152,39 @@
               "icon": "lucide-list",
               "title": "Outline of Glue - Studio"
             }
+          },
+          {
+            "id": "a9fb3d913e8a129c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdec1e9b22c19566",
+  "active": "0e499232eaff9acc",
   "lastOpenFiles": [
+    "Sem título 1.base",
     "Sem título.base",
     "AI Practitioner/IA/O que é Inteligência Artificial.md",
     "AI Practitioner/IA",

@@ -33,3 +33,5 @@ Para ver a diferença na prática, imagine como um banco utilizaria cada uma des
 - **Aplicação de Deep Learning (DL):** O sistema de transcrição de voz. Quando o cliente manda um áudio no WhatsApp do banco com muito barulho de rua no fundo, a rede neural isola a voz da pessoa, entende o sotaque e transcreve perfeitamente para texto em milissegundos.
     
 - **Aplicação de IA Generativa (GenAI):** Um atendente virtual avançado que lê a reclamação do cliente, consulta os manuais do banco e **redige, do zero, uma resposta personalizada, educada e humanizada**, resolvendo o problema sem parecer um robô dando respostas engessadas.
+---
+Ver também: [[O que é Inteligência Artificial|IA]] · [[O que é  Machine Learn|ML]] · [[O que é  Deep Learn|Deep Learning]] · [[O que é  Generative IA|IA Generativa]] · 🗺️ [[Níveis de IA.canvas]]

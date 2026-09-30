@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/IA/O que é Inteligência Artificial.md",
+                "file": "AI Practitioner/IA/O que é  Machine Learn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "O que é Inteligência Artificial"
+              "title": "O que é  Machine Learn"
             }
           }
         ]
@@ -162,13 +162,24 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "cd8e22db770b9c95",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,10 +195,11 @@
   },
   "active": "0e499232eaff9acc",
   "lastOpenFiles": [
+    "AI Practitioner/IA/O que é Inteligência Artificial.md",
+    "AI Practitioner/IA/O que é  Machine Learn.md",
     "README.md",
     "Sem título 1.base",
     "Sem título.base",
-    "AI Practitioner/IA/O que é Inteligência Artificial.md",
     "AI Practitioner/IA",
     "AI Practitioner",
     "AWS/GLUE/Políticas e Permissões.md",

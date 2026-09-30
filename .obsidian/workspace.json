@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/IA/O que é  Machine Learn.md",
+                "file": "AI Practitioner/IA/O que é  Deep Lear.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "O que é  Machine Learn"
+              "title": "O que é  Deep Lear"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "0e499232eaff9acc",
   "lastOpenFiles": [
-    "AI Practitioner/IA/O que é Inteligência Artificial.md",
     "AI Practitioner/IA/O que é  Machine Learn.md",
+    "AI Practitioner/IA/O que é Inteligência Artificial.md",
+    "AI Practitioner/IA/O que é  Deep Lear.md",
+    "AI Practitioner/IA/O que é  Generative IA.md",
     "README.md",
     "Sem título 1.base",
     "Sem título.base",

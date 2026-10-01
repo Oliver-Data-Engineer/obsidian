@@ -11,17 +11,33 @@
             "id": "0e499232eaff9acc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Tipos de Prompt"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "2ece60f6f0fe37a7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-30 21.09.00.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,13 +206,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0e499232eaff9acc",
+  "active": "2ece60f6f0fe37a7",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md",
+    "Excalidraw",
     "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
+    "Untitled.md",
     "AI Practitioner/IA/Prompt/O que é um Prompt.md",
     "AI Practitioner/IA/Níveis de IA.canvas",
     "AI Practitioner/IA/Prompt",
@@ -219,7 +239,6 @@
     "Untitled 1",
     "AI Practitioner/IA/ML",
     "AI Practitioner/IA/Untitled.base",
-    "Untitled",
     "AI Practitioner/IA/Untitled.canvas",
     "AI Practitioner/IA/O que é  Generative IA.md",
     "AI Practitioner/IA/O que é Inteligência Artificial.md",
@@ -230,7 +249,6 @@
     "AWS/GLUE/Oque é o Aws Glue.md",
     "AWS/GLUE/Glue - Studio.md",
     "2026-09-29.md",
-    "Untitled.canvas",
     "Welcome.md"
   ]
 }

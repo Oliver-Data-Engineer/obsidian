@@ -11,17 +11,14 @@
             "id": "0e499232eaff9acc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI Practitioner/IA/Níveis de IA.canvas",
-                "viewState": {
-                  "x": 2551.1772049719275,
-                  "y": 1612.218403845733,
-                  "zoom": -0.3333333333333334
-                }
+                "file": "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Níveis de IA"
+              "icon": "lucide-file",
+              "title": "Tipos de Prompt"
             }
           }
         ]
@@ -198,8 +195,12 @@
   },
   "active": "0e499232eaff9acc",
   "lastOpenFiles": [
-    "AI Practitioner/IA/ML/Tipos de Aprendizado de Machine Learning.canvas",
+    "Untitled.md",
+    "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
+    "AI Practitioner/IA/Prompt/O que é um Prompt.md",
     "AI Practitioner/IA/Níveis de IA.canvas",
+    "AI Practitioner/IA/Prompt",
+    "AI Practitioner/IA/ML/Tipos de Aprendizado de Machine Learning.canvas",
     "README.md",
     "AI Practitioner/IA/ML/Aprendizado por Reforço.md",
     "AI Practitioner/IA/O que é  Deep Learn.md.tmp.41100.51d8e2e0b32a",
@@ -214,7 +215,6 @@
     "AI Practitioner/IA/ML/Aprendizado Não Supervisionado.md.tmp.41100.8970e5ddbcbe",
     "AI Practitioner/IA/ML/Aprendizado Supervisionado.md.tmp.41100.039a63d7fe8b",
     "AI Practitioner/IA/ML/Tipos de Algoritimos de Machine Learn copy.md",
-    "Untitled.md",
     "AI Practitioner/IA/Comparação Geral e Casos de Uso.md",
     "Untitled 1",
     "AI Practitioner/IA/ML",
@@ -223,7 +223,6 @@
     "AI Practitioner/IA/Untitled.canvas",
     "AI Practitioner/IA/O que é  Generative IA.md",
     "AI Practitioner/IA/O que é Inteligência Artificial.md",
-    "Sem título 1.base",
     "AWS/GLUE/Políticas e Permissões.md",
     "AWS/GLUE/Data Catalog.md",
     "AWS/GLUE/Glue - Crawler.md",

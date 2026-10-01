@@ -30,12 +30,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
-                "mode": "source",
+                "file": "AI Practitioner/IA/Prompt/O que é um Prompt.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipos de Prompt"
+              "title": "O que é um Prompt"
             }
           }
         ],
@@ -214,8 +214,14 @@
   },
   "active": "2ece60f6f0fe37a7",
   "lastOpenFiles": [
-    "AI Practitioner/IA/Prompt/Boa Praticas.md",
     "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
+    "AI Practitioner/IA/Prompt/Índice - Prompt.md",
+    "AI Practitioner/IA/Prompt/Perguntas de Revisão - Prompt.md",
+    "AI Practitioner/IA/Prompt/Prompt na AWS.md",
+    "AI Practitioner/IA/Prompt/Riscos e Segurança em Prompts.md",
+    "AI Practitioner/IA/Prompt/Parâmetros de Inferência.md",
+    "AI Practitioner/IA/Prompt/Anatomia de um Prompt.md",
+    "AI Practitioner/IA/Prompt/Boa Praticas.md",
     "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md",
     "Untitled.canvas",
     "Excalidraw",
@@ -247,11 +253,6 @@
     "AI Practitioner/IA/O que é Inteligência Artificial.md",
     "AWS/GLUE/Políticas e Permissões.md",
     "AWS/GLUE/Data Catalog.md",
-    "AWS/GLUE/Glue - Crawler.md",
-    "AWS/GLUE/Camadas.md",
-    "AWS/GLUE/Oque é o Aws Glue.md",
-    "AWS/GLUE/Glue - Studio.md",
-    "2026-09-29.md",
-    "Welcome.md"
+    "AWS/GLUE/Glue - Crawler.md"
   ]
 }

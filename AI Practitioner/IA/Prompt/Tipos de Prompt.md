@@ -1,45 +1,111 @@
-## Os 6 principais tipos de prompts
+## Resumo
 
-Há quem divida os prompts em mais ou menos categorias, mas alguns formatos já se consolidaram entre os mais práticos para as tarefas diárias, como os seis que veremos a seguir.
+Os "tipos" de prompt são **técnicas de prompting** — maneiras diferentes de montar a entrada conforme a **tarefa**. Não são excludentes: você pode combinar (ex.: *persona + few-shot + formato de saída*). As 6 primeiras abaixo são as mais cobradas/usadas; as demais são extras para aprofundar.
 
-### 1 – Zero-shot prompting
+> [!info] Ideia central
+> **Quanto mais difícil ou específica a tarefa, mais "ajuda" (exemplos, raciocínio, estrutura) você coloca no prompt.**
+> Zero-shot (sem ajuda) → Few-shot (exemplos) → Chain-of-Thought (raciocínio).
 
-É o tipo mais simples: você faz a pergunta e recebe a resposta. Funciona bem para tarefas rápidas, como resumos ou definições curtas. 
+## Visão Geral
 
-- **Exemplo:** “Explique [o que é a Lei Magnitski](https://www.infomoney.com.br/guias/lei-magnitsky-entenda-o-que-e-como-funciona-e-quais-os-seus-impactos/) em até 100 palavras.”
+| Técnica | Em uma frase | Quando usar |
+|---|---|---|
+| **Zero-shot** | Pede a tarefa **sem exemplos** | Tarefas simples e comuns (resumo, tradução, definição) |
+| **One-shot** | Dá **1 exemplo** | Mostrar o formato/estilo de forma rápida |
+| **Few-shot** | Dá **vários exemplos** | Tarefas com padrão específico (classificação, tom de marca, extração) |
+| **Chain-of-Thought (CoT)** | Pede o **raciocínio passo a passo** | Matemática, lógica, análises e comparações complexas |
+| **Role / Persona** | Atribui um **papel** ao modelo | Ajustar tom, profundidade e ponto de vista |
+| **Formato específico** | Define a **forma da saída** | Tabela, JSON, lista, e-mail, código |
+| **Interativo / Refinado** | **Itera** na conversa | Ajustar o resultado sem recomeçar |
 
-Você pode adicionar detalhes (público, tom e tamanho do texto) se quiser resultados mais específicos.
+## 1 – Zero-shot prompting
 
-### 2 – One-shot e few-shot prompting
+Você faz o pedido **sem nenhum exemplo**; o modelo usa só o que aprendeu no treino. É o tipo mais simples e rápido.
 
-Aqui, você dá exemplos para que a IA entenda o estilo que deseja. Esse tipo de prompt é ideal para tarefas criativas, como títulos atrativos, legendas e textos curtos.
+- **Exemplo:** *"Classifique o sentimento do texto como positivo, negativo ou neutro: 'O atendimento foi excelente.'"*
+- ✅ Rápido, curto, barato em tokens.
+- ❌ Pode errar em tarefas ambíguas ou com formato muito específico.
 
-- **Exemplo:** “ A partir do título [_Como automatizar processos com IA_](https://www.infomoney.com.br/carreira/automacao-de-processos-com-ia/), crie três títulos nesse estilo para um guia sobre inteligência artificial no trabalho.”
+## 2 – One-shot e Few-shot prompting
 
-**Leia também:** [Google Gemini x ChatGPT: 5 aspectos que mudam para o usuário na prática](https://www.infomoney.com.br/consumo/diferencas-entre-google-gemini-e-chatgpt/)
+Você inclui **um (one-shot)** ou **vários (few-shot)** pares de exemplo para o modelo **imitar o padrão** (também chamado de *in-context learning* — o modelo "aprende" pelo exemplo, **sem ser treinado**).
 
-### 3 – Chain-of-thougth prompting
+```text
+Classifique o sentimento:
 
-Esse tipo de prompt faz com que a (A mostre o raciocínio passo a passo antes de responder, e pode ajudar em temas mais complexos, como análises, comparações ou cálculos.
+Texto: "Adorei o produto!"      → Positivo
+Texto: "Demorou e veio quebrado" → Negativo
+Texto: "Chegou na data prevista" → Neutro
 
-- **Exemplo:** “Compare três investimentos com base em liquidez, risco e retorno, e depois indique o mais adequado para iniciantes”
+Texto: "O suporte resolveu tudo em minutos" →
+```
 
-### 4 – Role ou persona prompting
+- ✅ Ótimo para fixar **estilo, formato e rótulos**.
+- ❌ Gasta mais tokens; **a qualidade e a variedade dos exemplos importam** (exemplos ruins ou desbalanceados enviesam a resposta).
 
-Você atribui um papel à IA e pede que ela responda a partir dessa perspectiva.
+> [!tip] Dica para lembrar
+> **Zero** = 0 exemplos · **One** = 1 · **Few** = alguns (em geral 2 a 5).
 
-- **Exemplo:** “Você precisa ajudar famílias a se organizarem financeiramente. Explique [como economizar dinheiro em casal em seis dicas práticas e eficientes](https://www.infomoney.com.br/minhas-financas/como-economizar-dinheiro-em-casal/).”
+## 3 – Chain-of-Thought (CoT)
 
-### 5 – Prompts com formato específico
+Você pede que o modelo **mostre o raciocínio em etapas** antes da resposta final ("pense passo a passo"). Isso melhora o desempenho em tarefas de **lógica, cálculo e decisão**, porque o modelo "gasta" tokens organizando a solução antes de concluir.
 
-Nesse caso, o apelo visual (forma) é tão importante quanto o conteúdo para passar a sua mensagem.
+- **Exemplo:** *"Compare CDB, Tesouro Selic e LCI por liquidez, risco e retorno. **Raciocine passo a passo** e só depois indique o mais adequado para iniciantes."*
+- **Variações:** *Zero-shot CoT* (apenas "pense passo a passo") e *Few-shot CoT* (exemplos já com o raciocínio escrito).
+- ✅ Mais precisão em problemas complexos e respostas **auditáveis**.
+- ❌ Respostas mais longas → **mais custo e latência**.
 
-- **Exemplo:** “Monte uma tabela comparando CDB, Tesouro Selic e LCI/LCA, com colunas de rendimento, liquidez e garantia.”
+## 4 – Role / Persona prompting
 
-### 6 – Prompt interativo (ou refinado)
+Você define **quem** o modelo é, e ele responde sob essa perspectiva, ajustando vocabulário, profundidade e tom.
 
-Você vai ajustando o comando com base nas respostas anteriores, para não ter que recomeçar a tarefa do zero.
+- **Exemplo:** *"Você é um planejador financeiro que ensina famílias. Explique como economizar em casal em 6 dicas práticas."*
+- Pode definir também **público-alvo** ("explique para uma criança de 10 anos").
 
-- Exemplo: “Reescreva o parágrafo ‘x’ mantendo a ideia mas em linguagem menos técnica e mais acessível.”
+## 5 – Prompts com formato específico
 
-Fonte: http://infomoney.com.br/minhas-financas/tipos-de-prompts/
+A **forma** da resposta é tão importante quanto o conteúdo. Você descreve exatamente a estrutura desejada (tabela, JSON, Markdown, número de itens).
+
+- **Exemplo:** *"Monte uma tabela comparando CDB, Tesouro Selic e LCI/LCA, com colunas de rendimento, liquidez e garantia."*
+- Essencial quando a saída será **lida por outro sistema** (ex.: JSON válido para uma API).
+
+## 6 – Prompt interativo (refinado)
+
+Você **vai ajustando** o pedido com base nas respostas anteriores, em vez de recomeçar do zero.
+
+- **Exemplo:** *"Reescreva o parágrafo acima mantendo a ideia, mas com linguagem menos técnica."*
+- Aproveita o **histórico da conversa** (dentro da janela de contexto).
+
+## Técnicas Extras (aprofundamento)
+
+| Técnica | Ideia |
+|---|---|
+| **Prompt Chaining (encadeamento)** | Quebrar uma tarefa grande em **etapas**, usando a saída de um prompt como entrada do próximo |
+| **Self-consistency** | Gerar **várias respostas** com raciocínio e escolher a **mais frequente** |
+| **Tree of Thoughts** | O modelo explora **vários caminhos** de raciocínio e escolhe o melhor |
+| **ReAct (Reason + Act)** | Alterna **raciocinar** e **usar ferramentas** (busca, API) — base dos *Agents* |
+| **Negative prompting** | Diz **o que evitar** ("não mencione concorrentes") |
+| **Prompts com RAG** | Injeta **trechos de documentos recuperados** no prompt como contexto |
+| **Prompt Template** | Prompt com **variáveis** preenchidas em tempo de execução |
+
+## Exemplo para Associação Mental
+
+**Ensinando um Estagiário**
+
+- **Zero-shot:** "Faz esse relatório." (sem mostrar nada)
+- **One/Few-shot:** "Faz igual a *estes* relatórios aqui." (mostra modelos)
+- **Chain-of-Thought:** "Me explica como chegou nesse número, passo a passo."
+- **Persona:** "Responda como se fosse o diretor financeiro."
+- **Formato:** "Quero em uma tabela de 3 colunas."
+- **Interativo:** "Ficou bom, só deixa a segunda parte mais curta."
+
+## Na AWS (AI Practitioner)
+
+- O exame cobra principalmente: **zero-shot, single-shot (one-shot), few-shot, chain-of-thought e prompt templates**.
+- No **Amazon Bedrock Playground** você testa essas técnicas direto, trocando de modelo e comparando saídas.
+- **Agents for Amazon Bedrock** usam raciocínio em etapas (ideia do **ReAct / CoT**) para decidir quais ferramentas chamar.
+
+---
+Índice: [[Índice - Prompt]] · Anterior: [[Anatomia de um Prompt]] · Próximo: [[Boa Praticas]] · Relacionado: [[Parâmetros de Inferência]]
+
+Fonte inicial: infomoney.com.br/minhas-financas/tipos-de-prompts/ (reescrito e ampliado)

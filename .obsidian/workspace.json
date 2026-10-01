@@ -30,12 +30,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/Guia do Exame/01 - Visão Geral do Exame.md",
+                "file": "AI Practitioner/Guia do Exame/00 - Início - Guia do Exame.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Visão Geral do Exame"
+              "title": "00 - Início - Guia do Exame"
             }
           }
         ],
@@ -214,6 +214,14 @@
   },
   "active": "2ece60f6f0fe37a7",
   "lastOpenFiles": [
+    "AI Practitioner/Guia do Exame/10 - Glossário do Exame.md",
+    "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",
+    "AI Practitioner/Guia do Exame/08 - Roadmap de Estudo.md",
+    "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
+    "AI Practitioner/Guia do Exame/04 - Domínio 3 - Aplicações de Foundation Models.md",
+    "AI Practitioner/Guia do Exame/03 - Domínio 2 - Fundamentos de IA Generativa.md",
+    "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
+    "AI Practitioner/Guia do Exame/01 - Visão Geral do Exame.md",
     "AI Practitioner/Guia do Exame/00 - Início - Guia do Exame.md",
     "AI Practitioner/IA/Níveis de IA.canvas",
     "AI Practitioner/IA/Prompt/Índice - Prompt.md",
@@ -225,16 +233,8 @@
     "AI Practitioner/IA/Prompt/Boa Praticas.md",
     "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
     "AI Practitioner/IA/Prompt/O que é um Prompt.md",
-    "AI Practitioner/Guia do Exame/10 - Glossário do Exame.md",
-    "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",
-    "AI Practitioner/Guia do Exame/08 - Roadmap de Estudo.md",
-    "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
     "AI Practitioner/Guia do Exame/06 - Domínio 5 - Segurança, Compliance e Governança.md",
     "AI Practitioner/Guia do Exame/05 - Domínio 4 - Diretrizes para IA Responsável.md",
-    "AI Practitioner/Guia do Exame/04 - Domínio 3 - Aplicações de Foundation Models.md",
-    "AI Practitioner/Guia do Exame/03 - Domínio 2 - Fundamentos de IA Generativa.md",
-    "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
-    "AI Practitioner/Guia do Exame/01 - Visão Geral do Exame.md",
     "AI Practitioner/Guia do Exame",
     "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md",
     "Untitled.canvas",

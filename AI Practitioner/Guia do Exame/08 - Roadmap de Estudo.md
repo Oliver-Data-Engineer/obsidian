@@ -27,7 +27,7 @@ flowchart LR
 
 ## Fase 0 — Preparação (Dia 1)
 
-- [ ] Ler a [[01 - Visão Geral do Exame]] (formato, nota mínima 700, pesos).
+- [x] Ler a [[01 - Visão Geral do Exame]] (formato, nota mínima 700, pesos).
 - [ ] Criar conta no **AWS Skill Builder** e conhecer o *Official Practice Question Set* (gratuito).
 - [ ] Fazer um diagnóstico rápido: tentar responder as autoavaliações dos domínios sem estudar.
 

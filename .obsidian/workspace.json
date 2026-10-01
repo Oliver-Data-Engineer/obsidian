@@ -28,12 +28,14 @@
             "id": "2ece60f6f0fe37a7",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md"
+                "file": "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-30 21.09.00.excalidraw"
+              "icon": "lucide-file",
+              "title": "Tipos de Prompt"
             }
           }
         ],
@@ -212,10 +214,11 @@
   },
   "active": "2ece60f6f0fe37a7",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md",
-    "Excalidraw",
+    "AI Practitioner/IA/Prompt/Boa Praticas.md",
     "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
+    "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md",
+    "Untitled.canvas",
+    "Excalidraw",
     "Untitled.md",
     "AI Practitioner/IA/Prompt/O que é um Prompt.md",
     "AI Practitioner/IA/Níveis de IA.canvas",

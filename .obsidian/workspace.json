@@ -4,52 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "87eff2feaa188379",
+        "id": "29aac9165b06eecb",
         "type": "tabs",
         "children": [
           {
-            "id": "0e499232eaff9acc",
+            "id": "20338558bb57d173",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "AI Practitioner/Guia do Exame/Road Map.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "2ece60f6f0fe37a7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-30 21.09.00.excalidraw"
-            }
-          },
-          {
-            "id": "f30a01e25f213023",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.4"
+              "icon": "lucide-file",
+              "title": "Road Map"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,18 +194,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f30a01e25f213023",
+  "active": "20338558bb57d173",
   "lastOpenFiles": [
-    "README.md",
-    "AI Practitioner/Guia do Exame/01 - Visão Geral do Exame.md",
-    "AI Practitioner/Guia do Exame/00 - Início - Guia do Exame.md",
     "AI Practitioner/Guia do Exame/10 - Glossário do Exame.md",
-    "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",
     "AI Practitioner/Guia do Exame/08 - Roadmap de Estudo.md",
     "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
+    "AI Practitioner/Guia do Exame/sed2GU4wG",
+    "AI Practitioner/Guia do Exame/sedCDIoaB",
+    "AI Practitioner/Guia do Exame/Road Map.md",
+    "AI Practitioner/Guia do Exame/06 - Domínio 5 - Segurança, Compliance e Governança.md",
     "AI Practitioner/Guia do Exame/04 - Domínio 3 - Aplicações de Foundation Models.md",
     "AI Practitioner/Guia do Exame/03 - Domínio 2 - Fundamentos de IA Generativa.md",
     "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
+    "AI Practitioner/Guia do Exame/01 - Visão Geral do Exame.md",
+    "AI Practitioner/Bedrock/Bedrock Guardrail.md",
+    "AI Practitioner/Bedrock",
+    "Untitled",
+    "README.md",
+    "AI Practitioner/Guia do Exame/00 - Início - Guia do Exame.md",
+    "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",
     "AI Practitioner/IA/Níveis de IA.canvas",
     "AI Practitioner/IA/Prompt/Índice - Prompt.md",
     "AI Practitioner/IA/Prompt/Perguntas de Revisão - Prompt.md",
@@ -244,7 +223,6 @@
     "AI Practitioner/IA/Prompt/Boa Praticas.md",
     "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
     "AI Practitioner/IA/Prompt/O que é um Prompt.md",
-    "AI Practitioner/Guia do Exame/06 - Domínio 5 - Segurança, Compliance e Governança.md",
     "AI Practitioner/Guia do Exame/05 - Domínio 4 - Diretrizes para IA Responsável.md",
     "AI Practitioner/Guia do Exame",
     "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md",
@@ -253,15 +231,9 @@
     "Untitled.md",
     "AI Practitioner/IA/Prompt",
     "AI Practitioner/IA/ML/Tipos de Aprendizado de Machine Learning.canvas",
-    "AI Practitioner/IA/ML/Aprendizado por Reforço.md",
     "AI Practitioner/IA/O que é  Deep Learn.md.tmp.41100.51d8e2e0b32a",
-    "AI Practitioner/IA/O que é  Machine Learn.md",
     "AI Practitioner/IA/ML/Diferenças entre os Tipos de Aprendizado.md.tmp.41100.2ca4dba1b641",
     "AI Practitioner/IA/ML/Aprendizado por Reforço.md.tmp.41100.4d54baefbf12",
-    "AI Practitioner/IA/ML/Aprendizado Não Supervisionado.md.tmp.41100.8970e5ddbcbe",
-    "AI Practitioner/IA/ML/Aprendizado Supervisionado.md.tmp.41100.039a63d7fe8b",
-    "Untitled 1",
-    "AI Practitioner/IA/ML",
     "AI Practitioner/IA/Untitled.canvas"
   ]
 }

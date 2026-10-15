@@ -9,7 +9,7 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 ## Como usar esta pasta
 
 1. Leia a [[01 - Visão Geral do Exame]].
-2. Siga o [[08 - Roadmap de Estudo]] semana a semana.
+2. Siga o [[Road Map]] (2h por dia, seg a sáb) ou o [[08 - Roadmap de Estudo]] (1h por dia) semana a semana.
 3. Estude cada domínio pela sua nota (abaixo) e pelas notas de conteúdo ligadas a ela.
 4. Marque o progresso no [[09 - Checklist de Estudo]].
 5. Revise com [[07 - Serviços AWS do Exame]] e [[10 - Glossário do Exame]].
@@ -28,6 +28,7 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 | 08 | [[08 - Roadmap de Estudo]] | Plano de 6 semanas |
 | 09 | [[09 - Checklist de Estudo]] | Checklist de todos os objetivos da ementa |
 | 10 | [[10 - Glossário do Exame]] | Termos-chave A–Z |
+| — | [[Road Map]] | Plano de 5 semanas · 2h por dia, seg a sáb, com datas |
 
 ## Ementa resumida (5 domínios, 14 tarefas)
 

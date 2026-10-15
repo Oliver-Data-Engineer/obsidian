@@ -35,9 +35,21 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-09-30 21.09.00.excalidraw"
             }
+          },
+          {
+            "id": "f30a01e25f213023",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,7 +222,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2ece60f6f0fe37a7",
+  "active": "f30a01e25f213023",
   "lastOpenFiles": [
     "README.md",
     "AI Practitioner/Guia do Exame/01 - Visão Geral do Exame.md",

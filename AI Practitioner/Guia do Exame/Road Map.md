@@ -187,6 +187,7 @@ gantt
 
 ## Recursos
 
+- 🎥 [[Vídeos de Estudo - YouTube]]: vídeos em português ligados a cada dia deste plano (use no Bloco 2).
 - **AWS Skill Builder**: *Exam Prep Standard Course: AWS Certified AI Practitioner* e *Official Practice Question Set* (gratuito).
 - **Amazon Bedrock User Guide**: Knowledge Bases, Agents, Guardrails e Prompt Engineering.
 - **PartyRock** (partyrock.aws): para praticar prompts e parâmetros na mão.

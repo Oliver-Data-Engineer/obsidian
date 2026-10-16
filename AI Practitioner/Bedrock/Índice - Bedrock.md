@@ -71,6 +71,8 @@ flowchart LR
 5. [[Bedrock Guardrail]]: segurança das respostas.
 6. ✅ [[Teste - Bedrock]]: questões no estilo da prova.
 
+🎥 Vídeos em português sobre cada recurso: [[Vídeos de Estudo - YouTube#4. Amazon Bedrock por tema]]
+
 ## Exemplo para Associação Mental
 
 **O Shopping de Modelos.** O **Bedrock** é um shopping onde cada loja é um fornecedor de modelos e você paga só o que consome. A **Knowledge Base** é o seu estoque particular, que o vendedor consulta antes de responder. O **Agent** é o *personal shopper* que vai em várias lojas e faz pedidos por você. O **Guardrail** é o segurança na porta, que revista quem entra (prompt) e o que sai (resposta).

@@ -28,6 +28,7 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 | 08 | [[08 - Roadmap de Estudo]] | Plano de 6 semanas |
 | 09 | [[09 - Checklist de Estudo]] | Checklist de todos os objetivos da ementa |
 | 10 | [[10 - Glossário do Exame]] | Termos-chave A–Z |
+| — | [[Vídeos de Estudo - YouTube]] | Vídeos em português por tema e por dia do Road Map |
 | — | [[Road Map]] | Plano de 5 semanas · 2h por dia, seg a sáb, com datas |
 
 ## Ementa resumida (5 domínios, 14 tarefas)

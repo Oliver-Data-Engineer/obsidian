@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/Bedrock/Índice - Bedrock.md",
+                "file": "AI Practitioner/Bedrock/Fondation Model.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Índice - Bedrock"
+              "title": "Fondation Model"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "20338558bb57d173",
   "lastOpenFiles": [
+    "AI Practitioner/Bedrock/Índice - Bedrock.md",
     "AI Practitioner/Bedrock/Fondation Model.md",
     "AI Practitioner/Bedrock/Teste - Bedrock.md",
     "AI Practitioner/Bedrock/Teste - Bedrock.md.tmp.32256.fac1b0b0a146",
@@ -204,7 +205,6 @@
     "AI Practitioner/Bedrock/Beadrock Rag - Kb.md.tmp.32256.dbadae49c666",
     "AI Practitioner/Bedrock/ML Inference.md.tmp.32256.fc305ac86126",
     "AI Practitioner/Bedrock/Fondation Model.md.tmp.32256.7d2ebc69eb30",
-    "AI Practitioner/Bedrock/Índice - Bedrock.md",
     "AI Practitioner/Bedrock/Índice - Bedrock.md.tmp.32256.b81ce35577a3",
     "AI Practitioner/Bedrock/ML Inference.md",
     "AI Practitioner/Bedrock/Beadrock Rag - Kb.md",

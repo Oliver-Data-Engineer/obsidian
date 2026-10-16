@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/Bedrock/Beadrock Rag - Kb.md",
+                "file": "AI Practitioner/Bedrock/ML Inference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Beadrock Rag - Kb"
+              "title": "ML Inference"
             }
           }
         ]
@@ -194,10 +194,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "20338558bb57d173",
+  "active": "d5873fce41b5b071",
   "lastOpenFiles": [
-    "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
     "AI Practitioner/Bedrock/Beadrock Rag - Kb.md",
+    "AI Practitioner/Bedrock/ML Inference.md",
+    "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
     "Untitled 1",
     "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
     "AI Practitioner/Guia do Exame/06 - Domínio 5 - Segurança, Compliance e Governança.md",
@@ -228,7 +229,6 @@
     "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
     "AI Practitioner/IA/Prompt/O que é um Prompt.md",
     "AI Practitioner/Guia do Exame",
-    "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md",
     "Untitled.canvas",
     "Excalidraw",
     "AI Practitioner/IA/Prompt",

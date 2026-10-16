@@ -43,13 +43,13 @@ gantt
 
 ## Como usar as 2 horas do dia
 
-| Tempo | Bloco | O que fazer |
-|---|---|---|
-| 0:00 – 0:10 | 🔁 Aquecimento | Tentar lembrar, sem consultar, o que foi estudado no dia anterior |
-| 0:10 – 0:55 | 📖 Bloco 1: teoria | Ler a nota do domínio e as notas de conteúdo ligadas a ela |
-| 0:55 – 1:05 | ☕ Pausa | Levantar e sair da tela |
-| 1:05 – 1:45 | 🛠️ Bloco 2: prática | Questões, console AWS ou PartyRock, comparar serviços |
-| 1:45 – 2:00 | ✅ Fechamento | Resumo de 5 linhas + marcar o [[09 - Checklist de Estudo]] |
+| Tempo       | Bloco                | O que fazer                                                       |
+| ----------- | -------------------- | ----------------------------------------------------------------- |
+| 0:00 – 0:10 | 🔁 Aquecimento       | Tentar lembrar, sem consultar, o que foi estudado no dia anterior |
+| 0:10 – 0:55 | 📖 Bloco 1: teoria   | Ler a nota do domínio e as notas de conteúdo ligadas a ela        |
+| 0:55 – 1:05 | ☕ Pausa              | Levantar e sair da tela                                           |
+| 1:05 – 1:45 | 🛠️ Bloco 2: prática | Questões, console AWS ou PartyRock, comparar serviços             |
+| 1:45 – 2:00 | ✅ Fechamento         | Resumo de 5 linhas + marcar o [[09 - Checklist de Estudo]]        |
 
 > [!tip] Regras do plano
 > - **Sábado é dia de revisão**: fecha a semana com uma autoavaliação.

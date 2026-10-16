@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/Guia do Exame/Road Map.md",
+                "file": "AI Practitioner/Bedrock/Beadrock Rag - Kb.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Road Map"
+              "title": "Beadrock Rag - Kb"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 474.5
   },
   "right": {
     "id": "076a4b53ed13f712",
@@ -196,24 +196,27 @@
   },
   "active": "20338558bb57d173",
   "lastOpenFiles": [
+    "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
+    "AI Practitioner/Bedrock/Beadrock Rag - Kb.md",
+    "Untitled 1",
+    "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
+    "AI Practitioner/Guia do Exame/06 - Domínio 5 - Segurança, Compliance e Governança.md",
+    "AI Practitioner/Guia do Exame/05 - Domínio 4 - Diretrizes para IA Responsável.md",
+    "AI Practitioner/Guia do Exame/10 - Glossário do Exame.md",
+    "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",
+    "AI Practitioner/Guia do Exame/Road Map.md",
     "AI Practitioner/Bedrock/Bedrock Agents.md",
     "AI Practitioner/Bedrock/Bedrock Guardrail.md",
-    "AI Practitioner/Guia do Exame/Road Map.md",
-    "AI Practitioner/Guia do Exame/10 - Glossário do Exame.md",
     "AI Practitioner/Guia do Exame/08 - Roadmap de Estudo.md",
-    "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
     "AI Practitioner/Guia do Exame/sed2GU4wG",
     "AI Practitioner/Guia do Exame/sedCDIoaB",
-    "AI Practitioner/Guia do Exame/06 - Domínio 5 - Segurança, Compliance e Governança.md",
     "AI Practitioner/Guia do Exame/04 - Domínio 3 - Aplicações de Foundation Models.md",
     "AI Practitioner/Guia do Exame/03 - Domínio 2 - Fundamentos de IA Generativa.md",
-    "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
     "AI Practitioner/Guia do Exame/01 - Visão Geral do Exame.md",
     "AI Practitioner/Bedrock",
     "Untitled",
     "README.md",
     "AI Practitioner/Guia do Exame/00 - Início - Guia do Exame.md",
-    "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",
     "AI Practitioner/IA/Níveis de IA.canvas",
     "AI Practitioner/IA/Prompt/Índice - Prompt.md",
     "AI Practitioner/IA/Prompt/Perguntas de Revisão - Prompt.md",
@@ -224,17 +227,14 @@
     "AI Practitioner/IA/Prompt/Boa Praticas.md",
     "AI Practitioner/IA/Prompt/Tipos de Prompt.md",
     "AI Practitioner/IA/Prompt/O que é um Prompt.md",
-    "AI Practitioner/Guia do Exame/05 - Domínio 4 - Diretrizes para IA Responsável.md",
     "AI Practitioner/Guia do Exame",
     "Excalidraw/Drawing 2026-09-30 21.09.00.excalidraw.md",
     "Untitled.canvas",
     "Excalidraw",
-    "Untitled.md",
     "AI Practitioner/IA/Prompt",
     "AI Practitioner/IA/ML/Tipos de Aprendizado de Machine Learning.canvas",
     "AI Practitioner/IA/O que é  Deep Learn.md.tmp.41100.51d8e2e0b32a",
     "AI Practitioner/IA/ML/Diferenças entre os Tipos de Aprendizado.md.tmp.41100.2ca4dba1b641",
-    "AI Practitioner/IA/ML/Aprendizado por Reforço.md.tmp.41100.4d54baefbf12",
     "AI Practitioner/IA/Untitled.canvas"
   ]
 }

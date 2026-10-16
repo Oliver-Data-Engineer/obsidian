@@ -91,8 +91,8 @@ gantt
 | Seg | 26/10 | [[O que é  Generative IA]] · tokens, foundation models, LLMs | Transformers: a ideia geral, sem matemática |
 | Ter | 27/10 | Embeddings, vetores, chunking | Modelos multimodais e de difusão |
 | Qua | 28/10 | Casos de uso de GenAI + ciclo de vida de um FM | Vantagens x limitações: alucinação, não determinismo, interpretabilidade |
-| Qui | 29/10 | Fatores de escolha de modelo + métricas de negócio (conversão, ARPU, CLV) | **Amazon Bedrock**: abrir o console e testar um modelo no *playground* |
-| Sex | 30/10 | SageMaker JumpStart · PartyRock · Amazon Q | Custos: preço por token, on-demand x batch x *provisioned throughput* |
+| Qui | 29/10 | Fatores de escolha de modelo + métricas de negócio (conversão, ARPU, CLV) | [[Índice - Bedrock]]: abrir o console e testar um modelo no *playground* |
+| Sex | 30/10 | SageMaker JumpStart · PartyRock · Amazon Q | Custos: preço por token, on-demand x batch x *provisioned throughput* → [[ML Inference]] |
 | Sáb | 31/10 | 🔁 Revisão do [[03 - Domínio 2 - Fundamentos de IA Generativa]] | Autoavaliação do D2 + checklist do D2 |
 
 **Progresso:**
@@ -110,14 +110,14 @@ gantt
 
 | Dia | Data | Bloco 1: teoria | Bloco 2: prática |
 |---|---|---|---|
-| Seg | 02/11 | Critérios de escolha de modelo (custo, latência, modalidade, idiomas, tamanho) | [[Parâmetros de Inferência]]: testar temperatura e top-p no PartyRock ou no Bedrock |
-| Ter | 03/11 | **RAG**: o que é e quando usar | **Bedrock Knowledge Bases** |
+| Seg | 02/11 | Critérios de escolha de modelo (custo, latência, modalidade, idiomas, tamanho) → [[Fondation Model]] | [[Parâmetros de Inferência]]: testar temperatura e top-p no PartyRock ou no Bedrock |
+| Ter | 03/11 | **RAG**: o que é e quando usar → [[Beadrock Rag - Kb]] | **Bedrock Knowledge Bases**: componentes, chunking, APIs |
 | Qua | 04/11 | Bancos vetoriais: OpenSearch, Aurora/RDS pgvector, Neptune, DocumentDB | Custos de customização: prompt → RAG → fine-tuning → pré-treino |
-| Qui | 05/11 | **Agents for Amazon Bedrock** | [[Índice - Prompt]] · [[O que é um Prompt]] · [[Anatomia de um Prompt]] |
+| Qui | 05/11 | **Agents for Amazon Bedrock** + AgentCore → [[Bedrock Agents]] | [[Índice - Prompt]] · [[O que é um Prompt]] · [[Anatomia de um Prompt]] |
 | Sex | 06/11 | [[Tipos de Prompt]]: zero-shot, few-shot, chain-of-thought, templates | [[Boa Praticas]]: praticar prompts no PartyRock |
 | Sáb | 07/11 | [[Riscos e Segurança em Prompts]] · [[Prompt na AWS]] · [[Bedrock Guardrail]] | 🔁 [[Perguntas de Revisão - Prompt]] + revisão da semana |
-| Seg | 09/11 | Pré-treino, fine-tuning, pré-treino contínuo, instruction tuning, transfer learning, RLHF | Avaliação: humana x benchmarks · ROUGE, BLEU, BERTScore · Bedrock Model Evaluation |
-| Ter | 10/11 | 🔁 Revisão do [[04 - Domínio 3 - Aplicações de Foundation Models]] | Autoavaliação do D3 + checklist do D3 |
+| Seg | 09/11 | Pré-treino, fine-tuning, pré-treino contínuo, instruction tuning, transfer learning, RLHF | Avaliação: humana x benchmarks · ROUGE, BLEU, BERTScore · Bedrock Model Evaluation → [[Fondation Model]] |
+| Ter | 10/11 | 🔁 Revisão do [[04 - Domínio 3 - Aplicações de Foundation Models]] | 📝 [[Teste - Bedrock]] + autoavaliação e checklist do D3 |
 
 **Progresso:**
 - [ ] Seg 02/11
@@ -136,7 +136,7 @@ gantt
 
 | Dia | Data | Etapa | Bloco 1: teoria | Bloco 2: prática |
 |---|---|---|---|---|
-| Qua | 11/11 | 4 | Dimensões de IA responsável · riscos legais · datasets balanceados · viés x variância | Guardrails for Bedrock · SageMaker Clarify · Model Monitor · Amazon A2I |
+| Qua | 11/11 | 4 | Dimensões de IA responsável · riscos legais · datasets balanceados · viés x variância | [[Bedrock Guardrail]] · SageMaker Clarify · Model Monitor · Amazon A2I |
 | Qui | 12/11 | 4 | Transparência x explicabilidade · SageMaker Model Cards · licenças open source · design centrado no humano | 🔁 Revisão e autoavaliação do [[05 - Domínio 4 - Diretrizes para IA Responsável]] |
 | Sex | 13/11 | 5 | IAM · KMS · Macie · PrivateLink · responsabilidade compartilhada aplicada à IA | Linhagem de dados · engenharia de dados segura · prompt injection · criptografia em repouso e em trânsito |
 | Sáb | 14/11 | 5 | CloudTrail · Config · Audit Manager · Artifact · Trusted Advisor · Inspector · Generative AI Security Scoping Matrix · ISO/SOC | 🔁 Revisão e autoavaliação do [[06 - Domínio 5 - Segurança, Compliance e Governança]] |

@@ -47,6 +47,7 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 | 1 | [[O que é Inteligência Artificial]] · [[O que é  Machine Learn]] · [[O que é  Deep Learn]] · [[Aprendizado Supervisionado]] · [[Aprendizado Não Supervisionado]] · [[Aprendizado por Reforço]] · [[Diferenças entre os Tipos de Aprendizado]] · [[Tipos de Algoritimos de Machine Learn]] · [[Comparação Geral e Casos de Uso]] |
 | 2 | [[O que é  Generative IA]] |
 | 3 | [[Índice - Prompt]] · [[O que é um Prompt]] · [[Anatomia de um Prompt]] · [[Tipos de Prompt]] · [[Boa Praticas]] · [[Parâmetros de Inferência]] · [[Riscos e Segurança em Prompts]] · [[Prompt na AWS]] · [[Perguntas de Revisão - Prompt]] |
+| Bedrock (D2 a D5) | [[Índice - Bedrock]] · [[Fondation Model]] · [[ML Inference]] · [[Beadrock Rag - Kb]] · [[Bedrock Agents]] · [[Bedrock Guardrail]] · 📝 [[Teste - Bedrock]] |
 | 4 e 5 | *(ainda sem notas próprias — o conteúdo está nas notas 05 e 06 desta pasta)* |
 
 ---

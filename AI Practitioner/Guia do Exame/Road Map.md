@@ -69,12 +69,12 @@ gantt
 | Seg | 19/10 | 0 + 1 | [[01 - Visão Geral do Exame]]: formato, pesos, nota 700 | Criar conta no **AWS Skill Builder** + [[O que é Inteligência Artificial]] |
 | Ter | 20/10 | 1 | [[O que é  Machine Learn]] · [[O que é  Deep Learn]] · IA x ML x DL | [[Aprendizado Supervisionado]] · [[Aprendizado Não Supervisionado]] · [[Aprendizado por Reforço]] |
 | Qua | 21/10 | 1 | [[Diferenças entre os Tipos de Aprendizado]] · [[Tipos de Algoritimos de Machine Learn]] | Tipos de dados · inferência batch x tempo real · regressão x classificação x clusterização · quando **não** usar IA |
-| Qui | 22/10 | 1 | Serviços prontos: Rekognition, Comprehend, Transcribe, Translate, Polly, Lex | Textract, Kendra, Personalize, Fraud Detector · [[Comparação Geral e Casos de Uso]] |
+| Qui | 22/10 | 1 | Serviços prontos: [[Resumo]] · [[Amazon Rekognition]] · [[Amazon Comprehend]] · [[Amazon Transcribe]] · [[Amazon Translate]] · [[Amazon Polly]] · [[Amazon Lex]] | [[Amazon Textract]] · [[Amazon Kendra]] · [[Amazon Personalize]] · [[Amazon Fraud Detector]] · [[Comparação Geral e Casos de Uso]] |
 | Sex | 23/10 | 1 | Ciclo de vida de ML · SageMaker (Data Wrangler, Feature Store, Model Monitor) · MLOps | Métricas técnicas (acurácia, precisão, recall, F1, AUC) e de negócio (ROI, custo por usuário) |
 | Sáb | 24/10 | 1 | 🔁 Revisão do [[02 - Domínio 1 - Fundamentos de IA e ML]] | Autoavaliação do D1 + checklist do D1 |
 
 **Progresso:**
-- [ ] Seg 19/10
+- [x] Seg 19/10
 - [ ] Ter 20/10
 - [ ] Qua 21/10
 - [ ] Qui 22/10

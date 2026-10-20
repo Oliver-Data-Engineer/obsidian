@@ -1,13 +1,69 @@
-Implante vozes humanas de alta qualidade e com sonoridade natural em dezenas de idiomas
+## Resumo
 
- Amazon Polly é um serviço totalmente gerenciado que gera voz sob demanda, convertendo qualquer texto em uma transmissão de áudio. Uso de tecnologias de aprendizado profundo para converte artigos, páginas da web, documentos em PDF e outros textos em fala por meio da conversão de texto em fala (TTS, na sigla em inglês). O Polly fornece dezenas de vozes realistas em um amplo conjunto de idiomas para você desenvolver aplicações ativadas por fala que gerem engajamento e conversão. Atenda às diversas necessidades linguísticas, de acessibilidade e aprendizado dos usuários em todas as regiões e mercados. Redes neurais avançadas e mecanismos de voz generativos funcionam em segundo plano, sintetizando a fala para você. Integre a API do Amazon Polly às suas aplicações existentes para torná-las compatíveis com voz de forma rápida.
+O **Amazon Polly** é o serviço de **conversão de texto em fala** (*TTS, Text-to-Speech*) da AWS. Ele transforma artigos, páginas web, PDFs e qualquer texto em **áudio com voz natural**, usando deep learning. Oferece dezenas de vozes realistas em muitos idiomas para criar aplicações que **falam**.
 
+> [!info] Ideia central
+> **Texto → fala (áudio).** O Polly **lê em voz alta**. Ele não entende nem responde.
+> 🔑 Palavras-chave na prova: "**text-to-speech**", "**voz natural**", "**ler em voz alta**", "**acessibilidade**", "**audiobook**", "**pronúncia**".
 
-**Personalize e controle a saída de fala conforme necessário**
+## Ficha rápida
 
-O Amazon Polly permite que você crie uma saída personalizada de conversão de texto em fala para engajar e prender a atenção do seu público. Use léxicos personalizados para modificar a pronúncia de acrônimos, nomes de empresas, terminologia interna ou qualquer outra palavra que você escolher. As etiquetas Speech Synthesis Markup Languages (SSML) do Amazon Polly também permitem ajustar a ênfase, a entonação, a escolha de palavras e o estilo. Gere a saída de IA de voz que melhor se adapte à sua empresa.
+| Item | Detalhe |
+|---|---|
+| **Categoria** | Fala (TTS) |
+| **Entrada** | Texto simples ou **SSML** |
+| **Saída** | Áudio (MP3, OGG, PCM) em **streaming** ou arquivo, mais *speech marks* opcionais |
+| **Precisa saber ML?** | Não. Vozes prontas |
+| **Customização** | **Léxicos** (pronúncia), **SSML** (entonação) e **Brand Voice** (voz exclusiva da marca) |
+| **Modos** | Tempo real (streaming) · Lote (tarefas longas salvas no S3) |
+| **Na prova** | Domínio 1 · Tarefa 1.2 · ⭐⭐⭐ |
+| **Status 2026** | ✅ Disponível |
 
+## Principais recursos
 
-Link: 
-	https://aws.amazon.com/pt/polly/
-	
+| Recurso | O que faz |
+|---|---|
+| **Motores de voz** | **Standard** (básico), **Neural** (mais natural), **Long-form** (textos longos, tom de narrador) e **Generative** (o mais expressivo, parecido com humano) |
+| **SSML** (*Speech Synthesis Markup Language*) | Tags para controlar **pausas, ênfase, velocidade, tom, volume** e até **sussurro** |
+| **Léxicos personalizados** | Ensinam a **pronúncia** de siglas, nomes de empresas e termos internos (ex.: "AWS" → "A-W-S") |
+| **Speech marks** | Metadados que dizem **quando cada palavra é falada**: sincroniza **legenda destacada** ou **movimento da boca** de um avatar |
+| **Estilos de fala** | Ex.: estilo **apresentador de notícias** (*newscaster*) |
+| **Brand Voice** | Cria uma **voz exclusiva** para a marca (projeto com a equipe da AWS) |
+| **Reaproveitar o áudio** | Você pode **guardar e reproduzir** o áudio gerado quantas vezes quiser |
+
+## Casos de uso
+
+| Cenário | Como o Polly ajuda |
+|---|---|
+| **Acessibilidade** | Ler conteúdo para pessoas com deficiência visual |
+| **Conteúdo em áudio** | Transformar artigos e notícias em podcast ou audiobook |
+| **URA / atendimento** | Mensagens faladas em centrais telefônicas (ex.: com Amazon Connect) |
+| **E-learning** | Narração de cursos em vários idiomas |
+| **Dispositivos e apps** | Respostas faladas em apps, carros e IoT |
+
+## Não confunda
+
+| Serviço | Diferença |
+|---|---|
+| [[Amazon Transcribe]] | **O oposto**: fala → texto |
+| [[Amazon Lex]] | O Lex **conversa** (entende e responde). Quando a resposta é falada, o Lex usa a mesma tecnologia de voz do Polly |
+| [[Amazon Translate]] | O Translate **traduz** o texto. O Polly só **lê** o texto no idioma em que ele está |
+
+> [!warning] Pegadinhas de prova
+> - "Converter **texto em áudio**" → **Polly**.
+> - "A voz pronuncia errado o **nome da empresa**" → **Léxico personalizado**.
+> - "Adicionar **pausa** ou **ênfase** na fala" → **SSML**.
+> - "Destacar cada palavra na tela **enquanto é falada**" → **Speech marks**.
+
+## Exemplo para Associação Mental
+
+**O Papagaio Locutor.** *Polly* é um nome clássico de papagaio. Ele **repete em voz alta** qualquer texto que você der, com a voz que escolher. Com o **léxico** você ensina a pronúncia certa, com o **SSML** você diz onde respirar e o que enfatizar. Mas ele **não entende** o que está falando.
+
+## 📝 Meu entendimento
+
+> _Escreva aqui, com suas palavras, o que entendeu sobre o Polly._
+
+---
+Resumo: [[Resumo]] · Anterior: [[Amazon Transcribe]] · Próximo: [[Amazon Lex]]
+
+Fontes: [Amazon Polly](https://aws.amazon.com/pt/polly/) · [Recursos do Amazon Polly](https://aws.amazon.com/pt/polly/features/)

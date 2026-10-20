@@ -1,23 +1,85 @@
-Processamento de linguagem natural
-Extração de insights de texto e documentos
+## Resumo
 
-Associação Compreender algo (Comprehend)
+O **Amazon Comprehend** é o serviço de **processamento de linguagem natural (NLP)** da AWS. Ele lê um **texto** e devolve **insights** em JSON: idioma, sentimento, entidades (pessoas, lugares, datas), frases-chave, dados pessoais (PII) e mais. Você só chama a API: não precisa treinar nenhum modelo de NLP.
 
-O Amazon Comprehend é um serviço de processamento de linguagem natural (PLN) que usa machine learning (ML) para descobrir insights no texto. O Amazon Comprehend fornece reconhecimento personalizado de entidades, classificação personalizada, extração de frases-chave, análise de sentimento, reconhecimento de entidades e mais APIs para facilitar a integração do NLP às aplicações. Basta chamar as APIs do Amazon Comprehend em sua aplicação e fornecer a localização do documento ou texto de origem. As APIs emitem uma saída com entidades, frases-chave, sentimentos e idioma em um formato JSON, que pode ser usada em sua aplicação.
+> [!info] Ideia central
+> **Texto → insights (JSON).** O Comprehend **entende** o texto. Ele não traduz, não gera texto novo e não lê imagens.
+> 🔑 Palavras-chave na prova: "**análise de sentimento**", "**extrair entidades**", "**frases-chave**", "**detectar PII em texto**", "**classificar documentos**", "**idioma do texto**".
 
-**Exemplo:** uma seguradora deseja analisar documentos de texto em busca de entidades específicas para sua linha de negócios, número de apólices.
+## Ficha rápida
 
-**Texto de exemplo:** Olá, meu nome é Sam Ford e preciso acionar o seguro devido a um acidente de carro. O código da minha apólice é 456-YQT.
+| Item | Detalhe |
+|---|---|
+| **Categoria** | Linguagem (NLP) |
+| **Entrada** | Texto (UTF-8) ou documentos no **S3** |
+| **Saída** | JSON com entidades, sentimento, frases-chave, idioma, PII… e **nível de confiança** |
+| **Precisa saber ML?** | Não. Modelos **pré-treinados**, prontos por API |
+| **Customização** | **Custom classification** e **custom entity recognition** (você dá exemplos rotulados e ele treina por você) |
+| **Modos** | Tempo real (síncrono) · Lote (jobs assíncronos no S3) |
+| **Na prova** | Domínio 1 · Tarefa 1.2 · ⭐⭐⭐ |
+| **Status 2026** | ✅ Disponível · ⚠️ *Topic modeling*, *event detection* e *prompt safety classification* fechados para novos clientes (desde 30/04/2026) |
 
-## Exemplo
+## Principais recursos
 
-|Entidade|Categoria|Contagem|Confiança|
+| Recurso | O que faz | Exemplo |
+|---|---|---|
+| **Detecção de idioma** | Identifica o idioma dominante | "Este texto está em espanhol" |
+| **Análise de sentimento** | Positivo, negativo, neutro ou misto | Avaliação de produto → *NEGATIVE 0,97* |
+| **Sentimento direcionado** (*targeted*) | Sentimento **por entidade** dentro do texto | "Comida ótima (+), atendimento lento (−)" |
+| **Reconhecimento de entidades** | Pessoas, lugares, organizações, datas, quantidades | "Sam Ford" → PERSON |
+| **Frases-chave** | Os trechos mais importantes do texto | "acidente de carro", "acionar o seguro" |
+| **Detecção de PII** | Encontra e **mascara** dados pessoais | CPF, e-mail, telefone, cartão |
+| **Detecção de toxicidade** | Identifica conteúdo ofensivo | Moderação de comentários |
+| **Análise sintática** | Classes gramaticais (substantivo, verbo…) | Pré-processamento de texto |
+| **Classificação personalizada** | Classifica nas **suas** categorias | Tickets → "Cobrança", "Suporte", "Cancelamento" |
+| **Entidades personalizadas** | Reconhece entidades do **seu negócio** | Número de apólice, código de produto |
+| **Comprehend Medical** | Entidades médicas e **PHI** em textos clínicos | Medicamentos, dosagens, diagnósticos |
+
+### Exemplo: entidade personalizada
+
+Uma seguradora quer encontrar **números de apólice** nas mensagens dos clientes.
+
+**Texto:** *"Olá, meu nome é Sam Ford e preciso acionar o seguro devido a um acidente de carro. O código da minha apólice é 456-YQT."*
+
+| Entidade | Categoria | Contagem | Confiança |
 |---|---|---|---|
-|456-YQT|ID da Apólice|1|0.95|
+| 456-YQT | ID da Apólice | 1 | 0.95 |
 
+## Casos de uso
 
-Link todos os atributos e funções: https://aws.amazon.com/pt/comprehend/features/
+| Cenário | Como o Comprehend ajuda |
+|---|---|
+| **Voz do cliente** | Sentimento de avaliações, pesquisas e redes sociais |
+| **Triagem de tickets** | Classificação automática por assunto e urgência |
+| **Compliance / LGPD** | Detectar e mascarar PII antes de armazenar textos |
+| **Análise de ligações** | Transcribe (áudio → texto) + Comprehend (sentimento) |
+| **Organização de documentos** | Extrair entidades e frases-chave para indexar |
 
+## Não confunda
 
-Meu entendimento:
-	O Amazon Comprehend é um serviço para facilitar a integração de modelos de NLP, facilitando assim trabalhos como analise de sentimento, classificação, categorização, cenários onde seriam necessários trinar um modelo complexo de NPL para extrair informações de texto o Amazon Comprehend faz, podendo analisar diretamente documento ou texto de diferentes formas e com N objetivos, como analise de sentimento, identificação de localidade, identificação de pernoas e identidades
+| Serviço | Diferença |
+|---|---|
+| [[Amazon Textract]] | O Textract **extrai** o texto de imagens e PDFs. O Comprehend **analisa o significado** do texto. Os dois costumam ser usados juntos |
+| [[Amazon Translate]] | O Translate **traduz** o texto. O Comprehend **entende** o texto |
+| [[Amazon Kendra]] | O Kendra **busca** respostas em documentos. O Comprehend **analisa** um texto |
+| [[Amazon Bedrock]] | O Bedrock **gera** texto novo (LLM). O Comprehend **extrai** informações com modelos especializados, mais baratos e previsíveis |
+| **Amazon Macie** | O Macie encontra PII em **buckets S3**. O Comprehend encontra PII em um **texto** enviado para a API |
+
+> [!warning] Pegadinhas de prova
+> - "Saber se o cliente está **satisfeito** pelos comentários" → **Comprehend (sentimento)**.
+> - "Texto está **dentro de uma imagem/PDF escaneado**" → primeiro **Textract**, depois Comprehend.
+> - "Áudio de ligação" → primeiro **Transcribe**, depois Comprehend.
+> - "Categorias **próprias** da empresa" → **Custom classification** (não precisa ir para o SageMaker).
+
+## Exemplo para Associação Mental
+
+**O Leitor Atento.** *Comprehend* = **compreender**. Imagine um analista que lê uma carta e marca com canetas coloridas: **verde/vermelho** para o humor (sentimento), **amarelo** para nomes e datas (entidades), **azul** para as ideias principais (frases-chave) e **tarja preta** sobre o CPF (PII). Ele não escreve nada novo, só **entende e marca**.
+
+## 📝 Meu entendimento
+
+> O Amazon Comprehend é um serviço para facilitar a integração de modelos de NLP, facilitando assim trabalhos como analise de sentimento, classificação, categorização, cenários onde seriam necessários trinar um modelo complexo de NPL para extrair informações de texto o Amazon Comprehend faz, podendo analisar diretamente documento ou texto de diferentes formas e com N objetivos, como analise de sentimento, identificação de localidade, identificação de pernoas e identidades
+
+---
+Resumo: [[Resumo]] · Próximo: [[Amazon Translate]]
+
+Fontes: [Recursos do Amazon Comprehend](https://aws.amazon.com/pt/comprehend/features/) · [Comprehend: mudança de disponibilidade](https://docs.aws.amazon.com/comprehend/latest/dg/comprehend-availability-change.html)

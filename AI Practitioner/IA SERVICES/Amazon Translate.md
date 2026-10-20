@@ -1,43 +1,83 @@
-O que é o Amazon Translate?
-	O Amazon Translate é um serviço de tradução de texto que usa tecnologias avançadas de machine learning para fornecer traduções de alta qualidade sob demanda. Você pode o Amazon Translate para traduzir documentos de texto não estruturado ou para criar aplicativos que funcionam em vários idiomas.
+## Resumo
 
-Como o Amazon Translate funciona ?
+O **Amazon Translate** é o serviço de **tradução automática neural** da AWS. Ele traduz **texto** entre dezenas de idiomas com alta qualidade, sob demanda. Serve para traduzir documentos ou para criar aplicações **multilíngues** (sites, chats, e-commerce).
 
+> [!info] Ideia central
+> **Texto no idioma A → texto no idioma B.** Só trabalha com **texto**: para áudio, combine com Transcribe e Polly.
+> 🔑 Palavras-chave na prova: "**traduzir**", "**multilíngue**", "**localização de conteúdo**", "**terminologia da marca**".
 
-## Formatos compatíveis para o conteúdo de entrada
+## Ficha rápida
 
-O Amazon Translate oferece suporte aos seguintes formatos para o conteúdo de entrada:
+| Item | Detalhe |
+|---|---|
+| **Categoria** | Linguagem (tradução automática neural) |
+| **Entrada** | Texto UTF-8 ou arquivos (.txt, .html, .docx; em lote também .xlsx, .pptx, .xlf) |
+| **Saída** | Texto ou arquivo traduzido, **no mesmo formato** da entrada |
+| **Precisa saber ML?** | Não. Modelo pré-treinado |
+| **Customização** | **Terminologia personalizada** e **dados paralelos** (*Active Custom Translation*) |
+| **Modos** | Tempo real · Lote (arquivos no S3) |
+| **Na prova** | Domínio 1 · Tarefa 1.2 · ⭐⭐⭐ |
+| **Status 2026** | ✅ Disponível |
 
-- Para traduções em tempo real:
-    
-    - **Texto de entrada** — Texto simples no formato UTF-8. O Amazon Translate fornece o conteúdo de saída como texto UTF-8.
-        
-    - **Um arquivo de entrada** — um arquivo contendo conteúdo de texto sem formatação (.txt), HTML (.html) ou Word (.docx). O Amazon Translate fornece o conteúdo de saída como um arquivo no mesmo formato do arquivo de entrada.
-        
-    
-- Para trabalhos de tradução em lote:
-    
-    - **Coleção de arquivos de entrada** — Um ou mais arquivos que você carrega em um local do Amazon S3. Os formatos de arquivo compatíveis incluem texto sem formatação (.txt), HTML (.html), Word (.docx), Excel (.xlsx), (.pptx) e XLIFF 1.2 PowerPoint (.xlf). O Amazon Translate fornece o conteúdo de saída como arquivos. O formato de arquivo de cada arquivo de saída corresponde ao formato do arquivo de entrada.
-## Como personalizar suas traduções
+## Principais recursos
 
-Você pode usar os seguintes recursos para personalizar as traduções que você produz com o Amazon Translate:
+### Formatos de entrada
 
-- **Do-not-translate tags** — usa tags de início e fim para especificar o conteúdo que você não deseja traduzir (em conteúdo HTML).
-    
-- **Terminologia personalizada**: define como você deseja que o Amazon Translate traduza termos específicos, como nomes de marcas.
-    
-- **Brevidade** — Reduz o tamanho da saída da tradução para a maioria das traduções (em comparação com a saída da tradução sem brevidade). O Brevity é compatível com traduções de texto em tempo real.
-    
-- **Profanidade** — mascara palavras e frases profanas em sua tradução.
-    
-- **Formalidade** — Define o nível de formalidade do idioma em sua saída de tradução.
-    
-- **Dados paralelos** — adapta a saída da tradução para refletir as opções de estilo, tom e palavra nos exemplos de tradução fornecidos por você.
+| Modo | Entrada aceita | Saída |
+|---|---|---|
+| **Tempo real** | **Texto** UTF-8 | Texto UTF-8 |
+| **Tempo real** | **Um arquivo**: .txt, .html ou .docx | Arquivo no mesmo formato |
+| **Lote** (*batch*) | **Vários arquivos no S3**: .txt, .html, .docx, .xlsx, .pptx e XLIFF 1.2 (.xlf) | Arquivos no mesmo formato, no S3 |
 
+### Personalização da tradução
 
-Links de Referencia: 
-	https://docs.aws.amazon.com/pt_br/translate/latest/dg/what-is.html
-	https://aws.amazon.com/pt/translate/
+| Recurso | O que faz | Exemplo |
+|---|---|---|
+| **Detecção automática do idioma de origem** | Descobre sozinho o idioma de entrada | Não precisa informar "de português" |
+| **Terminologia personalizada** | Define **como traduzir termos específicos** | Nome da marca **não** é traduzido; "ticket" vira sempre "chamado" |
+| **Dados paralelos** (*parallel data*) | Adapta **estilo, tom e vocabulário** a partir de exemplos seus de tradução | Manter o tom da empresa |
+| **Formalidade** | Define o nível de formalidade da saída | "Você" x "o senhor" |
+| **Profanidade** | **Mascara** palavrões na tradução | Chat público |
+| **Brevidade** | Gera traduções **mais curtas** (só tempo real) | Legendas, telas de celular |
+| **Tags *do-not-translate*** | Marca trechos do HTML que **não** devem ser traduzidos | Código, nomes de produto |
 
-Oque eu entendi:
-	Basicamente um serviço tradutor, serve para traduzir textos não estruturados e pode ser configurada formas de traduzir exemplo de tradução não literal para nomes específicos podem ser configuradas  
+## Casos de uso
+
+| Cenário | Como o Translate ajuda |
+|---|---|
+| **E-commerce global** | Traduz descrições de produtos e avaliações |
+| **Atendimento multilíngue** | Chat em tempo real entre cliente e atendente de idiomas diferentes |
+| **Análise de conteúdo** | Traduz para um idioma comum antes de usar o Comprehend |
+| **Comunicação interna** | Traduz documentos e comunicados |
+| **Legendas** | Transcribe (fala → texto) + Translate (texto → outro idioma) |
+
+## Não confunda
+
+| Serviço | Diferença |
+|---|---|
+| [[Amazon Transcribe]] | O Transcribe converte **fala em texto** no mesmo idioma. O Translate muda o **idioma** do texto |
+| [[Amazon Polly]] | O Polly converte **texto em fala**. O Translate não gera áudio |
+| [[Amazon Comprehend]] | O Comprehend **analisa** o texto (sentimento, entidades). O Translate **traduz** |
+| [[Amazon Bedrock]] | Um LLM também traduz, mas o Translate é **especializado**, mais barato, previsível e tem terminologia controlada |
+
+> [!tip] Pipeline clássico: tradução de voz
+> **Transcribe** (fala → texto) → **Translate** (texto → outro idioma) → **Polly** (texto → fala).
+> Exemplo: um atendente brasileiro conversando por voz com um cliente japonês.
+
+> [!warning] Pegadinhas de prova
+> - "Traduzir **áudio**" → o Translate sozinho **não** faz. Use o pipeline acima.
+> - "Garantir que o **nome da marca** seja sempre traduzido do mesmo jeito" → **Terminologia personalizada**.
+> - "Traduzir milhares de arquivos de uma vez" → **Tradução em lote** com o S3.
+
+## Exemplo para Associação Mental
+
+**O Intérprete com Glossário.** *Translate* = **traduzir**. É um intérprete profissional que carrega um **glossário da empresa** (terminologia personalizada) e um **caderno de exemplos** de como a empresa escreve (dados paralelos). Ele só trabalha com **papel escrito**: se alguém falar, outro colega precisa anotar primeiro (Transcribe).
+
+## 📝 Meu entendimento
+
+> Basicamente um serviço tradutor, serve para traduzir textos não estruturados e pode ser configurada formas de traduzir exemplo de tradução não literal para nomes específicos podem ser configuradas
+
+---
+Resumo: [[Resumo]] · Anterior: [[Amazon Comprehend]] · Próximo: [[Amazon Transcribe]]
+
+Fontes: [O que é o Amazon Translate](https://docs.aws.amazon.com/pt_br/translate/latest/dg/what-is.html) · [Amazon Translate](https://aws.amazon.com/pt/translate/)

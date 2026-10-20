@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/Guia do Exame/Vídeos de Estudo - YouTube.md",
+                "file": "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vídeos de Estudo - YouTube"
+              "title": "02 - Domínio 1 - Fundamentos de IA e ML"
             }
           }
         ],
@@ -253,6 +253,7 @@
   },
   "active": "262f4c2db6abe010",
   "lastOpenFiles": [
+    "AI Practitioner/Guia do Exame/Vídeos de Estudo - YouTube.md",
     "AI Practitioner/IA SERVICES/Amazon Textract.md",
     "AI Practitioner/IA SERVICES/Resumo.md",
     "AI Practitioner/IA SERVICES/Amazon SageMaker.md",
@@ -277,7 +278,6 @@
     "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
     "AI Practitioner/Guia do Exame/Road Map.md",
     "AI Practitioner/Guia do Exame/00 - Início - Guia do Exame.md",
-    "AI Practitioner/Guia do Exame/Vídeos de Estudo - YouTube.md",
     "AI Practitioner/IA SERVICES/Amazon Augmented AI.md",
     "AI Practitioner/IA SERVICES/Amazon Lex.md",
     "AI Practitioner/IA SERVICES/Amazon Forecast.md",

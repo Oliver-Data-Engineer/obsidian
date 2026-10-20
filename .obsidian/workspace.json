@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/IA SERVICES/Amazon Lex.md",
+                "file": "AI Practitioner/IA SERVICES/Amazon Augmented AI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Lex"
+              "title": "Amazon Augmented AI"
             }
           }
         ],
@@ -251,19 +251,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "262f4c2db6abe010",
+  "active": "d5873fce41b5b071",
   "lastOpenFiles": [
-    "AI Practitioner/IA SERVICES/Amazon Forecast.md",
     "AI Practitioner/IA SERVICES/Amazon Lex.md",
+    "AI Practitioner/IA SERVICES/Amazon Forecast.md",
+    "AI Practitioner/IA SERVICES/Amazon Rekognition.md",
     "AI Practitioner/IA SERVICES/Resumo.md",
     "AI Practitioner/IA SERVICES/Amazon Bedrock.md",
-    "AI Practitioner/IA SERVICES/Amazon Rekognition.md",
-    "Amazon Polly.md",
-    "AI Practitioner/IA SERVICES/Amazon Transcribe.md",
-    "AI Practitioner/IA SERVICES/Amazon Translate.md",
-    "Untitled 1.md",
     "AI Practitioner/IA SERVICES/Amazon Comprehend.md",
-    "Amazon Augmented AI.md",
+    "AI Practitioner/IA SERVICES/Amazon Translate.md",
+    "AI Practitioner/IA SERVICES/Amazon Transcribe.md",
+    "AI Practitioner/IA SERVICES/Amazon Polly.md",
+    "Untitled 1.md",
+    "AI Practitioner/IA SERVICES/Amazon Augmented AI.md",
     "AI Practitioner/Bedrock/Índice - Bedrock.md",
     "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
     "Untitled.md",

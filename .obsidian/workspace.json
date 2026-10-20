@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/IA SERVICES/Amazon Textract.md",
+                "file": "AI Practitioner/Guia do Exame/Vídeos de Estudo - YouTube.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Textract"
+              "title": "Vídeos de Estudo - YouTube"
             }
           }
         ],
@@ -253,8 +253,8 @@
   },
   "active": "262f4c2db6abe010",
   "lastOpenFiles": [
-    "AI Practitioner/IA SERVICES/Resumo.md",
     "AI Practitioner/IA SERVICES/Amazon Textract.md",
+    "AI Practitioner/IA SERVICES/Resumo.md",
     "AI Practitioner/IA SERVICES/Amazon SageMaker.md",
     "AI Practitioner/IA SERVICES/Amazon Translate.md",
     "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",

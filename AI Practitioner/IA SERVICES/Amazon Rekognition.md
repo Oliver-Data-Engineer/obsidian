@@ -16,5 +16,8 @@ Casos de Uso:
 
 	- Detecção de usuarios e rostos
 	- Análise de Face como Olhos Abertos Sorriso Sentimento
-	- Detecção de textos em imagens 
+	- Detecção de textos em imagens,video texto 
+
+Links: https://aws.amazon.com/pt/rekognition/
+https://docs.aws.amazon.com/pt_br/prescriptive-guidance/latest/image-classification/rekognition.html
 

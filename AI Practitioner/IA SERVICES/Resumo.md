@@ -14,3 +14,4 @@
 | **Amazon Textract**           | Extrai texto, formulários e tabelas de documentos                                                                                                                                         |
 | **Amazon Transcribe**         | Fala → texto                                                                                                                                                                              |
 | **Amazon Translate**          | Tradução automática                                                                                                                                                                       |
+| **Amazon Forecast**           | Preveja resultados de negócios com facilidade e precisão usando machine learning                                                                                                          |

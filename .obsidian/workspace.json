@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/IA SERVICES/Amazon Translate.md",
+                "file": "AI Practitioner/IA SERVICES/Amazon Transcribe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Translate"
+              "title": "Amazon Transcribe"
             }
           }
         ],
@@ -239,8 +239,9 @@
   },
   "active": "8d174af27103d630",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "AI Practitioner/IA SERVICES/Amazon Translate.md",
+    "AI Practitioner/IA SERVICES/Amazon Transcribe.md",
+    "Untitled 1.md",
     "AI Practitioner/IA SERVICES/Resumo.md",
     "AI Practitioner/IA SERVICES/Amazon Comprehend.md",
     "Amazon Augmented AI.md",
@@ -274,7 +275,6 @@
     "AI Practitioner/Bedrock/Bedrock Guardrail.md",
     "AI Practitioner/Guia do Exame/08 - Roadmap de Estudo.md",
     "AI Practitioner/Guia do Exame/04 - Domínio 3 - Aplicações de Foundation Models.md",
-    "AI Practitioner/Guia do Exame/03 - Domínio 2 - Fundamentos de IA Generativa.md",
     "AI Practitioner/IA/Níveis de IA.canvas",
     "Untitled.canvas",
     "AI Practitioner/IA/ML/Tipos de Aprendizado de Machine Learning.canvas",

@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",
-                "mode": "source",
+                "file": "AI Practitioner/IA SERVICES/Amazon Textract.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09 - Checklist de Estudo"
+              "title": "Amazon Textract"
             }
           }
         ],
@@ -253,12 +253,16 @@
   },
   "active": "262f4c2db6abe010",
   "lastOpenFiles": [
+    "AI Practitioner/IA SERVICES/Resumo.md",
+    "AI Practitioner/IA SERVICES/Amazon Textract.md",
+    "AI Practitioner/IA SERVICES/Amazon SageMaker.md",
+    "AI Practitioner/IA SERVICES/Amazon Translate.md",
+    "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",
     "AI Practitioner/IA SERVICES/sedeIMZjW",
     "AI Practitioner/IA SERVICES/sedztWyzb",
     "AI Practitioner/IA SERVICES/Amazon Q.md",
     "AI Practitioner/IA SERVICES/Amazon Q.md.tmp.32372.367dc1fa5a50",
     "AI Practitioner/IA SERVICES/Amazon Bedrock.md.tmp.32372.d5bef078856a",
-    "AI Practitioner/IA SERVICES/Amazon SageMaker.md",
     "AI Practitioner/IA SERVICES/Amazon SageMaker.md.tmp.32372.641197c83a00",
     "AI Practitioner/IA SERVICES/Amazon Augmented AI.md.tmp.32372.462916d4368c",
     "AI Practitioner/IA SERVICES/Amazon Forecast.md.tmp.32372.9caab5e72a76",
@@ -268,23 +272,18 @@
     "AI Practitioner/IA SERVICES/Amazon Personalize.md.tmp.32372.21a9e5967b9d",
     "AI Practitioner/IA SERVICES/Amazon Kendra.md",
     "AI Practitioner/IA SERVICES/Amazon Kendra.md.tmp.32372.b28b1d05be5b",
-    "AI Practitioner/IA SERVICES/Amazon Textract.md",
-    "AI Practitioner/IA SERVICES/Amazon Textract.md.tmp.32372.a0547e98abed",
     "AI Practitioner/Guia do Exame/08 - Roadmap de Estudo.md",
     "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
     "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
     "AI Practitioner/Guia do Exame/Road Map.md",
     "AI Practitioner/Guia do Exame/00 - Início - Guia do Exame.md",
     "AI Practitioner/Guia do Exame/Vídeos de Estudo - YouTube.md",
-    "AI Practitioner/Guia do Exame/09 - Checklist de Estudo.md",
     "AI Practitioner/IA SERVICES/Amazon Augmented AI.md",
     "AI Practitioner/IA SERVICES/Amazon Lex.md",
     "AI Practitioner/IA SERVICES/Amazon Forecast.md",
     "AI Practitioner/IA SERVICES/Amazon Rekognition.md",
-    "AI Practitioner/IA SERVICES/Resumo.md",
     "AI Practitioner/IA SERVICES/Amazon Bedrock.md",
     "AI Practitioner/IA SERVICES/Amazon Comprehend.md",
-    "AI Practitioner/IA SERVICES/Amazon Translate.md",
     "AI Practitioner/IA SERVICES/Amazon Transcribe.md",
     "AI Practitioner/IA SERVICES/Amazon Polly.md",
     "Untitled 1.md",

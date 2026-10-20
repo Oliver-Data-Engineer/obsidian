@@ -1,5 +1,7 @@
 O Amazon Forecast é um serviço de previsão de série temporal baseado em machine learning (ML) e desenvolvido para análise de métricas de negócios.
 
+Forecast (Previsão)  -  Prever um resultado baseado em dados, Utilizando Machine Learn
+
 ### Previsão de varejo e estoque
 
 Reduza o desperdício, aumente os giros de estoque e melhore a disponibilidade em estoque prevendo a demanda dos produtos em níveis de probabilidade específicos

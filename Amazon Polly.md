@@ -1,0 +1,1 @@
+Implante vozes humanas de alta qualidade e com sonoridade natural em dezenas de idiomas

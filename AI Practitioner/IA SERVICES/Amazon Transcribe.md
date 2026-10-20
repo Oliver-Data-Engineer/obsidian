@@ -7,6 +7,15 @@ O Amazon Transcribe é um serviço de reconhecimento automático de fala (ASR) q
 Amazon Transcribe é um serviço de reconhecimento automático de fala que usa modelos de aprendizado de máquina para converter áudio em texto. Você pode usar Amazon Transcribe como um serviço de transcrição independente ou adicionar recursos de fala para texto a qualquer aplicativo.
 
 
+Oque faz: 
+	Converte Fala para Texto
+Como faz:
+	Por meio de ASR (Automatic Speech Recognition)
+Características:
+	PII (Person Indentify Information) -  Não mostra e traduz informações pessoais
+	e multilanguage
+	
+
 
 Links: 
 	https://aws.amazon.com/pt/transcribe/

@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Polly.md",
+                "file": "AI Practitioner/IA SERVICES/Amazon Rekognition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Polly"
+              "title": "Amazon Rekognition"
             }
           }
         ],
@@ -253,8 +253,9 @@
   },
   "active": "262f4c2db6abe010",
   "lastOpenFiles": [
-    "AI Practitioner/IA SERVICES/Amazon Transcribe.md",
     "Amazon Polly.md",
+    "AI Practitioner/IA SERVICES/Amazon Rekognition.md",
+    "AI Practitioner/IA SERVICES/Amazon Transcribe.md",
     "AI Practitioner/IA SERVICES/Amazon Translate.md",
     "Untitled 1.md",
     "AI Practitioner/IA SERVICES/Resumo.md",
@@ -288,7 +289,6 @@
     "AI Practitioner/Guia do Exame/Road Map.md",
     "AI Practitioner/Bedrock/Bedrock Agents.md",
     "AI Practitioner/Bedrock/Bedrock Guardrail.md",
-    "AI Practitioner/Guia do Exame/08 - Roadmap de Estudo.md",
     "AI Practitioner/IA/Níveis de IA.canvas",
     "Untitled.canvas",
     "AI Practitioner/IA/ML/Tipos de Aprendizado de Machine Learning.canvas",

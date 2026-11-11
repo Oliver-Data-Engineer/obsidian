@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
+                "file": "AI Practitioner/Bedrock/Bedrock Agents.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Domínio 1 - Fundamentos de IA e ML"
+              "title": "Bedrock Agents"
             }
           }
         ],
@@ -253,6 +253,8 @@
   },
   "active": "262f4c2db6abe010",
   "lastOpenFiles": [
+    "AI Practitioner/IA/Prompt/Parâmetros de Inferência.md",
+    "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
     "AI Practitioner/Guia do Exame/Vídeos de Estudo - YouTube.md",
     "AI Practitioner/IA SERVICES/Amazon Textract.md",
     "AI Practitioner/IA SERVICES/Resumo.md",
@@ -275,7 +277,6 @@
     "AI Practitioner/IA SERVICES/Amazon Kendra.md.tmp.32372.b28b1d05be5b",
     "AI Practitioner/Guia do Exame/08 - Roadmap de Estudo.md",
     "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
-    "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
     "AI Practitioner/Guia do Exame/Road Map.md",
     "AI Practitioner/Guia do Exame/00 - Início - Guia do Exame.md",
     "AI Practitioner/IA SERVICES/Amazon Augmented AI.md",

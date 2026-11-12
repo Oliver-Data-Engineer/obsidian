@@ -8,14 +8,14 @@ Além do texto do prompt, você controla **como o modelo gera a resposta** por m
 
 ## Os Parâmetros
 
-| Parâmetro | O que controla | Valor baixo | Valor alto |
-|---|---|---|---|
-| **Temperatura** | Aleatoriedade/criatividade da escolha do próximo token | Previsível, **determinístico**, factual | **Criativo**, variado, mais risco de errar |
-| **Top-P** (*nucleus sampling*) | Considera só os tokens cuja **probabilidade acumulada** chega a P | Poucos candidatos → mais conservador | Mais candidatos → mais diverso |
-| **Top-K** | Considera só os **K tokens mais prováveis** | K pequeno → conservador | K grande → mais diverso |
-| **Tamanho máximo da resposta** (*max tokens*) | Limite de tokens gerados | Resposta cortada/curta | Resposta longa (mais custo) |
-| **Sequências de parada** (*stop sequences*) | Texto que, ao ser gerado, **encerra** a resposta | — | — |
-| **Penalidades** (repetição/frequência) | Desencoraja repetir palavras (em alguns modelos) | Pode repetir | Evita repetição |
+| Parâmetro                                     | O que controla                                                    | Valor baixo                             | Valor alto                                 |
+| --------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------- | ------------------------------------------ |
+| **Temperatura**                               | Aleatoriedade/criatividade da escolha do próximo token            | Previsível, **determinístico**, factual | **Criativo**, variado, mais risco de errar |
+| **Top-P** (*nucleus sampling*)                | Considera só os tokens cuja **probabilidade acumulada** chega a P | Poucos candidatos → mais conservador    | Mais candidatos → mais diverso             |
+| **Top-K**                                     | Considera só os **K tokens mais prováveis**                       | K pequeno → conservador                 | K grande → mais diverso                    |
+| **Tamanho máximo da resposta** (*max tokens*) | Limite de tokens gerados                                          | Resposta cortada/curta                  | Resposta longa (mais custo)                |
+| **Sequências de parada** (*stop sequences*)   | Texto que, ao ser gerado, **encerra** a resposta                  | —                                       | —                                          |
+| **Penalidades** (repetição/frequência)        | Desencoraja repetir palavras (em alguns modelos)                  | Pode repetir                            | Evita repetição                            |
 
 > [!tip] Dica para lembrar
 > **Temperatura baixa → "advogado"** (preciso, consistente). **Temperatura alta → "poeta"** (criativo, imprevisível).

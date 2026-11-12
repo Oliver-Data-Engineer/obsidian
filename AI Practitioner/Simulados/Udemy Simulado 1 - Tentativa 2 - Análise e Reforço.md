@@ -184,9 +184,9 @@ Uma seguradora quer classificar cada **reclamação** em "Sinistro", "Cobrança"
 ### R7 (Escolha 2)
 Uma plataforma de cursos quer **gerar legendas** das videoaulas e **detectar automaticamente texto e objetos** exibidos nos slides dos vídeos.
 
-- [ ] A) Amazon Transcribe
+- [x] A) Amazon Transcribe
 - [ ] B) Amazon Polly
-- [ ] C) Amazon Rekognition
+- [x] C) Amazon Rekognition
 - [ ] D) Amazon Comprehend
 - [ ] E) Amazon Translate
 
@@ -197,7 +197,7 @@ Uma plataforma de cursos quer **gerar legendas** das videoaulas e **detectar aut
 O time de compliance quer verificar **continuamente** se a conta AWS segue o **framework PCI DSS** e **juntar evidências automaticamente** para o auditor.
 
 - [ ] A) AWS Artifact
-- [ ] B) AWS Audit Manager
+- [x] B) AWS Audit Manager
 - [ ] C) AWS CloudTrail
 - [ ] D) AWS Trusted Advisor
 
@@ -207,7 +207,7 @@ O time de compliance quer verificar **continuamente** se a conta AWS segue o **f
 ### R9
 O auditor pede o **relatório SOC 2 da própria AWS** para anexar à documentação do projeto.
 
-- [ ] A) AWS Artifact
+- [x] A) AWS Artifact
 - [ ] B) AWS Audit Manager
 - [ ] C) AWS Config
 - [ ] D) Amazon Macie
@@ -220,7 +220,7 @@ A empresa precisa guardar **o texto de cada prompt e de cada resposta** do Bedro
 
 - [ ] A) AWS CloudTrail
 - [ ] B) AWS Config
-- [ ] C) Bedrock model invocation logging
+- [x] C) Bedrock model invocation logging
 - [ ] D) Amazon EventBridge
 
 > [!success]- Gabarito
@@ -230,7 +230,7 @@ A empresa precisa guardar **o texto de cada prompt e de cada resposta** do Bedro
 Antes de treinar um modelo, a empresa quer **descobrir automaticamente** se há **CPFs e e-mails** nos arquivos guardados no S3.
 
 - [ ] A) AWS Glue
-- [ ] B) Amazon Macie
+- [x] B) Amazon Macie
 - [ ] C) Amazon Inspector
 - [ ] D) AWS KMS
 
@@ -240,7 +240,7 @@ Antes de treinar um modelo, a empresa quer **descobrir automaticamente** se há 
 ### R12
 Depois de fazer **fine-tuning** de um modelo no Bedrock, a equipe tenta chamá-lo no modo **On-Demand** e não consegue. O que precisa fazer?
 
-- [ ] A) Comprar Provisioned Throughput para o modelo customizado
+- [x] A) Comprar Provisioned Throughput para o modelo customizado
 - [ ] B) Usar inferência batch
 - [ ] C) Habilitar o Guardrails
 - [ ] D) Mover o modelo para o SageMaker Canvas
@@ -251,9 +251,9 @@ Depois de fazer **fine-tuning** de um modelo no Bedrock, a equipe tenta chamá-l
 ### R13 (Escolha 2)
 Quais parâmetros de inferência aumentam a **diversidade/criatividade** da resposta de um LLM?
 
-- [ ] A) Temperature
+- [x] A) Temperature
 - [ ] B) Número de parâmetros do modelo
-- [ ] C) Top-p
+- [x] C) Top-p
 - [ ] D) Tamanho do dataset de treino
 - [ ] E) Região da AWS
 
@@ -265,7 +265,7 @@ Um jogo treina um agente que **ganha pontos** quando vence e **perde pontos** qu
 
 - [ ] A) Aprendizado supervisionado
 - [ ] B) Aprendizado não supervisionado
-- [ ] C) Aprendizado por reforço
+- [x] C) Aprendizado por reforço
 - [ ] D) Transfer learning
 
 > [!success]- Gabarito
@@ -275,7 +275,7 @@ Um jogo treina um agente que **ganha pontos** quando vence e **perde pontos** qu
 O gerente quer saber **como a feature "idade" afeta, em média, todas as previsões** do modelo. Já o cliente quer saber **por que o pedido dele** foi recusado. Quais técnicas, respectivamente?
 
 - [ ] A) SHAP para os dois
-- [ ] B) PDP para o gerente; SHAP para o cliente
+- [x] B) PDP para o gerente; SHAP para o cliente
 - [ ] C) SHAP para o gerente; PDP para o cliente
 - [ ] D) Model Monitor para o gerente; A2I para o cliente
 

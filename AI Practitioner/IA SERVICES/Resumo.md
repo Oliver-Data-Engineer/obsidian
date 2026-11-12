@@ -11,6 +11,8 @@ Visão geral dos **serviços de IA/ML da AWS** que estão no escopo da prova **A
 flowchart TB
   subgraph GEN["IA generativa"]
     BR[Bedrock]
+    NV[Nova<br/>FMs da Amazon]
+    TF[AWS Transform<br/>modernização]
     Q[Amazon Q]
   end
   subgraph PLAT["Plataforma de ML"]
@@ -53,6 +55,8 @@ flowchart TB
 | [[Amazon Augmented AI]] | Revisão humana | Previsão duvidosa → revisão humana | human-in-the-loop, baixa confiança | ⭐⭐⭐ | ⚠️ sem novos clientes |
 | [[Amazon SageMaker]] | Plataforma de ML | Dados → modelo próprio em produção | treinar modelo, MLOps, Clarify, Canvas | ⭐⭐⭐ | ✅ (alguns recursos ⚠️) |
 | [[Amazon Bedrock]] | IA generativa | Prompt → conteúdo gerado | foundation model, RAG, guardrails, agentes | ⭐⭐⭐ | ✅ |
+| [[Amazon Nova]] 🆕 | IA generativa (FMs da Amazon) | Texto/imagem/vídeo/voz → texto, imagem, vídeo ou fala | modelo da Amazon, Nova Canvas/Reel/Sonic, custo-benefício | ⭐⭐ | ✅ |
+| [[AWS Transform]] 🆕 | IA agêntica (modernização) | Código legado → aplicação moderna | modernizar mainframe, .NET, VMware | ⭐ | ✅ |
 | [[Amazon Q]] | Assistente GenAI | Pergunta → resposta/código | assistente pronto, Q Business, Q Developer | ⭐⭐⭐ | Q Business ⚠️ |
 | [[Amazon Forecast]] | Previsão | Série temporal → previsão | previsão de demanda | ⭐ fora da lista | ⚠️ sem novos clientes |
 
@@ -110,6 +114,13 @@ flowchart TB
 | **Comprehend x Macie** | Comprehend: PII em um **texto**. Macie: PII em **buckets S3** |
 | **Personalize x Forecast** | Personalize **recomenda itens** para pessoas. Forecast **prevê números** no tempo |
 
+## Lista oficial atual (revisão de 29/10/2026)
+
+> [!important] O que mudou na lista de serviços da prova
+> - **Entraram:** Amazon Nova, Bedrock AgentCore, SageMaker JumpStart, AWS Transform (Machine Learning) · Kiro e Strands Agents (Developer Tools) · Lambda, Aurora, Amazon Quick.
+> - **Saíram:** Amazon Q, A2I, Kendra, Fraud Detector (todos em manutenção ou sem novos clientes), Audit Manager, MemoryDB.
+> - Lista completa por categoria e links: [[07 - Serviços AWS do Exame]].
+
 ## Mudanças de 2026 (status dos serviços)
 
 > [!warning] O guia da prova (v1.4) ainda não reflete estas mudanças
@@ -146,6 +157,8 @@ Marque quando conseguir **explicar o serviço em voz alta, sem consultar**:
 - [ ] [[Amazon SageMaker]]
 - [ ] [[Amazon Bedrock]]
 - [ ] [[Amazon Q]]
+- [ ] [[Amazon Nova]]
+- [ ] [[AWS Transform]]
 
 ## Revisão rápida (flashcards)
 

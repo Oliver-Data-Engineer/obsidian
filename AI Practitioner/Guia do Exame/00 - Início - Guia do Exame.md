@@ -24,7 +24,7 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 | 04 | [[04 - Domínio 3 - Aplicações de Foundation Models]] | **28%** · tarefas 3.1 a 3.4 |
 | 05 | [[05 - Domínio 4 - Diretrizes para IA Responsável]] | 14% · tarefas 4.1 e 4.2 |
 | 06 | [[06 - Domínio 5 - Segurança, Compliance e Governança]] | 14% · tarefas 5.1 e 5.2 |
-| 07 | [[07 - Serviços AWS do Exame]] | Serviços dentro e fora do escopo |
+| 07 | [[07 - Serviços AWS do Exame]] | Lista oficial atual (29/10/2026): 51 serviços em 11 categorias, cada um ligado à sua nota |
 | 08 | [[08 - Roadmap de Estudo]] | Plano de 6 semanas |
 | 09 | [[09 - Checklist de Estudo]] | Checklist de todos os objetivos da ementa |
 | 10 | [[10 - Glossário do Exame]] | Termos-chave A–Z |
@@ -49,7 +49,8 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 | 1 | [[O que é Inteligência Artificial]] · [[O que é  Machine Learn]] · [[O que é  Deep Learn]] · [[Aprendizado Supervisionado]] · [[Aprendizado Não Supervisionado]] · [[Aprendizado por Reforço]] · [[Diferenças entre os Tipos de Aprendizado]] · [[Tipos de Algoritimos de Machine Learn]] · [[Comparação Geral e Casos de Uso]] |
 | 2 | [[O que é  Generative IA]] |
 | 3 | [[Índice - Prompt]] · [[O que é um Prompt]] · [[Anatomia de um Prompt]] · [[Tipos de Prompt]] · [[Boa Praticas]] · [[Parâmetros de Inferência]] · [[Riscos e Segurança em Prompts]] · [[Prompt na AWS]] · [[Perguntas de Revisão - Prompt]] |
-| Serviços de IA (D1 a D5) | [[Resumo]] · uma nota por serviço na pasta **IA SERVICES** (Comprehend, Comprehend Medical, Translate, Transcribe, Polly, Lex, Rekognition, Textract, Kendra, Personalize, Fraud Detector, A2I, Bedrock, Q) · SageMaker tem pasta própria: [[Índice - SageMaker]] |
+| Serviços de IA (D1 a D5) | [[Resumo]] · uma nota por serviço na pasta **IA SERVICES** (Comprehend, Comprehend Medical, Translate, Transcribe, Polly, Lex, Rekognition, Textract, Kendra, Personalize, Fraud Detector, A2I, Bedrock, Nova, AWS Transform, Q) · SageMaker tem pasta própria: [[Índice - SageMaker]] |
+| Serviços de apoio (D1, D3, D5) | Pasta **AWS SERVICES**: [[Segurança, Identidade e Compliance]] · [[Gerenciamento e Governança]] · [[Analytics]] · [[Banco de Dados]] · [[Computação, Containers, Rede e Armazenamento]] · [[Gestão Financeira]] · [[Ferramentas de Desenvolvimento (Kiro e Strands)]] |
 | Bedrock (D2 a D5) | [[Índice - Bedrock]] · [[Fondation Model]] · [[ML Inference]] · [[Beadrock Rag - Kb]] · [[Bedrock Agents]] · [[Bedrock Guardrail]] · 📝 [[Teste - Bedrock]] |
 | 4 | [[Índice - IA Responsável]] · [[IA Responsável - Conceitos e Riscos]] · [[IA Responsável - Transparência e Explicabilidade]] · [[IA Responsável - Serviços AWS]] · 📝 [[IA Responsável - Formulário de Respostas]] |
 | 5 | *(ainda sem notas próprias — o conteúdo está na nota 06 desta pasta e em [[SageMaker - Governança e Segurança]])* |

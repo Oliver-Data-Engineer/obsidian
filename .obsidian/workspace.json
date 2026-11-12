@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/AWS SERVICES/Gerenciamento e Governança.md",
+                "file": "AI Practitioner/Simulados/Udemy Simulado 1 - Tentativa 2 - Análise e Reforço.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gerenciamento e Governança"
+              "title": "Udemy Simulado 1 - Tentativa 2 - Análise e Reforço"
             }
           }
         ],
@@ -267,6 +267,15 @@
   },
   "active": "d7bfef45da6692ab",
   "lastOpenFiles": [
+    "AI Practitioner/IA Responsável/IA Responsável - Formulário de Respostas.md",
+    "AI Practitioner/IA Responsável/IA Responsável - Serviços AWS.md",
+    "AI Practitioner/IA Responsável/Índice - IA Responsável.md",
+    "AI Practitioner/AWS SERVICES/Ferramentas de Desenvolvimento (Kiro e Strands).md",
+    "AI Practitioner/AWS SERVICES/Gestão Financeira.md",
+    "AI Practitioner/AWS SERVICES/Computação, Containers, Rede e Armazenamento.md",
+    "AI Practitioner/AWS SERVICES/Analytics.md",
+    "AI Practitioner/AWS SERVICES/Banco de Dados.md",
+    "AI Practitioner/AWS SERVICES/Gerenciamento e Governança.md",
     "AI Practitioner/AWS SERVICES/Segurança, Identidade e Compliance.md",
     "AI Practitioner/IA/Prompt/Prompt na AWS.md",
     "AI Practitioner/IA/Prompt/Riscos e Segurança em Prompts.md",
@@ -285,18 +294,9 @@
     "AI Practitioner/IA SERVICES/Amazon Q.md",
     "AI Practitioner/SageMaker/Índice - SageMaker.md",
     "AI Practitioner/IA SERVICES/AWS Transform.md",
-    "AI Practitioner/IA SERVICES/Amazon Nova.md",
-    "AI Practitioner/IA SERVICES/Amazon Comprehend Medical.md",
     "AI Practitioner/IA SERVICES/AWS Transform.md.tmp.3152.1a8033ce701b",
     "AI Practitioner/IA SERVICES/Amazon Nova.md.tmp.3152.ecac40072c29",
-    "AI Practitioner/SageMaker/SageMaker - Formulário de Respostas.md",
-    "AI Practitioner/SageMaker/SageMaker - Formulário 2026-11-11 (respondido).md",
-    "AI Practitioner/SageMaker/Amazon SageMaker.md",
-    "AI Practitioner/AWS SERVICES/Ferramentas de Desenvolvimento (Kiro e Strands).md",
-    "AI Practitioner/AWS SERVICES/Gestão Financeira.md",
-    "AI Practitioner/AWS SERVICES/Computação, Containers, Rede e Armazenamento.md",
     "AI Practitioner/AWS SERVICES/Computação, Containers, Rede e Armazenamento.md.tmp.3152.a2c128b82253",
-    "AI Practitioner/AWS SERVICES/Banco de Dados.md",
     "AI Practitioner/AWS SERVICES/Banco de Dados.md.tmp.3152.0747204f64a5",
     "AI Practitioner/AWS SERVICES",
     "AI Practitioner/IA SERVICES/Amazon Comprehend Medical.md.tmp.3152.11c18951ca98",

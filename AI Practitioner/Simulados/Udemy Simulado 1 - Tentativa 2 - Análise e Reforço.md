@@ -119,7 +119,7 @@ Mesmo formato dos outros formulários: marque, justifique e só então abra o ga
 Um app de fotos chama um modelo **algumas vezes por semana**, sem padrão, e fica dias parado. A empresa **não quer pagar por endpoint ocioso** e aceita alguns segundos de *cold start*.
 
 - [ ] A) Real-time Inference
-- [ ] B) Serverless Inference
+- [x] B) Serverless Inference
 - [ ] C) Batch Transform
 - [ ] D) Asynchronous Inference
 
@@ -129,7 +129,7 @@ Um app de fotos chama um modelo **algumas vezes por semana**, sem padrão, e fic
 ### R2
 Cada requisição envia um **arquivo de áudio de 300 MB** que leva **15 minutos** para processar. O cliente consulta o resultado depois.
 
-- [ ] A) Asynchronous Inference
+- [x] A) Asynchronous Inference
 - [ ] B) Real-time Inference
 - [ ] C) Serverless Inference
 - [ ] D) Amazon Bedrock On-Demand
@@ -142,7 +142,7 @@ Toda madrugada é preciso pontuar **um arquivo de 40 GB** com milhões de regist
 
 - [ ] A) Asynchronous Inference
 - [ ] B) Serverless Inference
-- [ ] C) Batch Transform
+- [x] C) Batch Transform
 - [ ] D) Real-time Inference
 
 > [!success]- Gabarito
@@ -153,7 +153,7 @@ Uma operadora de telefonia quer que seus **atendentes recebam sugestões de resp
 
 - [ ] A) Amazon Q Business
 - [ ] B) Amazon Lex
-- [ ] C) Amazon Q in Connect
+- [x] C) Amazon Q in Connect
 - [ ] D) Amazon Kendra
 
 > [!success]- Gabarito
@@ -163,7 +163,7 @@ Uma operadora de telefonia quer que seus **atendentes recebam sugestões de resp
 Um hospital precisa extrair **medicamentos, dosagens e diagnósticos** de anotações clínicas em texto livre.
 
 - [ ] A) Amazon Comprehend (entidades padrão)
-- [ ] B) Amazon Comprehend Medical
+- [x] B) Amazon Comprehend Medical
 - [ ] C) Amazon Textract
 - [ ] D) Amazon Transcribe Medical
 
@@ -175,7 +175,7 @@ Uma seguradora quer classificar cada **reclamação** em "Sinistro", "Cobrança"
 
 - [ ] A) Comprehend — análise de sentimento
 - [ ] B) Comprehend — extração de frases-chave
-- [ ] C) Comprehend — custom classification
+- [x] C) Comprehend — custom classification
 - [ ] D) Comprehend — detecção de PII
 
 > [!success]- Gabarito

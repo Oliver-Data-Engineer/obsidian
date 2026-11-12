@@ -55,22 +55,22 @@ O **Amazon Q** é a família de **assistentes de IA generativa prontos** da AWS.
 
 ## Casos de uso
 
-| Cenário | Qual Q |
-|---|---|
-| Funcionário pergunta "qual é a política de home office?" | **Q Business** |
-| Gerar resumo de documentos internos para a equipe | **Q Business** |
-| Desenvolvedor quer gerar código e testes no IDE | **Q Developer** |
-| Atualizar uma aplicação Java antiga | **Q Developer** (transformação) |
-| Analista pergunta "quanto vendemos por região?" no dashboard | **Q in QuickSight / Quick** |
+| Cenário                                                      | Qual Q                          |
+| ------------------------------------------------------------ | ------------------------------- |
+| Funcionário pergunta "qual é a política de home office?"     | **Q Business**                  |
+| Gerar resumo de documentos internos para a equipe            | **Q Business**                  |
+| Desenvolvedor quer gerar código e testes no IDE              | **Q Developer**                 |
+| Atualizar uma aplicação Java antiga                          | **Q Developer** (transformação) |
+| Analista pergunta "quanto vendemos por região?" no dashboard | **Q in QuickSight / Quick**     |
 
 ## Não confunda
 
-| Serviço | Diferença |
-|---|---|
-| [[Amazon Bedrock]] | Bedrock = **construir** sua aplicação de GenAI. Q = assistente **pronto** |
-| [[Amazon Kendra]] | O Kendra **busca e devolve trechos** de documentos. O Q Business **conversa e gera respostas** (também em manutenção em 2026) |
-| [[Amazon Lex]] | O Lex é um **construtor de chatbots** para os **seus clientes**. O Q é um assistente pronto para **funcionários e desenvolvedores** |
-| **PartyRock** | Playground **gratuito** para aprender e criar apps de GenAI. Não é para uso corporativo |
+| Serviço            | Diferença                                                                                                                           |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [[Amazon Bedrock]] | Bedrock = **construir** sua aplicação de GenAI. Q = assistente **pronto**                                                           |
+| [[Amazon Kendra]]  | O Kendra **busca e devolve trechos** de documentos. O Q Business **conversa e gera respostas** (também em manutenção em 2026)       |
+| [[Amazon Lex]]     | O Lex é um **construtor de chatbots** para os **seus clientes**. O Q é um assistente pronto para **funcionários e desenvolvedores** |
+| **PartyRock**      | Playground **gratuito** para aprender e criar apps de GenAI. Não é para uso corporativo                                             |
 
 > [!warning] Pegadinhas de prova
 > - "Assistente para funcionários consultarem **dados internos**, **sem construir** uma aplicação" → **Q Business**.

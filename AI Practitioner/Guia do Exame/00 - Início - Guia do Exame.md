@@ -49,7 +49,7 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 | 1 | [[O que é Inteligência Artificial]] · [[O que é  Machine Learn]] · [[O que é  Deep Learn]] · [[Aprendizado Supervisionado]] · [[Aprendizado Não Supervisionado]] · [[Aprendizado por Reforço]] · [[Diferenças entre os Tipos de Aprendizado]] · [[Tipos de Algoritimos de Machine Learn]] · [[Comparação Geral e Casos de Uso]] |
 | 2 | [[O que é  Generative IA]] |
 | 3 | [[Índice - Prompt]] · [[O que é um Prompt]] · [[Anatomia de um Prompt]] · [[Tipos de Prompt]] · [[Boa Praticas]] · [[Parâmetros de Inferência]] · [[Riscos e Segurança em Prompts]] · [[Prompt na AWS]] · [[Perguntas de Revisão - Prompt]] |
-| Serviços de IA (D1 a D5) | [[Resumo]] · uma nota por serviço na pasta **IA SERVICES** (Comprehend, Translate, Transcribe, Polly, Lex, Rekognition, Textract, Kendra, Personalize, Fraud Detector, A2I, Bedrock, Q) · SageMaker tem pasta própria: [[Índice - SageMaker]] |
+| Serviços de IA (D1 a D5) | [[Resumo]] · uma nota por serviço na pasta **IA SERVICES** (Comprehend, Comprehend Medical, Translate, Transcribe, Polly, Lex, Rekognition, Textract, Kendra, Personalize, Fraud Detector, A2I, Bedrock, Q) · SageMaker tem pasta própria: [[Índice - SageMaker]] |
 | Bedrock (D2 a D5) | [[Índice - Bedrock]] · [[Fondation Model]] · [[ML Inference]] · [[Beadrock Rag - Kb]] · [[Bedrock Agents]] · [[Bedrock Guardrail]] · 📝 [[Teste - Bedrock]] |
 | 4 | [[Índice - IA Responsável]] · [[IA Responsável - Conceitos e Riscos]] · [[IA Responsável - Transparência e Explicabilidade]] · [[IA Responsável - Serviços AWS]] · 📝 [[IA Responsável - Formulário de Respostas]] |
 | 5 | *(ainda sem notas próprias — o conteúdo está na nota 06 desta pasta e em [[SageMaker - Governança e Segurança]])* |

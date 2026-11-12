@@ -39,6 +39,7 @@ flowchart TB
 
 | Serviço | Categoria | Entrada → Saída | Palavras-chave na prova | Prioridade | Status 2026 |
 |---|---|---|---|---|---|
+| [[Amazon Comprehend Medical]] | Linguagem (saúde) | Texto clínico → entidades médicas, PHI, códigos ICD-10 | anotações médicas, medicamentos e dosagens, PHI, HIPAA | ⭐⭐ | ✅ |
 | [[Amazon Comprehend]] | Linguagem | Texto → insights (sentimento, entidades, PII) | sentimento, entidades, frases-chave, classificar texto | ⭐⭐⭐ | ✅ |
 | [[Amazon Translate]] | Linguagem | Texto → texto em outro idioma | traduzir, multilíngue, terminologia | ⭐⭐⭐ | ✅ |
 | [[Amazon Transcribe]] | Fala | Áudio → texto | transcrever, legendas, speech-to-text | ⭐⭐⭐ | ✅ |
@@ -61,6 +62,7 @@ flowchart TB
 |---|---|
 | "Analisar o **sentimento** de avaliações/comentários" | **Comprehend** |
 | "Detectar **PII** em textos" | **Comprehend** (em buckets S3: **Macie**) |
+| "Extrair **medicamentos, dosagens, diagnósticos** ou **PHI** de anotações médicas" | **Comprehend Medical** |
 | "Classificar tickets em **categorias da empresa**" | **Comprehend** (custom classification) |
 | "**Traduzir** conteúdo para vários idiomas" | **Translate** |
 | "Converter **gravações de áudio** em texto / gerar **legendas**" | **Transcribe** |
@@ -129,6 +131,7 @@ flowchart TB
 Marque quando conseguir **explicar o serviço em voz alta, sem consultar**:
 
 - [ ] [[Amazon Comprehend]]
+- [ ] [[Amazon Comprehend Medical]]
 - [ ] [[Amazon Translate]]
 - [ ] [[Amazon Transcribe]]
 - [ ] [[Amazon Polly]]

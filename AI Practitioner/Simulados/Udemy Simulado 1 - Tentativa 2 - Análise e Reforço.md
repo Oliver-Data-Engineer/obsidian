@@ -53,7 +53,7 @@ Revisar: [[ML Inference]] · [[SageMaker - Recursos em Detalhe]]
 > [!tip] Família Amazon Q
 > **Q Business** → perguntas sobre documentos internos (RH, TI) · **Q Developer** → código e AWS · **Q in QuickSight** → dashboards de BI · **Q in Connect** → **central de atendimento**, ajuda o atendente em tempo real.
 
-Revisar: [[Amazon Q]] · [[Amazon Comprehend]] · [[Amazon Rekognition]] · [[Amazon Transcribe]] · [[Resumo]]
+Revisar: [[Amazon Q]] · [[Amazon Comprehend]] · [[Amazon Comprehend Medical]] · [[Amazon Rekognition]] · [[Amazon Transcribe]] · [[Resumo]]
 
 ### 3. Segurança e governança (5 erros: #24, #37, #55, #62 + #48) 🔴
 

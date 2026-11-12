@@ -28,15 +28,15 @@ Serviços AWS que o guia lista como **dentro do escopo**, organizados por catego
 
 ### Segurança, Identidade e Compliance — ⭐⭐
 
-| Serviço | Para que serve |
-|---|---|
-| **AWS IAM** | Usuários, roles, políticas e permissões |
-| **AWS KMS** | Gerenciamento de chaves de criptografia |
-| **Amazon Macie** | Descobre dados sensíveis (PII) no S3 |
-| **AWS Secrets Manager** | Armazena e rotaciona segredos |
-| **Amazon Inspector** | Varredura de vulnerabilidades |
-| **AWS Artifact** | Relatórios de compliance da AWS (ISO, SOC…) |
-| **AWS Audit Manager** | Automatiza a coleta de evidências de auditoria |
+| Serviço                 | Para que serve                                 |
+| ----------------------- | ---------------------------------------------- |
+| **AWS IAM**             | Usuários, roles, políticas e permissões        |
+| **AWS KMS**             | Gerenciamento de chaves de criptografia        |
+| **Amazon Macie**        | Descobre dados sensíveis (PII) no S3           |
+| **AWS Secrets Manager** | Armazena e rotaciona segredos                  |
+| **Amazon Inspector**    | Varredura de vulnerabilidades                  |
+| **AWS Artifact**        | Relatórios de compliance da AWS (ISO, SOC…)    |
+| **AWS Audit Manager**   | Automatiza a coleta de evidências de auditoria |
 
 ### Gerenciamento e Governança — ⭐⭐
 
@@ -50,16 +50,16 @@ Serviços AWS que o guia lista como **dentro do escopo**, organizados por catego
 
 ### Analytics — ⭐
 
-| Serviço | Para que serve |
-|---|---|
-| **AWS Data Exchange** | Encontrar e assinar dados de terceiros |
-| **Amazon EMR** | Big data com Spark/Hadoop |
-| **AWS Glue** | ETL serverless e catálogo de dados |
-| **AWS Glue DataBrew** | Preparação visual de dados, sem código |
-| **AWS Lake Formation** | Criar e governar data lakes |
+| Serviço                       | Para que serve                               |
+| ----------------------------- | -------------------------------------------- |
+| **AWS Data Exchange**         | Encontrar e assinar dados de terceiros       |
+| **Amazon EMR**                | Big data com Spark/Hadoop                    |
+| **AWS Glue**                  | ETL serverless e catálogo de dados           |
+| **AWS Glue DataBrew**         | Preparação visual de dados, sem código       |
+| **AWS Lake Formation**        | Criar e governar data lakes                  |
 | **Amazon OpenSearch Service** | Busca e análise; **banco vetorial** para RAG |
-| **Amazon QuickSight** | Dashboards de BI |
-| **Amazon Redshift** | Data warehouse |
+| **Amazon QuickSight**         | Dashboards de BI                             |
+| **Amazon Redshift**           | Data warehouse                               |
 
 ### Banco de dados — ⭐ (atenção aos que fazem **busca vetorial**)
 

@@ -33,7 +33,7 @@ O **Amazon Comprehend** é o serviço de **processamento de linguagem natural (N
 | **Análise sintática** | Classes gramaticais (substantivo, verbo…) | Pré-processamento de texto |
 | **Classificação personalizada** | Classifica nas **suas** categorias | Tickets → "Cobrança", "Suporte", "Cancelamento" |
 | **Entidades personalizadas** | Reconhece entidades do **seu negócio** | Número de apólice, código de produto |
-| **Comprehend Medical** | Entidades médicas e **PHI** em textos clínicos | Medicamentos, dosagens, diagnósticos |
+| **Comprehend Medical** | Entidades médicas e **PHI** em textos clínicos → [[Amazon Comprehend Medical]] | Medicamentos, dosagens, diagnósticos |
 
 ### Exemplo: entidade personalizada
 
@@ -63,6 +63,7 @@ Uma seguradora quer encontrar **números de apólice** nas mensagens dos cliente
 | [[Amazon Translate]] | O Translate **traduz** o texto. O Comprehend **entende** o texto |
 | [[Amazon Kendra]] | O Kendra **busca** respostas em documentos. O Comprehend **analisa** um texto |
 | [[Amazon Bedrock]] | O Bedrock **gera** texto novo (LLM). O Comprehend **extrai** informações com modelos especializados, mais baratos e previsíveis |
+| [[Amazon Comprehend Medical]] | Versão para **saúde**: entidades médicas, PHI e códigos ICD-10/RxNorm. Texto **clínico** → Medical |
 | **Amazon Macie** | O Macie encontra PII em **buckets S3**. O Comprehend encontra PII em um **texto** enviado para a API |
 
 > [!warning] Pegadinhas de prova

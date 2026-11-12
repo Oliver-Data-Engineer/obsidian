@@ -76,9 +76,21 @@
               "icon": "lucide-file",
               "title": "Bedrock Agents"
             }
+          },
+          {
+            "id": "d7bfef45da6692ab",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.0"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -251,7 +263,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "262f4c2db6abe010",
+  "active": "d7bfef45da6692ab",
   "lastOpenFiles": [
     "AI Practitioner/IA/Prompt/Parâmetros de Inferência.md",
     "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",

@@ -29,6 +29,7 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 | 09 | [[09 - Checklist de Estudo]] | Checklist de todos os objetivos da ementa |
 | 10 | [[10 - Glossário do Exame]] | Termos-chave A–Z |
 | — | [[Vídeos de Estudo - YouTube]] | Vídeos em português por tema e por dia do Road Map |
+| — | [[Udemy Simulado 1 - Tentativa 2 - Análise e Reforço]] | Análise dos erros do simulado (44/65) + 15 questões de reforço |
 | — | [[Road Map]] | Plano de 5 semanas · 2h por dia, seg a sáb, com datas |
 
 ## Ementa resumida (5 domínios, 14 tarefas)
@@ -50,7 +51,8 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 | 3 | [[Índice - Prompt]] · [[O que é um Prompt]] · [[Anatomia de um Prompt]] · [[Tipos de Prompt]] · [[Boa Praticas]] · [[Parâmetros de Inferência]] · [[Riscos e Segurança em Prompts]] · [[Prompt na AWS]] · [[Perguntas de Revisão - Prompt]] |
 | Serviços de IA (D1 a D5) | [[Resumo]] · uma nota por serviço na pasta **IA SERVICES** (Comprehend, Translate, Transcribe, Polly, Lex, Rekognition, Textract, Kendra, Personalize, Fraud Detector, A2I, Bedrock, Q) · SageMaker tem pasta própria: [[Índice - SageMaker]] |
 | Bedrock (D2 a D5) | [[Índice - Bedrock]] · [[Fondation Model]] · [[ML Inference]] · [[Beadrock Rag - Kb]] · [[Bedrock Agents]] · [[Bedrock Guardrail]] · 📝 [[Teste - Bedrock]] |
-| 4 e 5 | *(ainda sem notas próprias — o conteúdo está nas notas 05 e 06 desta pasta)* |
+| 4 | [[Índice - IA Responsável]] · [[IA Responsável - Conceitos e Riscos]] · [[IA Responsável - Transparência e Explicabilidade]] · [[IA Responsável - Serviços AWS]] · 📝 [[IA Responsável - Formulário de Respostas]] |
+| 5 | *(ainda sem notas próprias — o conteúdo está na nota 06 desta pasta e em [[SageMaker - Governança e Segurança]])* |
 
 ---
 Fonte: *AWS Certified AI Practitioner (AIF-C01) Exam Guide*, versão 1.4 (AWS Training and Certification). Conteúdo adaptado e resumido em português para estudo.

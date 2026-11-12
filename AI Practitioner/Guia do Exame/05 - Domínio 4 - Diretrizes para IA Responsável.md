@@ -45,6 +45,9 @@
 | **SageMaker Model Cards** | Documento padronizado do modelo: uso pretendido, riscos, métricas |
 | **Human-centered design** | Explicações pensadas para quem usa: claras, úteis e acionáveis |
 
+> [!tip] Estudo aprofundado
+> Notas completas, serviços e simulado deste domínio: [[Índice - IA Responsável]] · 📝 [[IA Responsável - Formulário de Respostas]]
+
 ## Autoavaliação
 
 - [ ] Sei citar as dimensões de IA responsável.

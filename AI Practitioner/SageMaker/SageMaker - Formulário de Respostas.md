@@ -6,7 +6,7 @@
 4. Anote seus acertos na **Folha de resultado** no final.
 
 > [!tip] Para refazer
-> Desmarque as caixinhas (ou duplique esta nota e renomeie com a data, ex.: `Formulário - 2026-11-12`).
+> Ao terminar, peça a correção ou duplique esta nota como `SageMaker - Formulário AAAA-MM-DD (respondido)`. Esta versão fica sempre limpa, e a Folha de resultado guarda o histórico.
 
 ---
 
@@ -14,11 +14,11 @@
 Uma empresa tem 80 mil imagens de raio-X e precisa que médicos **marquem as regiões com fratura** antes de treinar um modelo. Qual recurso usar?
 
 - [ ] A) Amazon Augmented AI (A2I)
-- [x] B) SageMaker Ground Truth
+- [ ] B) SageMaker Ground Truth
 - [ ] C) SageMaker Clarify
 - [ ] D) SageMaker Data Wrangler
 
-**Minha justificativa:** Porque esse serviço é responsavel por rotular dados com humanos 
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **B) Ground Truth** — rotular dados **para treino** com humanos. A2I é revisão humana de **previsões** já feitas.
@@ -30,10 +30,10 @@ Um banco precisa **explicar ao cliente** quais fatores levaram à recusa do cré
 
 - [ ] A) SageMaker Model Monitor
 - [ ] B) SageMaker Model Cards
-- [x] C) SageMaker Clarify
+- [ ] C) SageMaker Clarify
 - [ ] D) SageMaker Debugger
 
-**Minha justificativa:** Porque exibe os vieses a explicabilidade das decisões do modelo
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **C) Clarify** — detecta **viés** e dá **explicabilidade** (SHAP).
@@ -43,12 +43,12 @@ Um banco precisa **explicar ao cliente** quais fatores levaram à recusa do cré
 ### Questão 3
 Seis meses após o deploy, a acurácia do modelo caiu porque o **comportamento dos clientes mudou**. Como detectar isso automaticamente?
 
-- [x] A) SageMaker Model Monitor
+- [ ] A) SageMaker Model Monitor
 - [ ] B) SageMaker Experiments
 - [ ] C) Automatic Model Tuning
 - [ ] D) SageMaker Feature Store
 
-**Minha justificativa:** Monitora o drift
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **A) Model Monitor** — monitora **drift** de dados e de qualidade em produção.
@@ -61,9 +61,9 @@ Um analista de marketing **sem experiência em programação** quer prever churn
 - [ ] A) SageMaker Studio
 - [ ] B) SageMaker JumpStart
 - [ ] C) SageMaker Pipelines
-- [x] D) SageMaker Canvas
+- [ ] D) SageMaker Canvas
 
-**Minha justificativa:** Interface no-code para treinamento de dados
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **D) Canvas** — ML **sem código** para analistas de negócio.
@@ -74,11 +74,11 @@ Um analista de marketing **sem experiência em programação** quer prever churn
 A empresa quer implantar um modelo **Llama** em **instâncias próprias dentro da VPC**, escolhendo o tipo de instância, e fazer fine-tuning.
 
 - [ ] A) Amazon Bedrock
-- [x] B) SageMaker JumpStart
+- [ ] B) SageMaker JumpStart
 - [ ] C) SageMaker Canvas
 - [ ] D) Amazon Q
 
-**Minha justificativa:** Serviço completo de deploy de FMs
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **B) JumpStart** — modelo roda na **sua instância** (controle de infraestrutura). Bedrock seria a resposta se fosse "serverless, só via API".
@@ -90,10 +90,10 @@ A empresa quer implantar um modelo **Llama** em **instâncias próprias dentro d
 
 - [ ] A) Real-time Inference
 - [ ] B) Serverless Inference
-- [x] C) Batch Transform
+- [ ] C) Batch Transform
 - [ ] D) Asynchronous Inference
 
-**Minha justificativa:** Processamento em Lote
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **C) Batch Transform** — processa o **dataset inteiro** offline e desliga.
@@ -104,11 +104,11 @@ A empresa quer implantar um modelo **Llama** em **instâncias próprias dentro d
 Um auditor pede um documento com **uso pretendido, limitações, riscos e métricas** do modelo.
 
 - [ ] A) SageMaker Model Registry
-- [x] B) SageMaker Model Dashboard
+- [ ] B) SageMaker Model Dashboard
 - [ ] C) SageMaker Model Cards
 - [ ] D) SageMaker Experiments
 
-**Minha justificativa:** Model Cards é reponsavel do documentar o modelo
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **C) Model Cards** — **documentação** para transparência e auditoria.
@@ -118,12 +118,12 @@ Um auditor pede um documento com **uso pretendido, limitações, riscos e métri
 ### Questão 8
 Várias equipes calculam a variável "média de compras em 30 dias" de **formas diferentes**, e o valor no treino não bate com o da inferência.
 
-- [x] A) SageMaker Feature Store
+- [ ] A) SageMaker Feature Store
 - [ ] B) SageMaker Data Wrangler
 - [ ] C) SageMaker Processing
 - [ ] D) Amazon S3
 
-**Minha justificativa:** Armazena features para compartilhamento
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **A) Feature Store** — repositório central para **reutilizar** features e manter treino e inferência consistentes.
@@ -134,11 +134,11 @@ Várias equipes calculam a variável "média de compras em 30 dias" de **formas 
 O modelo recebe **vídeos grandes** e leva cerca de **20 minutos** para processar cada um. O usuário não precisa da resposta na hora.
 
 - [ ] A) Real-time Inference
-- [x] B) Asynchronous Inference
+- [ ] B) Asynchronous Inference
 - [ ] C) Serverless Inference
 - [ ] D) Batch Transform
 
-	**Minha justificativa:** Videos gransde são processados em asynchonus
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **B) Asynchronous** — payload **grande** e processamento **longo**, com fila.
@@ -149,11 +149,11 @@ O modelo recebe **vídeos grandes** e leva cerca de **20 minutos** para processa
 A equipe quer automatizar **processar → treinar → avaliar → registrar → implantar** toda semana.
 
 - [ ] A) SageMaker Experiments
-- [x] B) SageMaker Pipelines
+- [ ] B) SageMaker Pipelines
 - [ ] C) SageMaker Debugger
 - [ ] D) SageMaker Canvas
 
-**Minha justificativa:** Atomação de processos são feitos com pipeline
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **B) Pipelines** — orquestração e automação (**MLOps / CI/CD de ML**).
@@ -165,10 +165,10 @@ Um cientista de dados escolheu o algoritmo XGBoost e quer encontrar automaticame
 
 - [ ] A) SageMaker Autopilot
 - [ ] B) SageMaker Clarify
-- [x] C) Automatic Model Tuning
+- [ ] C) Automatic Model Tuning
 - [ ] D) SageMaker Debugger
 
-**Minha justificativa:** Responsavel por melhorar os Hyperparams dos modelos
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **C) Automatic Model Tuning** — ajusta **hiperparâmetros** de um algoritmo já escolhido. Autopilot escolheria o **algoritmo inteiro**.
@@ -178,12 +178,12 @@ Um cientista de dados escolheu o algoritmo XGBoost e quer encontrar automaticame
 ### Questão 12
 A empresa quer que o SageMaker **teste vários algoritmos automaticamente** e entregue o melhor modelo, com visibilidade dos notebooks gerados.
 
-- [x] A) SageMaker Autopilot
+- [ ] A) SageMaker Autopilot
 - [ ] B) Automatic Model Tuning
 - [ ] C) SageMaker JumpStart
 - [ ] D) SageMaker Ground Truth
 
-**Minha justificativa:** Teste Automático de Augoritimo
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **A) Autopilot** — **AutoML** com transparência.
@@ -194,11 +194,11 @@ A empresa quer que o SageMaker **teste vários algoritmos automaticamente** e en
 Os dados brutos têm **valores nulos e colunas em formatos diferentes**. O time quer limpar e transformar com uma **interface visual**.
 
 - [ ] A) SageMaker Feature Store
-- [x] B) SageMaker Data Wrangler
+- [ ] B) SageMaker Data Wrangler
 - [ ] C) SageMaker Ground Truth
 - [ ] D) SageMaker Model Monitor
 
-**Minha justificativa:** Limpeza e transformação de dados
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **B) Data Wrangler** — **preparar e transformar** dados visualmente.
@@ -210,10 +210,10 @@ Um modelo em produção faz previsões e, quando a **confiança é baixa**, uma 
 
 - [ ] A) SageMaker Ground Truth
 - [ ] B) SageMaker Clarify
-- [x] C) Amazon Augmented AI (A2I)
+- [ ] C) Amazon Augmented AI (A2I)
 - [ ] D) SageMaker Model Monitor
 
-**Minha justificativa:** revisão após baixa confiança
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **C) A2I** — revisão humana de **previsões**. (Ground Truth = rotular dados **para treino**.)
@@ -223,7 +223,7 @@ Um modelo em produção faz previsões e, quando a **confiança é baixa**, uma 
 ### Questão 15
 O tráfego do endpoint é **imprevisível**: há dias sem nenhuma requisição e picos ocasionais. A empresa **não quer gerenciar servidores** e aceita *cold start*.
 
-- [x] A) Serverless Inference
+- [ ] A) Serverless Inference
 - [ ] B) Real-time Inference
 - [ ] C) Batch Transform
 - [ ] D) SageMaker HyperPod
@@ -239,11 +239,11 @@ O tráfego do endpoint é **imprevisível**: há dias sem nenhuma requisição e
 Antes de colocar uma nova versão do modelo em produção, ela precisa ser **aprovada** e ter **histórico de versões**.
 
 - [ ] A) SageMaker Model Cards
-- [x] B) SageMaker Model Registry
+- [ ] B) SageMaker Model Registry
 - [ ] C) SageMaker Experiments
 - [ ] D) SageMaker Feature Store
 
-**Minha justificativa:** Aprovação de modelo pasam pelo Registry 
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **B) Model Registry** — **versões** e status de **aprovação** para deploy.
@@ -254,11 +254,11 @@ Antes de colocar uma nova versão do modelo em produção, ela precisa ser **apr
 Uma equipe precisa de **um único ambiente web** com notebooks JupyterLab para desenvolver, treinar e implantar modelos com código.
 
 - [ ] A) SageMaker Canvas
-- [x] B) SageMaker Studio
+- [ ] B) SageMaker Studio
 - [ ] C) Amazon Bedrock Playground
 - [ ] D) PartyRock
 
-**Minha justificativa:** Ambiente de desenvolvimento (IDE)
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **B) Studio** — **IDE web** para cientistas de dados (com código).
@@ -268,12 +268,12 @@ Uma equipe precisa de **um único ambiente web** com notebooks JupyterLab para d
 ### Questão 18
 Durante o treino de uma rede neural, os **gradientes estão explodindo** e a GPU está subutilizada. Qual recurso alerta isso em tempo real?
 
-- [x] A) SageMaker Model Monitor
+- [ ] A) SageMaker Model Monitor
 - [ ] B) SageMaker Experiments
 - [ ] C) SageMaker Debugger
 - [ ] D) Amazon CloudWatch apenas
 
-**Minha justificativa:** monitora as variaveis e alerta
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **C) Debugger** — acha problemas **dentro do treino**. Model Monitor é para **produção**.
@@ -285,10 +285,10 @@ Uma empresa quer **treinar o próprio LLM** em centenas de GPUs por semanas, com
 
 - [ ] A) SageMaker Canvas
 - [ ] B) Amazon Bedrock
-- [x] C) SageMaker HyperPod
+- [ ] C) SageMaker HyperPod
 - [ ] D) SageMaker Serverless Inference
 
-**Minha justificativa:** Treinamento maxivo de FMs
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **C) HyperPod** — clusters **resilientes** para treinar modelos muito grandes.
@@ -300,10 +300,10 @@ Uma startup quer usar um **Foundation Model por API**, **sem gerenciar infraestr
 
 - [ ] A) Sim, SageMaker JumpStart
 - [ ] B) Sim, SageMaker Studio
-- [x] C) Não, Amazon Bedrock
+- [ ] C) Não, Amazon Bedrock
 - [ ] D) Não, Amazon Comprehend
 
-**Minha justificativa:** api de modelo usamos o beadrock
+**Minha justificativa:** 
 
 > [!success]- Gabarito
 > **C) Amazon Bedrock** — FMs **serverless por API**. A prova cobra saber quando **não** usar o SageMaker.
@@ -315,7 +315,7 @@ Uma loja quer **segmentar clientes em grupos** por comportamento de compra. **N�
 
 - [ ] A) Classificação com XGBoost
 - [ ] B) Regressão com Linear Learner
-- [x] C) Clusterização com k-means
+- [ ] C) Clusterização com k-means
 - [ ] D) Série temporal com DeepAR
 
 **Minha justificativa:** 
@@ -329,7 +329,7 @@ Uma loja quer **segmentar clientes em grupos** por comportamento de compra. **N�
 Uma empresa com **equipe pequena de infraestrutura** quer disponibilizar um modelo sem cuidar de servidores, patches e escala. O que é mais adequado?
 
 - [ ] A) Hospedar o modelo em instâncias EC2 gerenciadas pela própria equipe
-- [x] B) Usar uma API gerenciada (SageMaker Endpoint ou Bedrock)
+- [ ] B) Usar uma API gerenciada (SageMaker Endpoint ou Bedrock)
 - [ ] C) Rodar o modelo on-premises
 - [ ] D) Criar um cluster EKS próprio
 
@@ -344,7 +344,7 @@ Uma empresa com **equipe pequena de infraestrutura** quer disponibilizar um mode
 Cada cientista de dados roda **scripts manuais diferentes** para treinar o modelo, e ninguém consegue **reproduzir** os resultados. Qual conceito de MLOps está faltando e qual recurso ajuda?
 
 - [ ] A) Escalabilidade → HyperPod
-- [x] B) Processos repetíveis → SageMaker Pipelines
+- [ ] B) Processos repetíveis → SageMaker Pipelines
 - [ ] C) Explicabilidade → Clarify
 - [ ] D) Monitoramento → CloudWatch
 
@@ -358,7 +358,7 @@ Cada cientista de dados roda **scripts manuais diferentes** para treinar o model
 ### Questão 24
 Um modelo de fraude tem **99% de acurácia**, mas apenas 1% das transações são fraudes e ele **quase nunca detecta as fraudes**. Qual métrica avaliar?
 
-- [x] A) Acurácia
+- [ ] A) Acurácia
 - [ ] B) RMSE
 - [ ] C) Recall / F1-score
 - [ ] D) BLEU
@@ -376,7 +376,7 @@ Um escritório de advocacia quer que o modelo entenda **profundamente o vocabul�
 - [ ] A) Prompt engineering
 - [ ] B) Fine-tuning com pares prompt → resposta
 - [ ] C) Pré-treino contínuo
-- [x] D) RAG
+- [ ] D) RAG
 
 **Minha justificativa:** 
 
@@ -389,7 +389,7 @@ Um escritório de advocacia quer que o modelo entenda **profundamente o vocabul�
 A empresa quer que humanos **ranqueiem as respostas** de um LLM ("A é melhor que B") para **alinhar** o modelo às preferências humanas. Qual técnica e recurso?
 
 - [ ] A) RAG com Bedrock Knowledge Bases
-- [x] B) RLHF com SageMaker Ground Truth
+- [ ] B) RLHF com SageMaker Ground Truth
 - [ ] C) Explicabilidade com Clarify
 - [ ] D) Revisão humana com A2I
 
@@ -404,7 +404,7 @@ A empresa quer que humanos **ranqueiem as respostas** de um LLM ("A é melhor qu
 O time precisa avaliar se dois LLMs respondem com o **tom e a voz da marca**, algo difícil de medir com métricas automáticas. Qual opção?
 
 - [ ] A) Avaliação automática com ROUGE
-- [x] B) Avaliação humana com SageMaker Clarify (ou Bedrock Model Evaluation)
+- [ ] B) Avaliação humana com SageMaker Clarify (ou Bedrock Model Evaluation)
 - [ ] C) SageMaker Model Monitor
 - [ ] D) Automatic Model Tuning
 
@@ -419,7 +419,7 @@ O time precisa avaliar se dois LLMs respondem com o **tom e a voz da marca**, al
 Por exigência de compliance, os dados de treino **não podem trafegar pela internet** ao acessar o SageMaker. O que usar?
 
 - [ ] A) Amazon Macie
-- [x] B) VPC com VPC endpoints (AWS PrivateLink)
+- [ ] B) VPC com VPC endpoints (AWS PrivateLink)
 - [ ] C) AWS Artifact
 - [ ] D) SageMaker Model Cards
 
@@ -464,7 +464,7 @@ Um endpoint de produção foi **excluído** e a empresa quer descobrir **quem fe
 
 | Data | Acertos (de 30) | Questões que errei | O que revisar |
 |---|---|---|---|
-|  |  |  |  |
+| 2026-11-11 | **25** (83%) ✅ | 7, 18, 24, 25, 30 | Model Cards x Dashboard · Debugger x Model Monitor · métricas com classes desbalanceadas · pré-treino contínuo x RAG · CloudTrail x CloudWatch → [[SageMaker - Formulário 2026-11-11 (respondido)]] |
 |  |  |  |  |
 |  |  |  |  |
 

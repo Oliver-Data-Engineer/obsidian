@@ -17,7 +17,8 @@ Ponto de partida para estudar o **Amazon SageMaker AI** no AI Practitioner. Aqui
 | 6 | [[SageMaker - Governança e Segurança]] | Model Cards, Registry, Lineage, IAM, KMS, VPC/PrivateLink, CloudTrail/CloudWatch |
 | 7 | [[ML Inference]] | Modos de inferência (real-time, serverless, async, batch) |
 | 8 | [[SageMaker - Recursos em Detalhe]] | Revisão: todos os recursos, pares que confundem, mapa por persona |
-| 9 | [[SageMaker - Formulário de Respostas]] | Simulado com 30 questões para responder e se corrigir |
+| 9 | [[SageMaker - Formulário de Respostas]] | Simulado com 30 questões para responder e se corrigir (sempre limpo) |
+| 10 | [[SageMaker - Formulário 2026-11-11 (respondido)]] | Tentativa 1: 25/30 (83%), com correção e plano de revisão |
 
 ## Matriz de cobertura da ementa (AIF-C01)
 

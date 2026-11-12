@@ -58,7 +58,7 @@ flowchart LR
 > [!tip] Aprofundamento
 > Cada recurso explicado em detalhe, pares que confundem e teste rápido: [[SageMaker - Recursos em Detalhe]]
 > Por grupo: [[SageMaker - Data Tools]] · [[SageMaker - Models and Humans]]
-> Simulado com 20 questões: [[SageMaker - Formulário de Respostas]] · Índice da pasta: [[Índice - SageMaker]]
+> Simulado com 30 questões: [[SageMaker - Formulário de Respostas]] · Índice da pasta: [[Índice - SageMaker]]
 
 ## Casos de uso
 

@@ -310,16 +310,166 @@ Uma startup quer usar um **Foundation Model por API**, **sem gerenciar infraestr
 
 ---
 
+### Questão 21
+Uma loja quer **segmentar clientes em grupos** por comportamento de compra. **Não existem rótulos** prontos. Qual técnica e qual algoritmo do SageMaker?
+
+- [ ] A) Classificação com XGBoost
+- [ ] B) Regressão com Linear Learner
+- [ ] C) Clusterização com k-means
+- [ ] D) Série temporal com DeepAR
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **C) Clusterização com k-means** — sem rótulos + agrupar = **não supervisionado**.
+
+---
+
+### Questão 22
+Uma empresa com **equipe pequena de infraestrutura** quer disponibilizar um modelo sem cuidar de servidores, patches e escala. O que é mais adequado?
+
+- [ ] A) Hospedar o modelo em instâncias EC2 gerenciadas pela própria equipe
+- [ ] B) Usar uma API gerenciada (SageMaker Endpoint ou Bedrock)
+- [ ] C) Rodar o modelo on-premises
+- [ ] D) Criar um cluster EKS próprio
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **B) API gerenciada** — a AWS cuida da infraestrutura. Auto-hospedar (EC2/EKS/on-prem) dá mais controle, mas muito mais esforço operacional.
+
+---
+
+### Questão 23
+Cada cientista de dados roda **scripts manuais diferentes** para treinar o modelo, e ninguém consegue **reproduzir** os resultados. Qual conceito de MLOps está faltando e qual recurso ajuda?
+
+- [ ] A) Escalabilidade → HyperPod
+- [ ] B) Processos repetíveis → SageMaker Pipelines
+- [ ] C) Explicabilidade → Clarify
+- [ ] D) Monitoramento → CloudWatch
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **B) Processos repetíveis → Pipelines** — automatiza o fluxo para que ele rode sempre igual.
+
+---
+
+### Questão 24
+Um modelo de fraude tem **99% de acurácia**, mas apenas 1% das transações são fraudes e ele **quase nunca detecta as fraudes**. Qual métrica avaliar?
+
+- [ ] A) Acurácia
+- [ ] B) RMSE
+- [ ] C) Recall / F1-score
+- [ ] D) BLEU
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **C) Recall / F1** — com classes **desbalanceadas** a acurácia engana. Recall mede quantas fraudes reais foram encontradas.
+
+---
+
+### Questão 25
+Um escritório de advocacia quer que o modelo entenda **profundamente o vocabulário jurídico** e tem milhões de documentos **não rotulados**. Qual abordagem?
+
+- [ ] A) Prompt engineering
+- [ ] B) Fine-tuning com pares prompt → resposta
+- [ ] C) Pré-treino contínuo
+- [ ] D) RAG
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **C) Pré-treino contínuo** — ensina um **domínio novo** com muitos dados **não rotulados**. Fine-tuning usa dados **rotulados**.
+
+---
+
+### Questão 26
+A empresa quer que humanos **ranqueiem as respostas** de um LLM ("A é melhor que B") para **alinhar** o modelo às preferências humanas. Qual técnica e recurso?
+
+- [ ] A) RAG com Bedrock Knowledge Bases
+- [ ] B) RLHF com SageMaker Ground Truth
+- [ ] C) Explicabilidade com Clarify
+- [ ] D) Revisão humana com A2I
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **B) RLHF com Ground Truth** — feedback humano para treinar/alinhar o modelo.
+
+---
+
+### Questão 27
+O time precisa avaliar se dois LLMs respondem com o **tom e a voz da marca**, algo difícil de medir com métricas automáticas. Qual opção?
+
+- [ ] A) Avaliação automática com ROUGE
+- [ ] B) Avaliação humana com SageMaker Clarify (ou Bedrock Model Evaluation)
+- [ ] C) SageMaker Model Monitor
+- [ ] D) Automatic Model Tuning
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **B) Avaliação humana** — critérios **subjetivos** (tom, estilo, marca) pedem avaliadores humanos.
+
+---
+
+### Questão 28
+Por exigência de compliance, os dados de treino **não podem trafegar pela internet** ao acessar o SageMaker. O que usar?
+
+- [ ] A) Amazon Macie
+- [ ] B) VPC com VPC endpoints (AWS PrivateLink)
+- [ ] C) AWS Artifact
+- [ ] D) SageMaker Model Cards
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **B) VPC + PrivateLink** — comunicação **privada** com o SageMaker, sem internet pública.
+
+---
+
+### Questão 29
+Um auditor quer saber **quais datasets, código e parâmetros** geraram a versão do modelo que está em produção. Qual recurso ajuda?
+
+- [ ] A) SageMaker ML Lineage Tracking / Model Registry
+- [ ] B) Amazon Macie
+- [ ] C) SageMaker Debugger
+- [ ] D) AWS Trusted Advisor
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **A) ML Lineage Tracking / Model Registry** — **linhagem** (origem) do modelo e dos dados.
+
+---
+
+### Questão 30
+Um endpoint de produção foi **excluído** e a empresa quer descobrir **quem fez isso e quando**.
+
+- [ ] A) Amazon CloudWatch
+- [ ] B) SageMaker Model Monitor
+- [ ] C) AWS CloudTrail
+- [ ] D) AWS Config
+
+**Minha justificativa:** 
+
+> [!success]- Gabarito
+> **C) CloudTrail** — registra **chamadas de API** (quem fez o quê). CloudWatch é para métricas e logs de desempenho.
+
+---
+
 ## Folha de resultado
 
-| Data | Acertos (de 20) | Questões que errei | O que revisar |
+| Data | Acertos (de 30) | Questões que errei | O que revisar |
 |---|---|---|---|
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
 
 > [!note] Meta
-> **16+ acertos** = pronto para as questões de SageMaker. Abaixo disso, revise [[SageMaker - Recursos em Detalhe]] (seção *Pares que mais confundem*).
+> **24+ acertos** = pronto para as questões de SageMaker. Abaixo disso, use a **matriz de cobertura** no [[Índice - SageMaker]] para achar a nota de cada questão errada.
 
 ---
 Voltar: [[Índice - SageMaker]] · [[Amazon SageMaker]] · [[SageMaker - Recursos em Detalhe]]

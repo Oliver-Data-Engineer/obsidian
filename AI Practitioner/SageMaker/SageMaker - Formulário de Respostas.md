@@ -14,11 +14,11 @@
 Uma empresa tem 80 mil imagens de raio-X e precisa que médicos **marquem as regiões com fratura** antes de treinar um modelo. Qual recurso usar?
 
 - [ ] A) Amazon Augmented AI (A2I)
-- [ ] B) SageMaker Ground Truth
+- [x] B) SageMaker Ground Truth
 - [ ] C) SageMaker Clarify
 - [ ] D) SageMaker Data Wrangler
 
-**Minha justificativa:** 
+**Minha justificativa:** Porque esse serviço é responsavel por rotular dados com humanos 
 
 > [!success]- Gabarito
 > **B) Ground Truth** — rotular dados **para treino** com humanos. A2I é revisão humana de **previsões** já feitas.
@@ -30,10 +30,10 @@ Um banco precisa **explicar ao cliente** quais fatores levaram à recusa do cré
 
 - [ ] A) SageMaker Model Monitor
 - [ ] B) SageMaker Model Cards
-- [ ] C) SageMaker Clarify
+- [x] C) SageMaker Clarify
 - [ ] D) SageMaker Debugger
 
-**Minha justificativa:** 
+**Minha justificativa:** Porque exibe os vieses a explicabilidade das decisões do modelo
 
 > [!success]- Gabarito
 > **C) Clarify** — detecta **viés** e dá **explicabilidade** (SHAP).
@@ -43,12 +43,12 @@ Um banco precisa **explicar ao cliente** quais fatores levaram à recusa do cré
 ### Questão 3
 Seis meses após o deploy, a acurácia do modelo caiu porque o **comportamento dos clientes mudou**. Como detectar isso automaticamente?
 
-- [ ] A) SageMaker Model Monitor
+- [x] A) SageMaker Model Monitor
 - [ ] B) SageMaker Experiments
 - [ ] C) Automatic Model Tuning
 - [ ] D) SageMaker Feature Store
 
-**Minha justificativa:** 
+**Minha justificativa:** Monitora o drift
 
 > [!success]- Gabarito
 > **A) Model Monitor** — monitora **drift** de dados e de qualidade em produção.
@@ -61,9 +61,9 @@ Um analista de marketing **sem experiência em programação** quer prever churn
 - [ ] A) SageMaker Studio
 - [ ] B) SageMaker JumpStart
 - [ ] C) SageMaker Pipelines
-- [ ] D) SageMaker Canvas
+- [x] D) SageMaker Canvas
 
-**Minha justificativa:** 
+**Minha justificativa:** Interface no-code para treinamento de dados
 
 > [!success]- Gabarito
 > **D) Canvas** — ML **sem código** para analistas de negócio.
@@ -74,11 +74,11 @@ Um analista de marketing **sem experiência em programação** quer prever churn
 A empresa quer implantar um modelo **Llama** em **instâncias próprias dentro da VPC**, escolhendo o tipo de instância, e fazer fine-tuning.
 
 - [ ] A) Amazon Bedrock
-- [ ] B) SageMaker JumpStart
+- [x] B) SageMaker JumpStart
 - [ ] C) SageMaker Canvas
 - [ ] D) Amazon Q
 
-**Minha justificativa:** 
+**Minha justificativa:** Serviço completo de deploy de FMs
 
 > [!success]- Gabarito
 > **B) JumpStart** — modelo roda na **sua instância** (controle de infraestrutura). Bedrock seria a resposta se fosse "serverless, só via API".
@@ -90,10 +90,10 @@ A empresa quer implantar um modelo **Llama** em **instâncias próprias dentro d
 
 - [ ] A) Real-time Inference
 - [ ] B) Serverless Inference
-- [ ] C) Batch Transform
+- [x] C) Batch Transform
 - [ ] D) Asynchronous Inference
 
-**Minha justificativa:** 
+**Minha justificativa:** Processamento em Lote
 
 > [!success]- Gabarito
 > **C) Batch Transform** — processa o **dataset inteiro** offline e desliga.
@@ -104,11 +104,11 @@ A empresa quer implantar um modelo **Llama** em **instâncias próprias dentro d
 Um auditor pede um documento com **uso pretendido, limitações, riscos e métricas** do modelo.
 
 - [ ] A) SageMaker Model Registry
-- [ ] B) SageMaker Model Dashboard
+- [x] B) SageMaker Model Dashboard
 - [ ] C) SageMaker Model Cards
 - [ ] D) SageMaker Experiments
 
-**Minha justificativa:** 
+**Minha justificativa:** Model Cards é reponsavel do documentar o modelo
 
 > [!success]- Gabarito
 > **C) Model Cards** — **documentação** para transparência e auditoria.
@@ -118,12 +118,12 @@ Um auditor pede um documento com **uso pretendido, limitações, riscos e métri
 ### Questão 8
 Várias equipes calculam a variável "média de compras em 30 dias" de **formas diferentes**, e o valor no treino não bate com o da inferência.
 
-- [ ] A) SageMaker Feature Store
+- [x] A) SageMaker Feature Store
 - [ ] B) SageMaker Data Wrangler
 - [ ] C) SageMaker Processing
 - [ ] D) Amazon S3
 
-**Minha justificativa:** 
+**Minha justificativa:** Armazena features para compartilhamento
 
 > [!success]- Gabarito
 > **A) Feature Store** — repositório central para **reutilizar** features e manter treino e inferência consistentes.
@@ -134,11 +134,11 @@ Várias equipes calculam a variável "média de compras em 30 dias" de **formas 
 O modelo recebe **vídeos grandes** e leva cerca de **20 minutos** para processar cada um. O usuário não precisa da resposta na hora.
 
 - [ ] A) Real-time Inference
-- [ ] B) Asynchronous Inference
+- [x] B) Asynchronous Inference
 - [ ] C) Serverless Inference
 - [ ] D) Batch Transform
 
-**Minha justificativa:** 
+	**Minha justificativa:** Videos gransde são processados em asynchonus
 
 > [!success]- Gabarito
 > **B) Asynchronous** — payload **grande** e processamento **longo**, com fila.
@@ -149,11 +149,11 @@ O modelo recebe **vídeos grandes** e leva cerca de **20 minutos** para processa
 A equipe quer automatizar **processar → treinar → avaliar → registrar → implantar** toda semana.
 
 - [ ] A) SageMaker Experiments
-- [ ] B) SageMaker Pipelines
+- [x] B) SageMaker Pipelines
 - [ ] C) SageMaker Debugger
 - [ ] D) SageMaker Canvas
 
-**Minha justificativa:** 
+**Minha justificativa:** Atomação de processos são feitos com pipeline
 
 > [!success]- Gabarito
 > **B) Pipelines** — orquestração e automação (**MLOps / CI/CD de ML**).
@@ -165,10 +165,10 @@ Um cientista de dados escolheu o algoritmo XGBoost e quer encontrar automaticame
 
 - [ ] A) SageMaker Autopilot
 - [ ] B) SageMaker Clarify
-- [ ] C) Automatic Model Tuning
+- [x] C) Automatic Model Tuning
 - [ ] D) SageMaker Debugger
 
-**Minha justificativa:** 
+**Minha justificativa:** Responsavel por melhorar os Hyperparams dos modelos
 
 > [!success]- Gabarito
 > **C) Automatic Model Tuning** — ajusta **hiperparâmetros** de um algoritmo já escolhido. Autopilot escolheria o **algoritmo inteiro**.
@@ -178,12 +178,12 @@ Um cientista de dados escolheu o algoritmo XGBoost e quer encontrar automaticame
 ### Questão 12
 A empresa quer que o SageMaker **teste vários algoritmos automaticamente** e entregue o melhor modelo, com visibilidade dos notebooks gerados.
 
-- [ ] A) SageMaker Autopilot
+- [x] A) SageMaker Autopilot
 - [ ] B) Automatic Model Tuning
 - [ ] C) SageMaker JumpStart
 - [ ] D) SageMaker Ground Truth
 
-**Minha justificativa:** 
+**Minha justificativa:** Teste Automático de Augoritimo
 
 > [!success]- Gabarito
 > **A) Autopilot** — **AutoML** com transparência.
@@ -194,11 +194,11 @@ A empresa quer que o SageMaker **teste vários algoritmos automaticamente** e en
 Os dados brutos têm **valores nulos e colunas em formatos diferentes**. O time quer limpar e transformar com uma **interface visual**.
 
 - [ ] A) SageMaker Feature Store
-- [ ] B) SageMaker Data Wrangler
+- [x] B) SageMaker Data Wrangler
 - [ ] C) SageMaker Ground Truth
 - [ ] D) SageMaker Model Monitor
 
-**Minha justificativa:** 
+**Minha justificativa:** Limpeza e transformação de dados
 
 > [!success]- Gabarito
 > **B) Data Wrangler** — **preparar e transformar** dados visualmente.

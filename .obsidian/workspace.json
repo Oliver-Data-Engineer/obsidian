@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/SageMaker/SageMaker - Recursos em Detalhe.md",
-                "mode": "preview",
+                "file": "AI Practitioner/SageMaker/SageMaker - Formulário de Respostas.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SageMaker - Recursos em Detalhe"
+              "title": "SageMaker - Formulário de Respostas"
             }
           }
         ],
@@ -267,26 +267,25 @@
   },
   "active": "d7bfef45da6692ab",
   "lastOpenFiles": [
+    "AI Practitioner/SageMaker/Índice - SageMaker.md",
+    "AI Practitioner/SageMaker/SageMaker - Governança e Segurança.md",
+    "AI Practitioner/SageMaker/SageMaker - IA Generativa.md",
+    "AI Practitioner/SageMaker/SageMaker - Ciclo de Vida e MLOps.md",
+    "AI Practitioner/SageMaker/SageMaker - Models and Humans.md",
+    "AI Practitioner/SageMaker/SageMaker - Data Tools.md",
+    "AI Practitioner/SageMaker/SageMaker - Recursos em Detalhe.md",
     "AI Practitioner/Guia do Exame/sedGbBGfr",
     "AI Practitioner/SageMaker/SageMaker - Formulário de Respostas.md.tmp.38328.41fd6f45e9a0",
     "AI Practitioner/SageMaker/SageMaker - Formulário de Respostas.md.tmp.38328.32f3ccdc28d2",
     "AI Practitioner/SageMaker/SageMaker - Formulário de Respostas.md.tmp.38328.5b62d370ca55",
     "AI Practitioner/SageMaker/Índice - SageMaker.md.tmp.38328.cd30c3bc6648",
-    "AI Practitioner/SageMaker/SageMaker - Governança e Segurança.md",
     "AI Practitioner/SageMaker/SageMaker - Governança e Segurança.md.tmp.38328.47d35334c6b6",
-    "AI Practitioner/SageMaker/SageMaker - IA Generativa.md",
     "AI Practitioner/SageMaker/SageMaker - IA Generativa.md.tmp.38328.7bee2d1186cb",
-    "AI Practitioner/SageMaker/SageMaker - Ciclo de Vida e MLOps.md",
-    "AI Practitioner/SageMaker/SageMaker - Models and Humans.md",
     "AI Practitioner/SageMaker/SageMaker - Models and Humans.md.tmp.38328.edf361f74c70",
-    "AI Practitioner/SageMaker/SageMaker - Data Tools.md",
     "AI Practitioner/SageMaker/Amazon SageMaker.md.tmp.38328.aaeb512a63cc",
     "AI Practitioner/SageMaker/SageMaker - Formulário de Respostas.md",
     "AI Practitioner/SageMaker/SageMaker - Formulário de Respostas.md.tmp.38328.0501345001d0",
-    "AI Practitioner/SageMaker/Índice - SageMaker.md",
-    "AI Practitioner/SageMaker/SageMaker - Recursos em Detalhe.md",
     "AI Practitioner/SageMaker/Amazon SageMaker.md",
-    "AI Practitioner/SageMaker",
     "AI Practitioner/IA SERVICES/SageMaker - Recursos em Detalhe.md",
     "AI Practitioner/IA/Prompt/Parâmetros de Inferência.md",
     "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",

@@ -55,6 +55,9 @@ flowchart LR
 
 ⚠️ = em manutenção desde 2026 (sem novos clientes), mas **cobrado na prova**.
 
+> [!tip] Aprofundamento
+> Cada recurso explicado em detalhe, pares que confundem e teste rápido: [[SageMaker - Recursos em Detalhe]]
+
 ## Casos de uso
 
 | Cenário | Por que SageMaker |

@@ -24,23 +24,23 @@ flowchart LR
 
 ## Principais Arquiteturas
 
-| Arquitetura | Especialidade | Exemplo |
-|---|---|---|
-| **CNN** (Rede Neural Convolucional) | **Imagens** e vídeo | Face ID, diagnóstico por raio-X |
-| **RNN / LSTM** (Rede Neural Recorrente) | **Sequências** (texto, séries temporais) | Previsão de ações, teclado preditivo antigo |
-| **Transformer** | **Linguagem** e muito mais (mecanismo de *atenção*) | Base do ChatGPT, Claude, tradutores modernos |
-| **GAN / Modelos de Difusão** | **Gerar** imagens | Base de geradores de imagem (ver [[10 - O que é IA Generativa\|IA Generativa]]) |
+| Arquitetura                             | Especialidade                                       | Exemplo                                                                         |     |
+| --------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------- | --- |
+| **CNN** (Rede Neural Convolucional)     | **Imagens** e vídeo                                 | Face ID, diagnóstico por raio-X                                                 |     |
+| **RNN / LSTM** (Rede Neural Recorrente) | **Sequências** (texto, séries temporais)            | Previsão de ações, teclado preditivo antigo                                     |     |
+| **Transformer**                         | **Linguagem** e muito mais (mecanismo de *atenção*) | Base do ChatGPT, Claude, tradutores modernos                                    |     |
+| **GAN / Modelos de Difusão**            | **Gerar** imagens                                   | Base de geradores de imagem (ver [[10 - O que é IA Generativa\|IA Generativa]]) |     |
 
 ## ML Tradicional × Deep Learning
 
-| Critério | ML Tradicional | Deep Learning |
-|---|---|---|
-| **Tipo de dado** | Estruturado (tabelas) | Não estruturado (imagem, áudio, texto) |
-| **Features** | Definidas por humanos | Aprendidas automaticamente |
-| **Volume de dados** | Funciona com menos dados | Precisa de **muitos** dados |
-| **Hardware** | CPU comum | **GPU** (processamento paralelo) |
-| **Interpretabilidade** | Mais fácil de explicar | "Caixa-preta", difícil de explicar |
-| **Custo de treino** | Baixo / médio | Alto |
+| Critério               | ML Tradicional           | Deep Learning                          |
+| ---------------------- | ------------------------ | -------------------------------------- |
+| **Tipo de dado**       | Estruturado (tabelas)    | Não estruturado (imagem, áudio, texto) |
+| **Features**           | Definidas por humanos    | Aprendidas automaticamente             |
+| **Volume de dados**    | Funciona com menos dados | Precisa de **muitos** dados            |
+| **Hardware**           | CPU comum                | **GPU** (processamento paralelo)       |
+| **Interpretabilidade** | Mais fácil de explicar   | "Caixa-preta", difícil de explicar     |
+| **Custo de treino**    | Baixo / médio            | Alto                                   |
 
 ## Exemplo para Associação Mental
 

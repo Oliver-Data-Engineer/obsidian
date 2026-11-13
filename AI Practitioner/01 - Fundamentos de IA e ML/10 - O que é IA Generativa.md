@@ -11,16 +11,16 @@ Ela é treinada com um volume colossal de dados (textos, imagens, códigos da in
 
 ## Conceitos-Chave
 
-| Termo | Significado |
-|---|---|
-| **Foundation Model (Modelo de Fundação)** | Modelo gigante pré-treinado com dados amplos, que serve de **base para várias tarefas** |
-| **LLM (Large Language Model)** | Foundation Model especializado em **linguagem** (ChatGPT, Claude, Llama, Amazon Nova) |
-| **Prompt** | A instrução / pergunta que você dá ao modelo |
-| **Token** | "Pedaço" de texto (≈ ¾ de uma palavra) — unidade que o modelo lê, gera e pela qual se **cobra** |
-| **Janela de contexto** | Quantos tokens o modelo consegue "lembrar" de uma vez |
-| **Temperatura** | Controla a criatividade: baixa = previsível; alta = criativa/aleatória |
-| **Alucinação** | Quando o modelo inventa uma resposta falsa com total confiança |
-| **Multimodal** | Modelo que entende/gera **vários tipos** de mídia (texto + imagem + áudio) |
+| Termo                                     | Significado                                                                                     |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Foundation Model (Modelo de Fundação)** | Modelo gigante pré-treinado com dados amplos, que serve de **base para várias tarefas**         |
+| **LLM (Large Language Model)**            | Foundation Model especializado em **linguagem** (ChatGPT, Claude, Llama, Amazon Nova)           |
+| **Prompt**                                | A instrução / pergunta que você dá ao modelo                                                    |
+| **Token**                                 | "Pedaço" de texto (≈ ¾ de uma palavra) — unidade que o modelo lê, gera e pela qual se **cobra** |
+| **Janela de contexto**                    | Quantos tokens o modelo consegue "lembrar" de uma vez                                           |
+| **Temperatura**                           | Controla a criatividade: baixa = previsível; alta = criativa/aleatória                          |
+| **Alucinação**                            | Quando o modelo inventa uma resposta falsa com total confiança                                  |
+| **Multimodal**                            | Modelo que entende/gera **vários tipos** de mídia (texto + imagem + áudio)                      |
 
 ## Como Adaptar um Modelo ao Seu Negócio
 

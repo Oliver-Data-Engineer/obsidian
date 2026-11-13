@@ -8,15 +8,15 @@ Os "tipos" de prompt são **técnicas de prompting** — maneiras diferentes de 
 
 ## Visão Geral
 
-| Técnica | Em uma frase | Quando usar |
-|---|---|---|
-| **Zero-shot** | Pede a tarefa **sem exemplos** | Tarefas simples e comuns (resumo, tradução, definição) |
-| **One-shot** | Dá **1 exemplo** | Mostrar o formato/estilo de forma rápida |
-| **Few-shot** | Dá **vários exemplos** | Tarefas com padrão específico (classificação, tom de marca, extração) |
-| **Chain-of-Thought (CoT)** | Pede o **raciocínio passo a passo** | Matemática, lógica, análises e comparações complexas |
-| **Role / Persona** | Atribui um **papel** ao modelo | Ajustar tom, profundidade e ponto de vista |
-| **Formato específico** | Define a **forma da saída** | Tabela, JSON, lista, e-mail, código |
-| **Interativo / Refinado** | **Itera** na conversa | Ajustar o resultado sem recomeçar |
+| Técnica                    | Em uma frase                        | Quando usar                                                           |
+| -------------------------- | ----------------------------------- | --------------------------------------------------------------------- |
+| **Zero-shot**              | Pede a tarefa **sem exemplos**      | Tarefas simples e comuns (resumo, tradução, definição)                |
+| **One-shot**               | Dá **1 exemplo**                    | Mostrar o formato/estilo de forma rápida                              |
+| **Few-shot**               | Dá **vários exemplos**              | Tarefas com padrão específico (classificação, tom de marca, extração) |
+| **Chain-of-Thought (CoT)** | Pede o **raciocínio passo a passo** | Matemática, lógica, análises e comparações complexas                  |
+| **Role / Persona**         | Atribui um **papel** ao modelo      | Ajustar tom, profundidade e ponto de vista                            |
+| **Formato específico**     | Define a **forma da saída**         | Tabela, JSON, lista, e-mail, código                                   |
+| **Interativo / Refinado**  | **Itera** na conversa               | Ajustar o resultado sem recomeçar                                     |
 
 ## 1 – Zero-shot prompting
 
@@ -78,15 +78,15 @@ Você **vai ajustando** o pedido com base nas respostas anteriores, em vez de re
 
 ## Técnicas Extras (aprofundamento)
 
-| Técnica | Ideia |
-|---|---|
+| Técnica                            | Ideia                                                                                        |
+| ---------------------------------- | -------------------------------------------------------------------------------------------- |
 | **Prompt Chaining (encadeamento)** | Quebrar uma tarefa grande em **etapas**, usando a saída de um prompt como entrada do próximo |
-| **Self-consistency** | Gerar **várias respostas** com raciocínio e escolher a **mais frequente** |
-| **Tree of Thoughts** | O modelo explora **vários caminhos** de raciocínio e escolhe o melhor |
-| **ReAct (Reason + Act)** | Alterna **raciocinar** e **usar ferramentas** (busca, API) — base dos *Agents* |
-| **Negative prompting** | Diz **o que evitar** ("não mencione concorrentes") |
-| **Prompts com RAG** | Injeta **trechos de documentos recuperados** no prompt como contexto |
-| **Prompt Template** | Prompt com **variáveis** preenchidas em tempo de execução |
+| **Self-consistency**               | Gerar **várias respostas** com raciocínio e escolher a **mais frequente**                    |
+| **Tree of Thoughts**               | O modelo explora **vários caminhos** de raciocínio e escolhe o melhor                        |
+| **ReAct (Reason + Act)**           | Alterna **raciocinar** e **usar ferramentas** (busca, API) — base dos *Agents*               |
+| **Negative prompting**             | Diz **o que evitar** ("não mencione concorrentes")                                           |
+| **Prompts com RAG**                | Injeta **trechos de documentos recuperados** no prompt como contexto                         |
+| **Prompt Template**                | Prompt com **variáveis** preenchidas em tempo de execução                                    |
 
 ## Exemplo para Associação Mental
 

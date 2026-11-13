@@ -24,16 +24,16 @@ O **Amazon Bedrock** é o serviço **totalmente gerenciado e serverless** para c
 
 ## Principais recursos
 
-| Recurso | O que faz | Nota |
-|---|---|---|
-| **Catálogo de modelos + Playgrounds** | Escolher e testar FMs sem código | [[02 - Foundation Models\|Foundation Models]] |
-| **Knowledge Bases** | **RAG** gerenciado com seus documentos | [[05 - Bedrock RAG - Knowledge Bases\|Bedrock RAG - Knowledge Bases]] |
-| **Agents / AgentCore** | Tarefas de várias etapas que **chamam APIs** | [[06 - Bedrock Agents\|Bedrock Agents]] |
-| **Guardrails** | Filtra conteúdo nocivo, PII, tópicos proibidos e alucinação | [[07 - Bedrock Guardrails\|Bedrock Guardrails]] |
-| **Model Evaluation** | Compara modelos (automática, humana, LLM-as-a-judge) | [[02 - Foundation Models\|Foundation Models]] |
-| **Customização** | Fine-tuning, pré-treino contínuo, destilação | [[02 - Foundation Models\|Foundation Models]] |
-| **Prompt Management / Flows** | Versionar prompts e encadear etapas | [[07 - Prompt na AWS\|Prompt na AWS]] |
-| **Preços** | On-demand, batch, provisioned throughput | [[04 - ML Inference\|ML Inference]] |
+| Recurso                               | O que faz                                                   | Nota                                                                  |
+| ------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Catálogo de modelos + Playgrounds** | Escolher e testar FMs sem código                            | [[02 - Foundation Models\|Foundation Models]]                         |
+| **Knowledge Bases**                   | **RAG** gerenciado com seus documentos                      | [[05 - Bedrock RAG - Knowledge Bases\|Bedrock RAG - Knowledge Bases]] |
+| **Agents / AgentCore**                | Tarefas de várias etapas que **chamam APIs**                | [[06 - Bedrock Agents\|Bedrock Agents]]                               |
+| **Guardrails**                        | Filtra conteúdo nocivo, PII, tópicos proibidos e alucinação | [[07 - Bedrock Guardrails\|Bedrock Guardrails]]                       |
+| **Model Evaluation**                  | Compara modelos (automática, humana, LLM-as-a-judge)        | [[02 - Foundation Models\|Foundation Models]]                         |
+| **Customização**                      | Fine-tuning, pré-treino contínuo, destilação                | [[02 - Foundation Models\|Foundation Models]]                         |
+| **Prompt Management / Flows**         | Versionar prompts e encadear etapas                         | [[07 - Prompt na AWS\|Prompt na AWS]]                                 |
+| **Preços**                            | On-demand, batch, provisioned throughput                    | [[04 - ML Inference\|ML Inference]]                                   |
 
 ## Casos de uso
 

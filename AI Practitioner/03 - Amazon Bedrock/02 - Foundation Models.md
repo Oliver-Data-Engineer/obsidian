@@ -7,11 +7,11 @@ Um **Foundation Model (FM)** é um modelo grande, **pré-treinado com enormes vo
 
 ## FM x LLM x modelo de ML tradicional
 
-| | Modelo de ML tradicional | Foundation Model | LLM |
-|---|---|---|---|
-| Treino | Dados rotulados de **uma tarefa** | Dados enormes **não rotulados** (auto-supervisionado) | É um FM focado em **texto** |
-| Uso | **Uma** tarefa (ex.: prever churn) | **Muitas** tarefas | Gerar, resumir, traduzir, classificar texto |
-| Exemplo | XGBoost para fraude | Claude, Nova, Llama, Stable Diffusion | Claude, Llama, Mistral |
+|         | Modelo de ML tradicional           | Foundation Model                                      | LLM                                         |
+| ------- | ---------------------------------- | ----------------------------------------------------- | ------------------------------------------- |
+| Treino  | Dados rotulados de **uma tarefa**  | Dados enormes **não rotulados** (auto-supervisionado) | É um FM focado em **texto**                 |
+| Uso     | **Uma** tarefa (ex.: prever churn) | **Muitas** tarefas                                    | Gerar, resumir, traduzir, classificar texto |
+| Exemplo | XGBoost para fraude                | Claude, Nova, Llama, Stable Diffusion                 | Claude, Llama, Mistral                      |
 
 ## Catálogo de modelos no Bedrock (exemplos)
 
@@ -36,16 +36,16 @@ Outras formas de acesso:
 
 ## Como escolher o FM (Tarefa 3.1)
 
-| Critério | Pergunta a fazer |
-|---|---|
-| **Modalidade** | Texto, imagem, áudio, vídeo, embeddings? |
-| **Custo** | Preço por token de entrada e saída cabe no orçamento? |
-| **Latência** | Precisa de resposta em tempo real (chat) ou pode esperar (batch)? |
-| **Janela de contexto** | Quantos tokens cabem na entrada (documentos longos)? |
-| **Idiomas** | Suporta português? |
-| **Tamanho / complexidade** | Modelo menor = mais barato e rápido; maior = raciocina melhor |
-| **Customização** | Aceita fine-tuning no Bedrock? |
-| **Compliance / licença** | Licença permite o uso? Disponível na sua região? |
+| Critério                   | Pergunta a fazer                                                  |
+| -------------------------- | ----------------------------------------------------------------- |
+| **Modalidade**             | Texto, imagem, áudio, vídeo, embeddings?                          |
+| **Custo**                  | Preço por token de entrada e saída cabe no orçamento?             |
+| **Latência**               | Precisa de resposta em tempo real (chat) ou pode esperar (batch)? |
+| **Janela de contexto**     | Quantos tokens cabem na entrada (documentos longos)?              |
+| **Idiomas**                | Suporta português?                                                |
+| **Tamanho / complexidade** | Modelo menor = mais barato e rápido; maior = raciocina melhor     |
+| **Customização**           | Aceita fine-tuning no Bedrock?                                    |
+| **Compliance / licença**   | Licença permite o uso? Disponível na sua região?                  |
 
 Parâmetros de inferência (temperatura, top-p, top-k, tamanho máximo, stop sequences) → [[05 - Parâmetros de Inferência|Parâmetros de Inferência]].
 
@@ -55,15 +55,16 @@ Parâmetros de inferência (temperatura, top-p, top-k, tamanho máximo, stop seq
 > **Prompt engineering → RAG → Fine-tuning → Pré-treino contínuo → Pré-treino do zero**
 > Do **mais barato e rápido** ao **mais caro e demorado**. Sempre comece pelo mais simples que resolve.
 
-| Método | Dados de entrada | O que muda | Quando usar |
-|---|---|---|---|
-| **Prompt engineering** | Nenhum (só o prompt) | Nada no modelo | Primeira tentativa → [[00 - Índice - Prompt\|Índice - Prompt]] |
-| **RAG** (Knowledge Bases) | Seus documentos | Nada no modelo; injeta contexto | Dados **atuais/privados**, reduzir alucinação → [[05 - Bedrock RAG - Knowledge Bases\|Bedrock RAG - Knowledge Bases]] |
-| **Fine-tuning supervisionado** | **Rotulados**: pares prompt → resposta | Pesos do modelo | Ensinar **estilo, formato ou tarefa** específica |
-| **Pré-treino contínuo** (*continued pre-training*) | **Não rotulados**: textos do domínio | Pesos do modelo | Ensinar **vocabulário/conhecimento de um domínio** (jurídico, médico) |
-| **Destilação** (*distillation*) | Prompts; o modelo "professor" gera as respostas | Cria um modelo **menor** | Ter qualidade parecida com **menos custo e latência** |
-| **Reinforcement fine-tuning** | Sinais de recompensa / feedback | Pesos do modelo | Alinhar respostas a critérios de qualidade |
-| **Custom Model Import** | Pesos treinados fora do Bedrock | — | Usar no Bedrock um modelo seu (ex.: treinado no SageMaker) |
+| Método                                             | Dados de entrada                                | O que muda                      | Quando usar                                                                                                           |
+| -------------------------------------------------- | ----------------------------------------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Prompt engineering**                             | Nenhum (só o prompt)                            | Nada no modelo                  | Primeira tentativa → [[00 - Índice - Prompt\|Índice - Prompt]]                                                        |
+| **RAG** (Knowledge Bases)                          | Seus documentos                                 | Nada no modelo; injeta contexto | Dados **atuais/privados**, reduzir alucinação → [[05 - Bedrock RAG - Knowledge Bases\|Bedrock RAG - Knowledge Bases]] |
+| **Fine-tuning supervisionado**                     | **Rotulados**: pares prompt → resposta          | Pesos do modelo                 | Ensinar **estilo, formato ou tarefa** específica                                                                      |
+| **Pré-treino contínuo** (*continued pre-training*) | **Não rotulados**: textos do domínio            | Pesos do modelo                 | Ensinar **vocabulário/conhecimento de um domínio** (jurídico, médico)                                                 |
+| **Destilação** (*distillation*)                    | Prompts; o modelo "professor" gera as respostas | Cria um modelo **menor**        | Ter qualidade parecida com **menos custo e latência**                                                                 |
+| **Reinforcement fine-tuning**                      | Sinais de recompensa / feedback                 | Pesos do modelo                 | Alinhar respostas a critérios de qualidade                                                                            |
+| **Custom Model Import**                            | Pesos treinados fora do Bedrock                 | —                               | Usar no Bedrock um modelo seu (ex.: treinado no SageMaker)                                                            |
+|                                                    |                                                 |                                 |                                                                                                                       |
 
 > [!warning] Pegadinhas
 > - **Rotulado → fine-tuning**. **Não rotulado → pré-treino contínuo**.

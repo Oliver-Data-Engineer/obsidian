@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/Simulados/Udemy Simulado 1 - Tentativa 2 - Análise e Reforço.md",
+                "file": "AI Practitioner/IA/O que é  Generative IA.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Udemy Simulado 1 - Tentativa 2 - Análise e Reforço"
+              "title": "O que é  Generative IA"
             }
           },
           {
@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -293,14 +293,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b0bdc95a217f39d1",
+  "active": "d7bfef45da6692ab",
   "lastOpenFiles": [
     "AI Practitioner/Simulados/Udemy Simulado 2 - Tentativa 1 - Análise e Reforço.md",
+    "AI Practitioner/Simulados/Udemy Simulado 1 - Tentativa 2 - Análise e Reforço.md",
+    "AI Practitioner/IA/Métricas de Avaliação - Resumo, Tradução e Transcrição.md",
+    "AI Practitioner/IA/O que é  Generative IA.md",
     "AI Practitioner/Simulados/Udemy Simulado 2 - Tentativa 1 - Análise e Reforço.md.tmp.3152.eef0159b6ad8",
     "AI Practitioner/Guia do Exame/07 - Serviços AWS do Exame.md",
     "AI Practitioner/Guia do Exame/08 - Roadmap de Estudo.md",
     "AI Practitioner/Guia do Exame/04 - Domínio 3 - Aplicações de Foundation Models.md",
-    "AI Practitioner/IA/Métricas de Avaliação - Resumo, Tradução e Transcrição.md",
     "AI Practitioner/Guia do Exame/03 - Domínio 2 - Fundamentos de IA Generativa.md",
     "AI Practitioner/Guia do Exame/02 - Domínio 1 - Fundamentos de IA e ML.md",
     "AI Practitioner/IA SERVICES/Amazon Rekognition.md",
@@ -317,11 +319,9 @@
     "AI Practitioner/IA Responsável/IA Responsável - Serviços AWS.md",
     "AI Practitioner/IA Responsável/IA Responsável - Transparência e Explicabilidade.md",
     "AI Practitioner/IA Responsável/IA Responsável - Conceitos e Riscos.md",
-    "AI Practitioner/Simulados/Udemy Simulado 1 - Tentativa 2 - Análise e Reforço.md",
     "AI Practitioner/IA Responsável/IA Responsável - Formulário de Respostas.md",
     "AI Practitioner/IA Responsável/Índice - IA Responsável.md",
     "AI Practitioner/AWS SERVICES/Ferramentas de Desenvolvimento (Kiro e Strands).md",
-    "AI Practitioner/AWS SERVICES/Gestão Financeira.md",
     "AI Practitioner/IA/ML/Tipos de Aprendizado de Machine Learning.canvas",
     "AI Practitioner/IA SERVICES/AWS Transform.md.tmp.3152.1a8033ce701b",
     "AI Practitioner/IA SERVICES/Amazon Nova.md.tmp.3152.ecac40072c29",

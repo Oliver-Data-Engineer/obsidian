@@ -109,12 +109,14 @@
             "id": "b0bdc95a217f39d1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.15.1"
+                "file": "AI Practitioner/IA/O que é  Generative IA.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.15.1"
+              "icon": "lucide-file",
+              "title": "O que é  Generative IA"
             }
           }
         ],

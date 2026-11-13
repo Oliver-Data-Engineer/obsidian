@@ -8,13 +8,13 @@ Análise da **Tentativa 1 do Simulado 2** (Udemy · *[Simulados] AWS Certified A
 
 ## Evolução por domínio
 
-| Domínio | Peso | Simulado 1 | **Simulado 2** | Tendência |
-|---|---|---|---|---|
-| 5. Segurança, Compliance e Governança | 14% | 44% | **89%** (8/9) | 🚀 +45 (o reforço funcionou) |
-| 2. Fundamentos de IA Generativa | 24% | 94% | **81%** (13/16) | 🔻 −13 |
-| 1. Fundamentos de IA e ML | 20% | 54% | **77%** (10/13) | ⬆️ +23 |
-| 3. Aplicações de Foundation Models | **28%** | 67% | **72%** (13/18) | ⬆️ +5 (ainda o que mais perde pontos) |
-| 4. IA Responsável | 14% | 67% | **67%** (6/9) | ➖ **parado**: prioridade |
+| Domínio                               | Peso    | Simulado 1 | **Simulado 2**  | Tendência                             |
+| ------------------------------------- | ------- | ---------- | --------------- | ------------------------------------- |
+| 5. Segurança, Compliance e Governança | 14%     | 44%        | **89%** (8/9)   | 🚀 +45 (o reforço funcionou)          |
+| 2. Fundamentos de IA Generativa       | 24%     | 94%        | **81%** (13/16) | 🔻 −13                                |
+| 1. Fundamentos de IA e ML             | 20%     | 54%        | **77%** (10/13) | ⬆️ +23                                |
+| 3. Aplicações de Foundation Models    | **28%** | 67%        | **72%** (13/18) | ⬆️ +5 (ainda o que mais perde pontos) |
+| 4. IA Responsável                     | 14%     | 67%        | **67%** (6/9)   | ➖ **parado**: prioridade              |
 
 > [!warning] O que os dois simulados mostram juntos
 > 1. **IA Responsável** ficou em 67% nos dois. O ponto fraco agora é **mitigar viés** (o que fazer), não mais identificar os serviços.

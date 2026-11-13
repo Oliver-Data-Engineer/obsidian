@@ -104,9 +104,21 @@
               "icon": "lucide-file",
               "title": "Métricas de Avaliação - Resumo, Tradução e Transcrição"
             }
+          },
+          {
+            "id": "b0bdc95a217f39d1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.1"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.1"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -279,7 +291,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d3a9c4d3291c7be8",
+  "active": "b0bdc95a217f39d1",
   "lastOpenFiles": [
     "AI Practitioner/Simulados/Udemy Simulado 2 - Tentativa 1 - Análise e Reforço.md",
     "AI Practitioner/Simulados/Udemy Simulado 2 - Tentativa 1 - Análise e Reforço.md.tmp.3152.eef0159b6ad8",

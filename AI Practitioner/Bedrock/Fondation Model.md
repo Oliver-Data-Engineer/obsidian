@@ -90,6 +90,10 @@ Métricas clássicas de texto (cobradas na prova):
 | **BLEU** | Precisão de n-gramas em relação à referência | **Tradução** |
 | **BERTScore** | **Similaridade semântica** via embeddings | Significado, mesmo com palavras diferentes |
 | **Perplexidade** | Quão "surpreso" o modelo fica com o texto | Qualidade de modelo de linguagem |
+| **METEOR** | Como BLEU/ROUGE, mas aceita **sinônimos e variações** | Tradução e resumo |
+| **WER** | % de palavras **substituídas, apagadas ou inseridas** (menor = melhor) | **Transcrição de fala** |
+
+Detalhes, exemplos de cálculo e diferenças: [[Métricas de Avaliação - Resumo, Tradução e Transcrição]]
 
 ## Exemplo para Associação Mental
 

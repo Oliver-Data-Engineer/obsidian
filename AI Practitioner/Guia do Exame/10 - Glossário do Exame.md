@@ -12,6 +12,7 @@ Termos da ementa do AIF-C01 em ordem alfabética, com uma definição curta em p
 | **BERTScore**                      | Métrica de similaridade semântica via embeddings                     | 3       |
 | **Viés (*bias*)**                  | Erro sistemático ou resultado injusto para certos grupos             | 1, 4    |
 | **BLEU**                           | Métrica para avaliar **tradução**                                    | 3       |
+| **CER (Character Error Rate)**      | Taxa de erro por **caractere** (transcrição, OCR); menor = melhor    | 3       |
 | **Chain-of-Thought**               | Prompt que pede raciocínio passo a passo                             | 3       |
 | **Chunking**                       | Quebrar documentos em pedaços (RAG)                                  | 2       |
 | **Classificação**                  | Prever uma categoria                                                 | 1       |
@@ -36,6 +37,7 @@ Termos da ementa do AIF-C01 em ordem alfabética, com uma definição curta em p
 | **Jailbreaking**                   | Burlar as regras de segurança do modelo                              | 3       |
 | **Espaço latente**                 | Representação interna do conhecimento do modelo                      | 3       |
 | **LLM**                            | Foundation model de linguagem                                        | 1, 2    |
+| **METEOR**                         | Métrica de tradução/resumo que aceita **sinônimos e variações**      | 3       |
 | **MLOps**                          | Práticas para operar ML em produção de forma repetível               | 1       |
 | **Model Card**                     | Documento padronizado do modelo (uso, riscos, métricas)              | 4, 5    |
 | **Multimodal**                     | Trabalha com vários tipos de dado                                    | 2       |
@@ -63,6 +65,7 @@ Termos da ementa do AIF-C01 em ordem alfabética, com uma definição curta em p
 | **Underfitting**                   | Modelo simples demais (alto viés)                                    | 1, 4    |
 | **Aprendizado não supervisionado** | Encontrar padrões em dados sem rótulo                                | 1       |
 | **Banco vetorial**                 | Armazena embeddings e busca por similaridade                         | 3       |
+| **WER (Word Error Rate)**          | Erro de **transcrição de fala**: (S + D + I) ÷ N; menor = melhor     | 3       |
 | **Zero-shot**                      | Prompt sem exemplos                                                  | 3       |
 
 ---

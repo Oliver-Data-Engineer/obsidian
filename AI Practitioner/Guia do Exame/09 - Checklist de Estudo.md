@@ -83,7 +83,7 @@ Marque `[x]` só quando conseguir **explicar o item em voz alta, sem consultar**
 
 **3.4 Avaliação**
 - [ ] ⭐⭐ Diferencio avaliação humana x benchmarks
-- [ ] ⭐⭐⭐ Sei quando usar ROUGE (resumo), BLEU (tradução) e BERTScore (semântica)
+- [ ] ⭐⭐⭐ Sei quando usar ROUGE (resumo), BLEU (tradução), METEOR (sinônimos), BERTScore (semântica) e WER (transcrição) → [[Métricas de Avaliação - Resumo, Tradução e Transcrição]]
 - [ ] ⭐ Sei avaliar o valor de negócio: produtividade, engajamento, engenharia de tarefas
 - [ ] ⭐⭐ Conheço o Bedrock Model Evaluation
 

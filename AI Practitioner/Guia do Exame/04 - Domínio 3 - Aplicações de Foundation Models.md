@@ -80,6 +80,10 @@
 | **BLEU** | **Tradução** | BLEU → "Bilíngue" |
 | **BERTScore** | Similaridade **semântica** (significado, não só palavras iguais) | Usa embeddings |
 | **Perplexidade** | Quão "surpreso" o modelo fica com o texto (menor = melhor) | Extra |
+| **METEOR** | Tradução/resumo aceitando **sinônimos** | Entre ROUGE e BERTScore |
+| **WER** | **Transcrição** de fala: % de palavras erradas (menor = melhor) | (S + D + I) ÷ N |
+
+📏 Detalhes e exemplos: [[Métricas de Avaliação - Resumo, Tradução e Transcrição]]
 
 **Na AWS:** Amazon Bedrock **Model Evaluation** (automática ou com humanos) e SageMaker Clarify (avaliação de FMs).
 
@@ -91,7 +95,7 @@
 - [ ] Sei o que um agente do Bedrock faz.
 - [ ] Sei zero/one/few-shot, CoT e os riscos de prompt.
 - [ ] Sei diferenciar fine-tuning, instruction tuning, pré-treino contínuo e RLHF.
-- [ ] Sei quando usar ROUGE, BLEU e BERTScore.
+- [ ] Sei quando usar ROUGE, BLEU, METEOR, BERTScore e WER (e quais são "menor = melhor").
 
 ---
 Início: [[00 - Início - Guia do Exame]] · Anterior: [[03 - Domínio 2 - Fundamentos de IA Generativa]] · Próximo: [[05 - Domínio 4 - Diretrizes para IA Responsável]] · ✅ [[09 - Checklist de Estudo]]

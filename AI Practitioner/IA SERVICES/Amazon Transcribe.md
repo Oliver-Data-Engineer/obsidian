@@ -35,6 +35,10 @@ O **Amazon Transcribe** é o serviço de **reconhecimento automático de fala** 
 | **Transcribe Call Analytics** | Para call centers: sentimento, problemas, resumo da ligação, tempo de fala |
 | **Transcribe Medical** | Transcrição de termos médicos (consultas, ditados clínicos) |
 
+## Como medir a qualidade: WER
+
+A qualidade de uma transcrição é medida pela **WER** (*Word Error Rate*): **(substituições + deleções + inserções) ÷ palavras da referência humana**. **Quanto menor, melhor** (WER 5% ≈ 95% de acerto). Para **reduzir a WER**: **vocabulário personalizado** (termos técnicos, nomes) e **modelo de linguagem personalizado** (textos do seu domínio). → [[Métricas de Avaliação - Resumo, Tradução e Transcrição]]
+
 ## Casos de uso
 
 | Cenário | Como o Transcribe ajuda |

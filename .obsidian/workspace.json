@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/03 - Amazon Bedrock/01 - Amazon Bedrock.md",
+                "file": "AI Practitioner/03 - Amazon Bedrock/00 - Índice - Bedrock.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Amazon Bedrock"
+              "title": "00 - Índice - Bedrock"
             }
           }
         ]
@@ -196,14 +196,16 @@
   },
   "active": "262f4c2db6abe010",
   "lastOpenFiles": [
+    "AI Practitioner/03 - Amazon Bedrock/01 - Amazon Bedrock.md",
     "AI Practitioner/03 - Amazon Bedrock/00 - Índice - Bedrock.md",
+    "AI Practitioner/03 - Amazon Bedrock/08 - Teste - Bedrock.md",
+    "AI Practitioner/05 - Serviços de IA da AWS/01 - Amazon Comprehend.md",
     "AI Practitioner/04 - Amazon SageMaker/00 - Índice - SageMaker.md",
     "AI Practitioner/02 - Engenharia de Prompt/05 - Parâmetros de Inferência.md",
     "AI Practitioner/03 - Amazon Bedrock/04 - ML Inference.md",
     "AI Practitioner/03 - Amazon Bedrock/05 - Bedrock RAG - Knowledge Bases.md",
     "AI Practitioner/03 - Amazon Bedrock/02 - Foundation Models.md",
     "AI Practitioner/03 - Amazon Bedrock/03 - Métricas de Avaliação - Resumo, Tradução e Transcrição.md",
-    "AI Practitioner/03 - Amazon Bedrock/01 - Amazon Bedrock.md",
     "AI Practitioner/02 - Engenharia de Prompt/02 - Anatomia de um Prompt.md",
     "AI Practitioner/02 - Engenharia de Prompt/01 - O que é um Prompt.md",
     "AI Practitioner/02 - Engenharia de Prompt/00 - Índice - Prompt.md",
@@ -213,7 +215,6 @@
     "AI Practitioner/01 - Fundamentos de IA e ML/01 - O que é Inteligência Artificial.md",
     "AI Practitioner/04 - Amazon SageMaker/01 - Amazon SageMaker.md",
     "AI Practitioner/03 - Amazon Bedrock/06 - Bedrock Agents.md",
-    "AI Practitioner/03 - Amazon Bedrock/08 - Teste - Bedrock.md",
     "AI Practitioner/02 - Engenharia de Prompt/06 - Riscos e Segurança em Prompts.md",
     "AI Practitioner/02 - Engenharia de Prompt/03 - Tipos de Prompt.md",
     "AI Practitioner/01 - Fundamentos de IA e ML/11 - Comparação Geral e Casos de Uso.md",
@@ -223,7 +224,6 @@
     "AI Practitioner/01 - Fundamentos de IA e ML/00 - Níveis de IA.canvas",
     "AI Practitioner/08 - Simulados/02 - Udemy Simulado 2 - Tentativa 1 - Análise e Reforço.md",
     "AI Practitioner/08 - Simulados/01 - Udemy Simulado 1 - Tentativa 2 - Análise e Reforço.md",
-    "AI Practitioner/07 - Serviços AWS de Apoio/01 - Segurança, Identidade e Compliance.md",
     "AI Practitioner/07 - Serviços AWS de Apoio",
     "AI Practitioner/08 - Simulados",
     "AI Practitioner/06 - IA Responsável",

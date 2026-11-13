@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/08 - Simulados/02 - Udemy Simulado 2 - Tentativa 1 - Análise e Reforço.md",
+                "file": "AI Practitioner/01 - Fundamentos de IA e ML/09 - O que é Deep Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Udemy Simulado 2 - Tentativa 1 - Análise e Reforço"
+              "title": "09 - O que é Deep Learning"
             }
           }
         ],
@@ -97,7 +97,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -253,8 +253,11 @@
   },
   "active": "262f4c2db6abe010",
   "lastOpenFiles": [
-    "AI Practitioner/08 - Simulados/01 - Udemy Simulado 1 - Tentativa 2 - Análise e Reforço.md",
+    "AI Practitioner/01 - Fundamentos de IA e ML/03 - Tipos de Aprendizado de Machine Learning.canvas",
+    "AI Practitioner/01 - Fundamentos de IA e ML/00 - Níveis de IA.canvas",
+    "AI Practitioner/03 - Amazon Bedrock/08 - Teste - Bedrock.md",
     "AI Practitioner/08 - Simulados/02 - Udemy Simulado 2 - Tentativa 1 - Análise e Reforço.md",
+    "AI Practitioner/08 - Simulados/01 - Udemy Simulado 1 - Tentativa 2 - Análise e Reforço.md",
     "AI Practitioner/07 - Serviços AWS de Apoio/01 - Segurança, Identidade e Compliance.md",
     "AI Practitioner/06 - IA Responsável/00 - Índice - IA Responsável.md",
     "AI Practitioner/05 - Serviços de IA da AWS/03 - Amazon Translate.md",
@@ -279,15 +282,11 @@
     "AI Practitioner/06 - IA Responsável/04 - IA Responsável - Formulário de Respostas.md",
     "AI Practitioner/06 - IA Responsável/03 - IA Responsável - Serviços AWS.md",
     "AI Practitioner/06 - IA Responsável/02 - IA Responsável - Transparência e Explicabilidade.md",
-    "AI Practitioner/06 - IA Responsável/01 - IA Responsável - Conceitos e Riscos.md",
     "AI Practitioner/06 - IA Responsável",
-    "AI Practitioner/05 - Serviços de IA da AWS/15 - AWS Transform.md",
     "AI Practitioner/05 - Serviços de IA da AWS",
     "AI Practitioner/04 - Amazon SageMaker",
     "AI Practitioner/03 - Amazon Bedrock",
     "AI Practitioner/02 - Engenharia de Prompt",
-    "AI Practitioner/01 - Fundamentos de IA e ML/03 - Tipos de Aprendizado de Machine Learning.canvas",
-    "AI Practitioner/01 - Fundamentos de IA e ML/00 - Níveis de IA.canvas",
     "AI Practitioner/01 - Fundamentos de IA e ML",
     "AI Practitioner/00 - Guia do Exame",
     "AI Practitioner/Simulados/Udemy Simulado 2 - Tentativa 1 - Análise e Reforço.md.tmp.3152.eef0159b6ad8",

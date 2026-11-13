@@ -302,6 +302,7 @@ O gerente quer saber **como a feature "idade" afeta, em média, todas as previs�
 | Data | Simulado | Tentativa | Nota | Pior domínio |
 |---|---|---|---|---|
 | 2026-11-12 | Udemy Simulado 1 | 2 | **44/65 (68%)** | Segurança (44%) · Fundamentos IA/ML (54%) |
+| 2026-11-12 | Udemy Simulado 2 | 1 | **50/65 (76%)** ✅ | IA Responsável (67%) → [[Udemy Simulado 2 - Tentativa 1 - Análise e Reforço]] |
 |  |  |  |  |  |
 
 ---

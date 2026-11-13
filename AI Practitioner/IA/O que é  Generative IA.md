@@ -41,6 +41,29 @@ Do mais simples/barato para o mais complexo/caro:
 | **Áudio / Música / Voz** | ElevenLabs, Suno |
 | **Vídeo** | Sora, Runway, Amazon Nova Reel |
 
+## Arquiteturas de modelos generativos
+
+| Arquitetura | Como gera | Uso típico | Na AWS |
+|---|---|---|---|
+| **Transformer (LLM)** | **Autorregressivo**: prevê o **próximo token**, um de cada vez | Texto, código, chat | Claude, Llama, **Nova** no Bedrock |
+| **Modelo de difusão** | Aprende a **remover ruído** passo a passo | **Imagem** e vídeo | Stable Diffusion, **Nova Canvas / Reel** |
+| **GAN** (*Generative Adversarial Network*) | Duas redes competem: **gerador** cria, **discriminador** julga se é real | Imagens sintéticas, *deepfakes* | Pouco usada nos serviços atuais |
+| **VAE** (*Variational Autoencoder*) | Comprime em um **espaço latente** e reconstrói com variações | Imagens, dados sintéticos | — |
+
+### As duas etapas do modelo de difusão (cai na prova)
+
+```mermaid
+flowchart LR
+  A[Imagem real] -->|"1. Difusão DIRETA (forward)<br/>adiciona ruído aos poucos"| B[Ruído puro]
+  B -->|"2. Difusão REVERSA (reverse)<br/>remove ruído passo a passo,<br/>guiada pelo prompt"| C[Imagem nova]
+```
+
+1. **Difusão direta (*forward diffusion*)**: no **treino**, o modelo pega imagens reais e vai **adicionando ruído** até virar estática pura. Assim ele aprende como o ruído "estraga" a imagem.
+2. **Difusão reversa (*reverse diffusion*)**: na **geração**, ele parte de **ruído aleatório** e vai **removendo o ruído** em vários passos, guiado pelo texto do prompt, até formar uma imagem nova.
+
+> [!warning] Pegadinha
+> **Geração autorregressiva de tokens** é como os **LLMs** funcionam, não os modelos de difusão. **Tokenização** e **aumento de dados** também não são etapas da difusão.
+
 ## Riscos e Cuidados (IA Responsável)
 
 - **Alucinações** → respostas falsas convincentes.

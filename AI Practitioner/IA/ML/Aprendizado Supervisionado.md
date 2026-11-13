@@ -49,6 +49,17 @@ Como existe a resposta certa, é possível **medir objetivamente** o quanto o mo
 
 Os dados normalmente são divididos em **treino**, **validação** e **teste**, para verificar se o modelo generaliza bem e não apenas "decorou" os exemplos (**overfitting**).
 
+| Conjunto | Para que serve | Quando é usado | Obrigatório? |
+|---|---|---|---|
+| **Treino** (~70–80%) | O modelo **aprende** os padrões (ajusta os pesos) | Durante o treino | ✅ Sim |
+| **Validação** (~10–15%) | **Ajustar hiperparâmetros** e escolher entre modelos; detectar overfitting cedo | Durante o desenvolvimento | ❌ **Opcional** (pode ser substituído por validação cruzada) |
+| **Teste** (~10–15%) | Medir **o quão bem o modelo generaliza** para dados nunca vistos | **Só no final**, uma vez | ✅ Sim |
+
+> [!warning] Pegadinha (questão #15 do Simulado 2)
+> - **Teste** → mede a **generalização** (nota final). **Nunca** use o teste para ajustar hiperparâmetros: isso "vaza" o gabarito.
+> - **Validação** → ajusta **hiperparâmetros**. É **opcional**.
+> - Analogia: **treino** = estudar com a apostila · **validação** = simulados para ajustar o método de estudo · **teste** = a prova oficial.
+
 ## Vantagens e Desvantagens
 
 | ✅ Vantagens | ❌ Desvantagens |

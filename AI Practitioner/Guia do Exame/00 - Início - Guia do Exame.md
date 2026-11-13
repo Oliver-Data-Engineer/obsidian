@@ -30,6 +30,7 @@ Central de estudo da certificação **AWS Certified AI Practitioner (AIF-C01)**,
 | 10 | [[10 - Glossário do Exame]] | Termos-chave A–Z |
 | — | [[Vídeos de Estudo - YouTube]] | Vídeos em português por tema e por dia do Road Map |
 | — | [[Udemy Simulado 1 - Tentativa 2 - Análise e Reforço]] | Análise dos erros do simulado (44/65) + 15 questões de reforço |
+| — | [[Udemy Simulado 2 - Tentativa 1 - Análise e Reforço]] | Simulado 2 (50/65, aprovado) + evolução por domínio + 12 questões de reforço |
 | — | [[Road Map]] | Plano de 5 semanas · 2h por dia, seg a sáb, com datas |
 
 ## Ementa resumida (5 domínios, 14 tarefas)

@@ -59,6 +59,21 @@ Também conta: **rótulos de qualidade** (*label quality*), dados **atualizados*
 > [!example] Exemplo clássico
 > Reconhecimento facial treinado com 90% de rostos de pele clara → erra muito mais com pele escura. Problema: dataset **não inclusivo/balanceado**. Solução: **coletar dados representativos**, medir com **análise por subgrupo**.
 
+### Como corrigir viés e desbalanceamento nos dados
+
+| Estratégia | O que faz | Quando usar |
+|---|---|---|
+| **Aumento de dados** (*data augmentation*) / **dados sintéticos** | **Gera novos exemplos** para os grupos **sub-representados** | Poucos exemplos de um grupo |
+| **Reamostragem** (*oversampling / undersampling*) | Repete exemplos do grupo menor ou reduz o maior | Classes/grupos desbalanceados |
+| **Reponderação** (*reweighting*) | Dá **mais peso** aos exemplos dos grupos sub-representados no treino | Quando não dá para coletar mais dados |
+| **Coletar mais dados representativos** | Buscar dados reais do grupo que falta | Sempre que possível (melhor solução) |
+| **Métricas de equidade + auditoria** | Medir o resultado **por grupo** (Clarify, análise por subgrupo) antes e depois | Para **provar** que corrigiu |
+
+> [!warning] Pegadinhas (questões #35 e #61 do Simulado 2)
+> - **Remover o atributo sensível** (idade, gênero) **não resolve**: outras colunas funcionam como **proxy** (ex.: CEP indica renda e etnia; tipo de plano indica idade). E você perde a capacidade de **medir** o viés. O certo é **medir com métricas de equidade e reponderar/reequilibrar** os grupos.
+> - **Regularização** combate **overfitting**, não **desbalanceamento** de dados.
+> - Para testar viés de um LLM **continuamente** com **pouco trabalho administrativo**, use **datasets de benchmark** prontos (ex.: CrowS-Pairs, BOLD no FMEval/Bedrock Evaluations). Avaliação **humana** é mais cara e lenta.
+
 ---
 
 ## 4. Viés x variância
@@ -69,6 +84,9 @@ Também conta: **rótulos de qualidade** (*label quality*), dados **atualizados*
 | Sintoma | Erra **no treino e no teste** | Ótimo no treino, **ruim em dados novos** |
 | Causa | Modelo **simples demais**, poucas features | Modelo **complexo demais**, decorou o ruído |
 | Solução | Modelo mais complexo, mais features, treinar mais | Mais dados, regularização, menos features, *early stopping*, validação cruzada |
+| Definição formal | Erro por **suposições simplistas** do modelo | Erro por **sensibilidade excessiva** aos dados de treino |
+
+> **Trade-off viés x variância:** aumentar a complexidade **diminui o viés** mas **aumenta a variância**. O objetivo é o **ponto de equilíbrio**, com menor erro total em dados novos. Atenção à troca de nomes nas alternativas: "capturar ruído" é **variância** (overfitting), não viés.
 
 > [!warning] Dois sentidos de "viés"
 > - **Viés estatístico** (bias x variance): erro por modelo simples demais → underfitting.

@@ -256,7 +256,8 @@ A equipe precisa saber **quando** alguém **desativou a criptografia** de um buc
 |---|---|---|---|---|
 | 2026-11-12 | Udemy Simulado 1 | 2 | 44/65 (68%) | Segurança (44%) · Fundamentos IA/ML (54%) |
 | 2026-11-12 | Udemy Simulado 2 | 1 | **50/65 (76%)** ✅ | IA Responsável (67%) · Aplicações de FMs (72%) |
+| 2026-11-13 | Udemy Simulado 3 | 1 | **56/65 (86%)** ✅ | Fundamentos IA/ML (77%) → [[03 - Udemy Simulado 3 - Tentativa 1 - Análise e Reforço\|Udemy Simulado 3 - Tentativa 1 - Análise e Reforço]] |
 |  |  |  |  |  |
 
 ---
-Anterior: [[01 - Udemy Simulado 1 - Tentativa 2 - Análise e Reforço|Udemy Simulado 1 - Tentativa 2 - Análise e Reforço]] · Início: [[00 - Início - Guia do Exame]] · Checklist: [[09 - Checklist de Estudo]]
+Anterior: [[01 - Udemy Simulado 1 - Tentativa 2 - Análise e Reforço|Udemy Simulado 1 - Tentativa 2 - Análise e Reforço]] · Próximo: [[03 - Udemy Simulado 3 - Tentativa 1 - Análise e Reforço|Udemy Simulado 3 - Tentativa 1 - Análise e Reforço]] · Início: [[00 - Início - Guia do Exame]] · Checklist: [[09 - Checklist de Estudo]]

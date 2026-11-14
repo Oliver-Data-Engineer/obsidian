@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/08 - Simulados/03 - Udemy Simulado 3 - Tentativa 1 - Análise e Reforço.md",
-                "mode": "preview",
+                "file": "AI Practitioner/00 - Guia do Exame/11 - Road Map.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Udemy Simulado 3 - Tentativa 1 - Análise e Reforço"
+              "title": "11 - Road Map"
             }
           },
           {
@@ -188,12 +188,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,8 +209,9 @@
   },
   "active": "262f4c2db6abe010",
   "lastOpenFiles": [
-    "AI Practitioner/02 - Engenharia de Prompt/06 - Riscos e Segurança em Prompts.md",
     "AI Practitioner/08 - Simulados/03 - Udemy Simulado 3 - Tentativa 1 - Análise e Reforço.md",
+    "AI Practitioner/08 - Simulados/04 - Udemy Simulado 4 - Tentativa 1 - Análise e Reforço.md",
+    "AI Practitioner/02 - Engenharia de Prompt/06 - Riscos e Segurança em Prompts.md",
     "AI Practitioner/00 - Guia do Exame/07 - Serviços AWS do Exame.md",
     "AI Practitioner/07 - Serviços AWS de Apoio/01 - Segurança, Identidade e Compliance.md",
     "AI Practitioner/03 - Amazon Bedrock/00 - Índice - Bedrock.md",
@@ -235,7 +235,6 @@
     "AI Practitioner/03 - Amazon Bedrock/06 - Bedrock Agents.md",
     "AI Practitioner/02 - Engenharia de Prompt/03 - Tipos de Prompt.md",
     "AI Practitioner/01 - Fundamentos de IA e ML/11 - Comparação Geral e Casos de Uso.md",
-    "AI Practitioner/01 - Fundamentos de IA e ML/10 - O que é IA Generativa.md",
     "AI Practitioner/01 - Fundamentos de IA e ML/03 - Tipos de Aprendizado de Machine Learning.canvas",
     "AI Practitioner/01 - Fundamentos de IA e ML/00 - Níveis de IA.canvas",
     "AI Practitioner/07 - Serviços AWS de Apoio",

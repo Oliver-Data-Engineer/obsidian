@@ -11,16 +11,16 @@ Os algoritmos de ML melhoram seu desempenho gradativamente: quanto mais dados e 
 
 ## Conceitos-Chave
 
-| Termo | Significado |
-|---|---|
-| **Dataset** | O conjunto de dados usado para treinar |
+| Termo                        | Significado                                                  |
+| ---------------------------- | ------------------------------------------------------------ |
+| **Dataset**                  | O conjunto de dados usado para treinar                       |
 | **Feature (característica)** | Uma variável de entrada (ex.: área do imóvel, nº de quartos) |
-| **Label (rótulo)** | A resposta que queremos prever (ex.: preço do imóvel) |
-| **Modelo** | O "cérebro" resultante do treino — a função aprendida |
-| **Treinamento** | Processo em que o algoritmo ajusta o modelo usando os dados |
-| **Inferência** | Usar o modelo treinado para prever dados **novos** |
-| **Overfitting** | O modelo "decorou" o treino e vai mal em dados novos |
-| **Underfitting** | O modelo é simples demais e não aprendeu nem o treino |
+| **Label (rótulo)**           | A resposta que queremos prever (ex.: preço do imóvel)        |
+| **Modelo**                   | O "cérebro" resultante do treino — a função aprendida        |
+| **Treinamento**              | Processo em que o algoritmo ajusta o modelo usando os dados  |
+| **Inferência**               | Usar o modelo treinado para prever dados **novos**           |
+| **Overfitting**              | O modelo "decorou" o treino e vai mal em dados novos         |
+| **Underfitting**             | O modelo é simples demais e não aprendeu nem o treino        |
 
 ## Tipos de Aprendizado
 

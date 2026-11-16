@@ -1,4 +1,4 @@
-
+ 
 ## Resumo
 
 O Aprendizado Supervisionado é o tipo mais comum de [[02 - O que é Machine Learning|Machine Learning]]. Nele, o modelo é treinado com **dados rotulados**: cada exemplo de entrada vem acompanhado da **resposta correta** (o "rótulo" ou *label*). O algoritmo compara as previsões dele com as respostas certas, mede o erro e vai se ajustando até errar cada vez menos.

@@ -14,20 +14,20 @@ Os algoritmos de [[02 - O que é Machine Learning|Machine Learning]] são dividi
 
 ## Tabela Comparativa Direta
 
-| Critério | Supervisionado | Não Supervisionado | Por Reforço |
-|---|---|---|---|
-| **Tipo de dado** | Rotulado (X + y) | Não rotulado (só X) | Sem dataset fixo — gerado pela interação |
-| **Sinal de aprendizado** | Resposta correta (gabarito) | Nenhum — similaridade entre os dados | Recompensa / penalidade |
-| **Objetivo** | **Prever** um rótulo ou valor | **Descobrir** estrutura escondida | **Decidir** a melhor ação ao longo do tempo |
-| **Pergunta que responde** | "Qual é?" / "Quanto é?" | "Como esses dados se organizam?" | "O que devo fazer agora?" |
-| **Tarefas típicas** | Classificação, Regressão | Clusterização, Anomalias, Associação, Redução de dimensionalidade | Controle, jogos, robótica, otimização de decisões |
-| **Algoritmos** | Regressão Linear/Logística, Árvores, Random Forest, XGBoost, SVM | K-Means, DBSCAN, PCA, Apriori, Random Cut Forest | Q-Learning, DQN, PPO, RLHF |
-| **Feedback** | Direto e imediato (certo/errado) | Não há feedback | Atrasado (a recompensa pode vir só no fim) |
-| **Avaliação** | Fácil e objetiva (acurácia, F1, RMSE) | Difícil, muitas vezes subjetiva | Recompensa acumulada |
-| **Maior custo** | Rotular os dados | Interpretar os resultados | Tempo de treinamento / simulação |
-| **Analogia** | 📘 Aluno com gabarito | 🧦 Organizar a gaveta de meias | 🐶 Adestrar um cachorro com petiscos |
-| **Exemplo real** | Filtro de spam, preço de imóvel | Segmentação de clientes, fraude nova | AlphaGo, DeepRacer, RLHF em LLMs |
-| **Na AWS** | SageMaker XGBoost, Linear Learner, Ground Truth | SageMaker K-Means, PCA, Random Cut Forest | AWS DeepRacer, SageMaker RL |
+| Critério                  | Supervisionado                                                   | Não Supervisionado                                                | Por Reforço                                       |
+| ------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------- |
+| **Tipo de dado**          | Rotulado (X + y)                                                 | Não rotulado (só X)                                               | Sem dataset fixo — gerado pela interação          |
+| **Sinal de aprendizado**  | Resposta correta (gabarito)                                      | Nenhum — similaridade entre os dados                              | Recompensa / penalidade                           |
+| **Objetivo**              | **Prever** um rótulo ou valor                                    | **Descobrir** estrutura escondida                                 | **Decidir** a melhor ação ao longo do tempo       |
+| **Pergunta que responde** | "Qual é?" / "Quanto é?"                                          | "Como esses dados se organizam?"                                  | "O que devo fazer agora?"                         |
+| **Tarefas típicas**       | Classificação, Regressão                                         | Clusterização, Anomalias, Associação, Redução de dimensionalidade | Controle, jogos, robótica, otimização de decisões |
+| **Algoritmos**            | Regressão Linear/Logística, Árvores, Random Forest, XGBoost, SVM | K-Means, DBSCAN, PCA, Apriori, Random Cut Forest                  | Q-Learning, DQN, PPO, RLHF                        |
+| **Feedback**              | Direto e imediato (certo/errado)                                 | Não há feedback                                                   | Atrasado (a recompensa pode vir só no fim)        |
+| **Avaliação**             | Fácil e objetiva (acurácia, F1, RMSE)                            | Difícil, muitas vezes subjetiva                                   | Recompensa acumulada                              |
+| **Maior custo**           | Rotular os dados                                                 | Interpretar os resultados                                         | Tempo de treinamento / simulação                  |
+| **Analogia**              | 📘 Aluno com gabarito                                            | 🧦 Organizar a gaveta de meias                                    | 🐶 Adestrar um cachorro com petiscos              |
+| **Exemplo real**          | Filtro de spam, preço de imóvel                                  | Segmentação de clientes, fraude nova                              | AlphaGo, DeepRacer, RLHF em LLMs                  |
+| **Na AWS**                | SageMaker XGBoost, Linear Learner, Ground Truth                  | SageMaker K-Means, PCA, Random Cut Forest                         | AWS DeepRacer, SageMaker RL                       |
 
 ## Mesmo Problema, Três Abordagens: Cenário "Loja Online"
 

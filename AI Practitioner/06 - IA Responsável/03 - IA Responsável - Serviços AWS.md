@@ -11,18 +11,18 @@ Os **serviços e ferramentas AWS** ligados ao Domínio 4, agrupados pelo que res
 
 ## Visão geral
 
-| Serviço | Grupo | Para quê | Fase |
-|---|---|---|---|
-| **Amazon Bedrock Guardrails** | Proteger | Filtrar conteúdo nocivo, tópicos negados, PII, alucinação | Produção (runtime) |
-| **SageMaker Clarify** | Detectar viés / explicar | Viés pré e pós-treino, SHAP, avaliação de FM | Dados, treino, produção |
-| **SageMaker Model Monitor** | Monitorar | Drift de dados, qualidade, **viés** e atribuição de features | Produção |
-| **Amazon A2I** | Humano no loop | Revisão humana de **previsões** com baixa confiança | Produção |
-| **SageMaker Ground Truth** | Humano no loop | **Rotulagem** de dados, RLHF, auditoria de rótulos | Dados / treino |
-| **SageMaker Model Cards** | Transparência | Documentar **seu** modelo | Governança |
-| **AWS AI Service Cards** | Transparência | Documentação dos **serviços/modelos da AWS** | Escolha do serviço |
-| **Amazon Bedrock Evaluations** | Avaliar | Comparar FMs e RAG (automática, humana, LLM-as-a-judge) | Escolha / validação |
-| **fmeval** | Avaliar | Biblioteca open source de avaliação de FMs (base do Clarify FM eval) | Validação |
-| **Well-Architected Responsible AI Lens** | Boas práticas | Guia para **projetar e operar** IA responsável | Todo o ciclo |
+| Serviço                                  | Grupo                    | Para quê                                                             | Fase                    |
+| ---------------------------------------- | ------------------------ | -------------------------------------------------------------------- | ----------------------- |
+| **Amazon Bedrock Guardrails**            | Proteger                 | Filtrar conteúdo nocivo, tópicos negados, PII, alucinação            | Produção (runtime)      |
+| **SageMaker Clarify**                    | Detectar viés / explicar | Viés pré e pós-treino, SHAP, avaliação de FM                         | Dados, treino, produção |
+| **SageMaker Model Monitor**              | Monitorar                | Drift de dados, qualidade, **viés** e atribuição de features         | Produção                |
+| **Amazon A2I**                           | Humano no loop           | Revisão humana de **previsões** com baixa confiança                  | Produção                |
+| **SageMaker Ground Truth**               | Humano no loop           | **Rotulagem** de dados, RLHF, auditoria de rótulos                   | Dados / treino          |
+| **SageMaker Model Cards**                | Transparência            | Documentar **seu** modelo                                            | Governança              |
+| **AWS AI Service Cards**                 | Transparência            | Documentação dos **serviços/modelos da AWS**                         | Escolha do serviço      |
+| **Amazon Bedrock Evaluations**           | Avaliar                  | Comparar FMs e RAG (automática, humana, LLM-as-a-judge)              | Escolha / validação     |
+| **fmeval**                               | Avaliar                  | Biblioteca open source de avaliação de FMs (base do Clarify FM eval) | Validação               |
+| **Well-Architected Responsible AI Lens** | Boas práticas            | Guia para **projetar e operar** IA responsável                       | Todo o ciclo            |
 
 ---
 

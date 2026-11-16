@@ -11,16 +11,16 @@
 
 A AWS define **8 dimensões** (o guia cita como exemplos: viés, justiça, inclusão, robustez, segurança e veracidade).
 
-| Dimensão | Em uma linha | Exemplo de questão | Ferramenta AWS |
-|---|---|---|---|
-| **Justiça** (*fairness*) | Considerar o impacto em **diferentes grupos** de pessoas; evitar discriminação | "O modelo aprova menos crédito para mulheres" | Clarify, Model Monitor |
-| **Explicabilidade** (*explainability*) | Entender e avaliar **por que** o sistema gerou a saída | "Explicar ao cliente o motivo da recusa" | Clarify (SHAP) |
-| **Privacidade e segurança** | Dados e modelos **obtidos, usados e protegidos** corretamente | "Não expor CPF nas respostas" | Guardrails (PII), Macie, KMS |
-| **Segurança** (*safety*) | **Prevenir saídas nocivas** e uso indevido | "Bloquear discurso de ódio" | Guardrails |
-| **Controlabilidade** | Ter mecanismos para **monitorar e direcionar** o comportamento da IA | "Humano pode intervir/corrigir" | A2I, Model Monitor |
-| **Veracidade e robustez** | Saída **correta**, mesmo com entradas **inesperadas ou adversárias** | "Modelo inventa fatos", "erra com erros de digitação" | Guardrails (grounding, automated reasoning), Bedrock Evaluations |
-| **Governança** | Boas práticas em toda a **cadeia de IA** (fornecedores e quem implanta) | "Quem aprovou este modelo?" | Model Cards, Model Registry |
-| **Transparência** | Dar às partes interessadas o que precisam para **decidir com informação** se usam o sistema | "Usuário sabe que fala com uma IA" | Model Cards, AI Service Cards |
+| Dimensão                               | Em uma linha                                                                                | Exemplo de questão                                    | Ferramenta AWS                                                   |
+| -------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------- |
+| **Justiça** (*fairness*)               | Considerar o impacto em **diferentes grupos** de pessoas; evitar discriminação              | "O modelo aprova menos crédito para mulheres"         | Clarify, Model Monitor                                           |
+| **Explicabilidade** (*explainability*) | Entender e avaliar **por que** o sistema gerou a saída                                      | "Explicar ao cliente o motivo da recusa"              | Clarify (SHAP)                                                   |
+| **Privacidade e segurança**            | Dados e modelos **obtidos, usados e protegidos** corretamente                               | "Não expor CPF nas respostas"                         | Guardrails (PII), Macie, KMS                                     |
+| **Segurança** (*safety*)               | **Prevenir saídas nocivas** e uso indevido                                                  | "Bloquear discurso de ódio"                           | Guardrails                                                       |
+| **Controlabilidade**                   | Ter mecanismos para **monitorar e direcionar** o comportamento da IA                        | "Humano pode intervir/corrigir"                       | A2I, Model Monitor                                               |
+| **Veracidade e robustez**              | Saída **correta**, mesmo com entradas **inesperadas ou adversárias**                        | "Modelo inventa fatos", "erra com erros de digitação" | Guardrails (grounding, automated reasoning), Bedrock Evaluations |
+| **Governança**                         | Boas práticas em toda a **cadeia de IA** (fornecedores e quem implanta)                     | "Quem aprovou este modelo?"                           | Model Cards, Model Registry                                      |
+| **Transparência**                      | Dar às partes interessadas o que precisam para **decidir com informação** se usam o sistema | "Usuário sabe que fala com uma IA"                    | Model Cards, AI Service Cards                                    |
 
 Além dessas, o guia cita:
 - **Viés** (*bias*): o modelo favorece/prejudica sistematicamente algum grupo.
@@ -101,15 +101,15 @@ Também conta: **rótulos de qualidade** (*label quality*), dados **atualizados*
 
 O guia pede "considerações ambientais e de sustentabilidade" ao escolher o modelo.
 
-| Prática | Por que é responsável |
-|---|---|
-| **Usar FM pré-treinado** em vez de treinar do zero | Treinar um LLM consome energia enorme |
-| Escolher o **menor modelo que atende** ao caso de uso | Menos computação por requisição |
-| **Prompt engineering / RAG** antes de fine-tuning, fine-tuning antes de pré-treino | Ordem crescente de custo e energia |
-| **Destilação** de modelos | Modelo menor, mais barato e eficiente |
-| Hardware eficiente: **AWS Inferentia** (inferência) e **AWS Trainium** (treino) | Melhor desempenho por watt |
-| Serverless / desligar recursos ociosos; inferência **batch** quando possível | Não desperdiça recursos |
-| Regiões com mais energia renovável; pilar **Sustentabilidade** do Well-Architected | Menor pegada de carbono |
+| Prática                                                                            | Por que é responsável                 |
+| ---------------------------------------------------------------------------------- | ------------------------------------- |
+| **Usar FM pré-treinado** em vez de treinar do zero                                 | Treinar um LLM consome energia enorme |
+| Escolher o **menor modelo que atende** ao caso de uso                              | Menos computação por requisição       |
+| **Prompt engineering / RAG** antes de fine-tuning, fine-tuning antes de pré-treino | Ordem crescente de custo e energia    |
+| **Destilação** de modelos                                                          | Modelo menor, mais barato e eficiente |
+| Hardware eficiente: **AWS Inferentia** (inferência) e **AWS Trainium** (treino)    | Melhor desempenho por watt            |
+| Serverless / desligar recursos ociosos; inferência **batch** quando possível       | Não desperdiça recursos               |
+| Regiões com mais energia renovável; pilar **Sustentabilidade** do Well-Architected | Menor pegada de carbono               |
 
 Outros critérios de escolha responsável: **licença** do modelo, **documentação** (Model/Service Cards), resultado em **avaliações de viés e toxicidade**, idiomas suportados, **custo**, latência.
 

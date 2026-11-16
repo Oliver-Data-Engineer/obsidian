@@ -17,6 +17,7 @@ Os "tipos" de prompt são **técnicas de prompting** — maneiras diferentes de 
 | **Role / Persona**         | Atribui um **papel** ao modelo      | Ajustar tom, profundidade e ponto de vista                            |
 | **Formato específico**     | Define a **forma da saída**         | Tabela, JSON, lista, e-mail, código                                   |
 | **Interativo / Refinado**  | **Itera** na conversa               | Ajustar o resultado sem recomeçar                                     |
+|                            |                                     |                                                                       |
 
 ## 1 – Zero-shot prompting
 

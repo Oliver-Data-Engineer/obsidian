@@ -6,3 +6,4 @@ Atributos e Hieraquias
 
 Dimensão de Input
 
+Dimensão de Tempo

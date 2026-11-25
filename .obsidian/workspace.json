@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eng Dados/Data Warehouse.md",
+                "file": "Eng Dados/4 - Data Warehouse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Warehouse"
+              "title": "4 - Data Warehouse"
+            }
+          },
+          {
+            "id": "39f2e75488c5af33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eng Dados/5 - Modelos dimensionais.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5 - Modelos dimensionais"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,13 +222,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d5873fce41b5b071",
+  "active": "39f2e75488c5af33",
   "lastOpenFiles": [
-    "Eng Dados/OLTP VS OLAP.md",
-    "Eng Dados/Data Warehouse.md",
+    "Untitled 1.md",
+    "Eng Dados/5 - Modelos dimensionais.md",
+    "Eng Dados/4 - Data Warehouse.md",
+    "Eng Dados/3 - OLTP VS OLAP.md",
+    "Eng Dados/1 - O Que é OLTP.md",
+    "Eng Dados/2 - O que é OLAP.md",
     "Untitled.md",
-    "Eng Dados/O que é OLAP.md",
-    "Eng Dados/O Que é OLTP.md",
     "AI Practitioner/06 - IA Responsável/03 - IA Responsável - Serviços AWS.md",
     "Eng Dados",
     "AI Practitioner/08 - Simulados/05 - Udemy Simulado 5 - Tentativa 1 - Análise e Reforço.md",
@@ -235,9 +251,7 @@
     "AI Practitioner/01 - Fundamentos de IA e ML/09 - O que é Deep Learning.md",
     "AI Practitioner/01 - Fundamentos de IA e ML/08 - Tipos de Algoritmos de Machine Learning.md",
     "AI Practitioner/01 - Fundamentos de IA e ML/07 - Diferenças entre os Tipos de Aprendizado.md",
-    "AI Practitioner/01 - Fundamentos de IA e ML/04 - Aprendizado Supervisionado.md",
     "AI Practitioner/01 - Fundamentos de IA e ML/03 - Tipos de Aprendizado de Machine Learning.canvas",
-    "AI Practitioner/01 - Fundamentos de IA e ML/02 - O que é Machine Learning.md",
     "AI Practitioner/01 - Fundamentos de IA e ML/00 - Níveis de IA.canvas",
     "AI Practitioner/07 - Serviços AWS de Apoio",
     "AI Practitioner/08 - Simulados",

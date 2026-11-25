@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "29aac9165b06eecb",
+        "id": "4477f8bd08ca38ec",
         "type": "tabs",
         "children": [
           {
-            "id": "262f4c2db6abe010",
+            "id": "e881780316dc7a38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Practitioner/06 - IA Responsável/03 - IA Responsável - Serviços AWS.md",
+                "file": "Eng Dados/O Que é OLTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - IA Responsável - Serviços AWS"
-            }
-          },
-          {
-            "id": "0cb88c647f882b09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI Practitioner/02 - Engenharia de Prompt/06 - Riscos e Segurança em Prompts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "06 - Riscos e Segurança em Prompts"
+              "title": "O Que é OLTP"
             }
           }
         ]
@@ -207,11 +193,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "262f4c2db6abe010",
+  "active": "e881780316dc7a38",
   "lastOpenFiles": [
+    "AI Practitioner/06 - IA Responsável/03 - IA Responsável - Serviços AWS.md",
+    "Eng Dados/O Que é OLTP.md",
+    "Eng Dados",
     "AI Practitioner/08 - Simulados/05 - Udemy Simulado 5 - Tentativa 1 - Análise e Reforço.md",
     "AI Practitioner/06 - IA Responsável/04 - IA Responsável - Formulário de Respostas.md",
-    "AI Practitioner/06 - IA Responsável/03 - IA Responsável - Serviços AWS.md",
     "AI Practitioner/06 - IA Responsável/02 - IA Responsável - Transparência e Explicabilidade.md",
     "AI Practitioner/06 - IA Responsável/01 - IA Responsável - Conceitos e Riscos.md",
     "AI Practitioner/06 - IA Responsável/00 - Índice - IA Responsável.md",
@@ -235,7 +223,6 @@
     "AI Practitioner/00 - Guia do Exame/11 - Road Map.md",
     "AI Practitioner/08 - Simulados/03 - Udemy Simulado 3 - Tentativa 1 - Análise e Reforço.md",
     "AI Practitioner/00 - Guia do Exame/07 - Serviços AWS do Exame.md",
-    "AI Practitioner/07 - Serviços AWS de Apoio/01 - Segurança, Identidade e Compliance.md",
     "AI Practitioner/01 - Fundamentos de IA e ML/00 - Níveis de IA.canvas",
     "AI Practitioner/07 - Serviços AWS de Apoio",
     "AI Practitioner/08 - Simulados",
@@ -246,7 +233,6 @@
     "AI Practitioner/02 - Engenharia de Prompt",
     "AI Practitioner/01 - Fundamentos de IA e ML",
     "AI Practitioner/00 - Guia do Exame",
-    "AI Practitioner/Simulados/Udemy Simulado 2 - Tentativa 1 - Análise e Reforço.md.tmp.3152.eef0159b6ad8",
     "AI Practitioner/IA/ML/Tipos de Aprendizado de Machine Learning.canvas",
     "AI Practitioner/IA/Níveis de IA.canvas",
     "Untitled.canvas",

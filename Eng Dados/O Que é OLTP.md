@@ -8,3 +8,9 @@ O OLTP Caracteristicas principais
 	- Baixa Latencia
 	- Normalização
 	- ACID
+
+ACID
+	- Atomicidade
+	- Consistência
+	- Isolamento
+	- Durabilidade

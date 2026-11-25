@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eng Dados/O Que é OLTP.md",
+                "file": "Eng Dados/O que é OLAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "O Que é OLTP"
+              "title": "O que é OLAP"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "e881780316dc7a38",
   "lastOpenFiles": [
-    "AI Practitioner/06 - IA Responsável/03 - IA Responsável - Serviços AWS.md",
     "Eng Dados/O Que é OLTP.md",
+    "Eng Dados/O que é OLAP.md",
+    "AI Practitioner/06 - IA Responsável/03 - IA Responsável - Serviços AWS.md",
     "Eng Dados",
     "AI Practitioner/08 - Simulados/05 - Udemy Simulado 5 - Tentativa 1 - Análise e Reforço.md",
     "AI Practitioner/06 - IA Responsável/04 - IA Responsável - Formulário de Respostas.md",
@@ -222,7 +223,6 @@
     "AI Practitioner/01 - Fundamentos de IA e ML/01 - O que é Inteligência Artificial.md",
     "AI Practitioner/00 - Guia do Exame/11 - Road Map.md",
     "AI Practitioner/08 - Simulados/03 - Udemy Simulado 3 - Tentativa 1 - Análise e Reforço.md",
-    "AI Practitioner/00 - Guia do Exame/07 - Serviços AWS do Exame.md",
     "AI Practitioner/01 - Fundamentos de IA e ML/00 - Níveis de IA.canvas",
     "AI Practitioner/07 - Serviços AWS de Apoio",
     "AI Practitioner/08 - Simulados",

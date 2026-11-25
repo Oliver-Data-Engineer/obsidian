@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eng Dados/Untitled.md",
+                "file": "Eng Dados/Data Warehouse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Data Warehouse"
             }
           }
         ],
@@ -208,10 +208,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "836b681dc88196ac",
+  "active": "d5873fce41b5b071",
   "lastOpenFiles": [
     "Eng Dados/OLTP VS OLAP.md",
-    "Eng Dados/Untitled.md",
+    "Eng Dados/Data Warehouse.md",
     "Untitled.md",
     "Eng Dados/O que é OLAP.md",
     "Eng Dados/O Que é OLTP.md",
